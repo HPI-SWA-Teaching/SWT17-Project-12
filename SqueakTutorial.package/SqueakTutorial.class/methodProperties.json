@@ -2,4 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "FM 5/14/2017 14:27" } }
+		"initialize" : "FM 5/14/2017 14:34",
+		"initializeEditGUI" : "FM 5/14/2017 14:34",
+		"initializeLessonGUI" : "FM 5/14/2017 14:32",
+		"lessonGUI" : "FM 5/14/2017 14:31",
+		"lessonGUI:" : "FM 5/14/2017 14:31" } }
