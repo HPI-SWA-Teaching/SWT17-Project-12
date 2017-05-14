@@ -3,7 +3,7 @@ initializeEditGUI
 
 	|editGUI buttonGUIBG|
 
-	editGUI := RectangleMorph new.
+	editGUI := PluggableTextMorph new.
 	editGUI color: Color white.
 	editGUI extent: 390@500.
 	editGUI position: 405@5.

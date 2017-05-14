@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "UA 5/14/2017 15:05",
+		"initialize" : "FM 5/14/2017 15:29",
 		"initializeEditButtons:" : "FM 5/14/2017 14:46",
-		"initializeEditGUI" : "FM 5/14/2017 14:45",
-		"initializeLessonGUI" : "FM 5/14/2017 14:32",
+		"initializeEditGUI" : "FM 5/14/2017 15:29",
+		"initializeLessonGUI" : "FM 5/14/2017 15:08",
 		"initializeWorkspaceGUI" : "UA 5/14/2017 15:04",
 		"lessonGUI" : "FM 5/14/2017 14:31",
 		"lessonGUI:" : "FM 5/14/2017 14:31" } }
