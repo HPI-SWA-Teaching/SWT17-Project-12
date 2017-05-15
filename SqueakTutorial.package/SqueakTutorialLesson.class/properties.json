@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"lessonGUI",
+		"lessonName",
 		"lessonDescription" ],
-	"name" : "SqueakTutorial",
+	"name" : "SqueakTutorialLesson",
 	"pools" : [
 		 ],
-	"super" : "RectangleMorph",
+	"super" : "Object",
 	"type" : "normal" }
