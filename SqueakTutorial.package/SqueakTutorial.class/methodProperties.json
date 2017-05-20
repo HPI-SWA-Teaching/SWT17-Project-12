@@ -2,13 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "FM 5/14/2017 16:26",
+		"initialize" : "UA 5/18/2017 15:47",
 		"initializeEditButtons:" : "FM 5/14/2017 17:26",
-		"initializeEditGUI" : "FM 5/14/2017 15:29",
-		"initializeLessonGUI" : "FM 5/14/2017 16:08",
-		"initializeWorkspaceGUI" : "UA 5/14/2017 15:10",
+		"initializeEditGUI" : "FM 5/20/2017 13:37",
+		"initializeLessonGUI" : "FM 5/20/2017 14:46",
 		"lessonDescription" : "FM 5/14/2017 15:42",
 		"lessonDescription:" : "FM 5/14/2017 15:42",
 		"lessonGUI" : "FM 5/14/2017 14:31",
 		"lessonGUI:" : "FM 5/14/2017 14:31",
-		"loadLesson:" : "FM 5/14/2017 16:23" } }
+		"lessonInfoWindow" : "FM 5/20/2017 13:25",
+		"lessonInfoWindow:" : "FM 5/20/2017 13:25",
+		"loadLesson:" : "FM 5/14/2017 16:23",
+		"openInfoWindow" : "FM 5/20/2017 14:06",
+		"openInfoWindow2" : "FM 5/20/2017 14:39",
+		"openInfoWindow3" : "FM 5/20/2017 14:46" } }

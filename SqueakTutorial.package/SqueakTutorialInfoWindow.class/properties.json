@@ -7,10 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"lessonGUI",
-		"lessonDescription",
-		"lessonInfoWindow" ],
-	"name" : "SqueakTutorial",
+		"lessonDescription" ],
+	"name" : "SqueakTutorialInfoWindow",
 	"pools" : [
 		 ],
-	"super" : "RectangleMorph",
+	"super" : "PluggableSystemWindow",
 	"type" : "normal" }

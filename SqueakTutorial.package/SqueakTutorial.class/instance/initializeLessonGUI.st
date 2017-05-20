@@ -1,10 +1,10 @@
 initialization
 initializeLessonGUI
 
-	| lessonDescriptionBackground |
+	| lessonDescriptionBackground helpButton |
 	lessonDescriptionBackground := AlignmentMorph new.
 	lessonDescriptionBackground extent: 390@150.
-	lessonDescriptionBackground position: 5@5.
+	lessonDescriptionBackground position: 405@5.
 	lessonDescriptionBackground color: Color white.
 	lessonDescriptionBackground borderWidth: 3.
 	lessonDescriptionBackground borderColor: Color red.
@@ -25,8 +25,17 @@ initializeLessonGUI
 	self lessonGUI borderColor: Color black.
 	self lessonGUI borderWidth: 1.
 	self lessonGUI color: Color white.
-	self lessonGUI extent: 390@440.
-	self lessonGUI position: 5@155.
-	self addMorph: self lessonGUI
+	self lessonGUI extent: 390@590.
+	self lessonGUI position: 5@5.
+	self addMorph: self lessonGUI.
+	
+	"initialize help button"
+	helpButton := SimpleButtonMorph new.
+	helpButton label: '?'.
+	helpButton extent: 20@20.
+	helpButton position: 770@130.
+	helpButton target: self;
+				actionSelector: #openInfoWindow2.
+	self addMorph: helpButton.
 
 	
