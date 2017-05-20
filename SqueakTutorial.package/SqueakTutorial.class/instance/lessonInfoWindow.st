@@ -1,0 +1,4 @@
+accessing
+lessonInfoWindow
+	
+	^ lessonInfoWindow
