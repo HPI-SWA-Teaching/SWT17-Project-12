@@ -1,0 +1,4 @@
+listMessages
+listMessagesStartIndex
+
+	^ 0

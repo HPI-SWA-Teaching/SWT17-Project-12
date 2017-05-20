@@ -1,7 +1,5 @@
 initialization
 openInfoWindow
-
-	| listClasses listMessages messageDescription |
 	
 	self lessonInfoWindow: PluggableWindowSpec new.
 	self lessonInfoWindow extent: 400@400.
@@ -11,34 +9,46 @@ openInfoWindow
 	
 	"window := SystemWindow labelled: 'Layout'."
 	
-	listClasses := PluggableListSpec new.
-	listClasses hScrollBarPolicy: #never.
-	listClasses vScrollBarPolicy: #always.
-	listClasses := ToolBuilder default buildPluggableList: listClasses.
+	self listClasses: PluggableListSpec new.
+	self listClasses hScrollBarPolicy: #never.
+	self listClasses vScrollBarPolicy: #always.
+	self listClasses: (ToolBuilder default buildPluggableList: self listClasses).
+	self listClasses 	on: self
+				list: #listClassesContents
+				selected: #listClassesStartIndex
+				changeSelected: #listClassesIndexSelected:
+				menu: #empty
+				keystroke: #empty.
 	
 	self lessonInfoWindow
-		addMorph: listClasses
+		addMorph: self listClasses
 		fullFrame: (LayoutFrame
 			fractions: (0@0 corner: 0.5@1)
 			offsets: (0@0 corner: 0@100 negated)).
 	
-	listMessages := PluggableListSpec new.
-	listMessages hScrollBarPolicy: #never.
-	listMessages vScrollBarPolicy: #always.
-	listMessages := ToolBuilder default buildPluggableList: listMessages.
+	self listMessages: PluggableListSpec new.
+	self listMessages hScrollBarPolicy: #never.
+	self listMessages vScrollBarPolicy: #always.
+	self listMessages: (ToolBuilder default buildPluggableList: self listMessages).
+	self listMessages 	on: self
+				list: #listMessagesContents
+				selected: #listMessagesStartIndex
+				changeSelected: #listMessagesIndexSelected:
+				menu: #empty
+				keystroke: #empty.
 	
 	self lessonInfoWindow
-		addMorph: listMessages
+		addMorph: self listMessages
 		fullFrame: (LayoutFrame
 			fractions: (0.5@0 corner: 1@1)
 			offsets: (0@0 corner: 0@100 negated)).
 	
-	messageDescription := PluggableTextMorph new.
-	messageDescription readOnly: true.
-	messageDescription setText: ''.
+	self messageDescription: PluggableTextMorph new.
+	self messageDescription readOnly: true.
+	self messageDescription setText: ''.
 	
 	self lessonInfoWindow
-		addMorph: messageDescription
+		addMorph: self messageDescription
 		fullFrame: (LayoutFrame
 			fractions: (0@1 corner: 1@1)
 			offsets: (0@100 negated corner: 0@0)).

@@ -2,6 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
+		"currentLessonClassInfos" : "FM 5/20/2017 16:00",
+		"currentLessonClassInfos:" : "FM 5/20/2017 16:00",
+		"currentSelectedClass" : "FM 5/20/2017 17:01",
+		"currentSelectedClass:" : "FM 5/20/2017 17:01",
+		"currentSelectedMessage" : "FM 5/20/2017 17:01",
+		"currentSelectedMessage:" : "FM 5/20/2017 17:01",
+		"empty" : "FM 5/20/2017 15:35",
 		"initialize" : "UA 5/18/2017 15:47",
 		"initializeEditButtons:" : "FM 5/14/2017 17:26",
 		"initializeEditGUI" : "FM 5/20/2017 13:37",
@@ -12,5 +19,17 @@
 		"lessonGUI:" : "FM 5/14/2017 14:31",
 		"lessonInfoWindow" : "FM 5/20/2017 13:25",
 		"lessonInfoWindow:" : "FM 5/20/2017 13:25",
-		"loadLesson:" : "FM 5/14/2017 16:23",
-		"openInfoWindow" : "FM 5/20/2017 14:53" } }
+		"listClasses" : "FM 5/20/2017 16:02",
+		"listClasses:" : "FM 5/20/2017 16:02",
+		"listClassesContents" : "FM 5/20/2017 16:55",
+		"listClassesIndexSelected:" : "FM 5/20/2017 17:30",
+		"listClassesStartIndex" : "FM 5/20/2017 15:34",
+		"listMessages" : "FM 5/20/2017 17:07",
+		"listMessages:" : "FM 5/20/2017 17:07",
+		"listMessagesContents" : "FM 5/20/2017 17:30",
+		"listMessagesIndexSelected:" : "FM 5/20/2017 17:33",
+		"listMessagesStartIndex" : "FM 5/20/2017 17:08",
+		"loadLesson:" : "FM 5/20/2017 16:43",
+		"messageDescription" : "FM 5/20/2017 17:31",
+		"messageDescription:" : "FM 5/20/2017 17:31",
+		"openInfoWindow" : "FM 5/20/2017 17:33" } }
