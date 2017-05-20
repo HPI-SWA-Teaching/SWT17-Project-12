@@ -14,7 +14,8 @@
 		"listMessages",
 		"currentSelectedClass",
 		"currentSelectedMessage",
-		"messageDescription" ],
+		"messageDescription",
+		"codeWindowText" ],
 	"name" : "SqueakTutorial",
 	"pools" : [
 		 ],

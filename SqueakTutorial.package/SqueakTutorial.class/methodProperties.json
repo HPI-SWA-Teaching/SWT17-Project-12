@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"codeWindowText" : "UA 5/20/2017 18:46",
 		"currentLessonClassInfos" : "FM 5/20/2017 16:00",
 		"currentLessonClassInfos:" : "FM 5/20/2017 16:00",
 		"currentSelectedClass" : "FM 5/20/2017 17:01",
@@ -9,9 +10,10 @@
 		"currentSelectedMessage" : "FM 5/20/2017 17:01",
 		"currentSelectedMessage:" : "FM 5/20/2017 17:01",
 		"empty" : "FM 5/20/2017 15:35",
-		"initialize" : "UA 5/18/2017 15:47",
+		"getCodeWindowText:from:" : "UA 5/20/2017 18:46",
+		"initialize" : "UA 5/20/2017 18:42",
 		"initializeEditButtons:" : "FM 5/14/2017 17:26",
-		"initializeEditGUI" : "FM 5/20/2017 13:37",
+		"initializeEditGUI" : "UA 5/20/2017 18:55",
 		"initializeLessonGUI" : "FM 5/20/2017 14:46",
 		"lessonDescription" : "FM 5/14/2017 15:42",
 		"lessonDescription:" : "FM 5/14/2017 15:42",
@@ -30,6 +32,7 @@
 		"listMessagesIndexSelected:" : "FM 5/20/2017 17:33",
 		"listMessagesStartIndex" : "FM 5/20/2017 17:08",
 		"loadLesson:" : "FM 5/20/2017 16:43",
+		"menu:" : "UA 5/20/2017 18:43",
 		"messageDescription" : "FM 5/20/2017 17:31",
 		"messageDescription:" : "FM 5/20/2017 17:31",
 		"openInfoWindow" : "FM 5/20/2017 17:33",

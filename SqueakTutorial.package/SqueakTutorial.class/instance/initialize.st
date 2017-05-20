@@ -7,7 +7,8 @@ initialize
 	self extent: 800@600.
 	self initializeLessonGUI.
 	self initializeEditGUI.
-	"self initializeWorkspaceGUI."
+	
+	codeWindowText := ''.
 	
 	simpleCircle := CircleMorph new.
 	self lessonGUI addMorph: simpleCircle.
