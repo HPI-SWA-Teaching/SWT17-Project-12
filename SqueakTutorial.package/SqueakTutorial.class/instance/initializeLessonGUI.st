@@ -27,6 +27,10 @@ initializeLessonGUI
 	self lessonGUI color: Color white.
 	self lessonGUI extent: 390@590.
 	self lessonGUI position: 5@5.
+	"self addMorph: self lessonGUI
+		fullFrame: (LayoutFrame
+			fractions: (0@0 corner: 0.5@1)
+			offsets: (0@0 corner: 0@0))."
 	self addMorph: self lessonGUI.
 	
 	"initialize help button"
