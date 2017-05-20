@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"codeWindowText" : "UA 5/20/2017 18:46",
+		"codeWindowText:" : "UA 5/20/2017 19:22",
 		"currentLessonClassInfos" : "FM 5/20/2017 16:00",
 		"currentLessonClassInfos:" : "FM 5/20/2017 16:00",
 		"currentSelectedClass" : "FM 5/20/2017 17:01",
@@ -10,8 +11,8 @@
 		"currentSelectedMessage" : "FM 5/20/2017 17:01",
 		"currentSelectedMessage:" : "FM 5/20/2017 17:01",
 		"empty" : "FM 5/20/2017 15:35",
-		"getCodeWindowText:from:" : "UA 5/20/2017 18:46",
-		"initialize" : "UA 5/20/2017 18:42",
+		"getCodeWindowText:from:" : "UA 5/20/2017 19:41",
+		"initialize" : "UA 5/20/2017 19:32",
 		"initializeEditButtons:" : "FM 5/14/2017 17:26",
 		"initializeEditGUI" : "UA 5/20/2017 18:55",
 		"initializeLessonGUI" : "FM 5/20/2017 19:17",
@@ -35,4 +36,6 @@
 		"menu:" : "UA 5/20/2017 18:43",
 		"messageDescription" : "FM 5/20/2017 17:31",
 		"messageDescription:" : "FM 5/20/2017 17:31",
+		"mouseMorph" : "UA 5/20/2017 19:22",
+		"mouseMorph:" : "UA 5/20/2017 19:22",
 		"openInfoWindow" : "FM 5/20/2017 17:33" } }

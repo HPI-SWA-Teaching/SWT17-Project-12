@@ -1,7 +1,7 @@
 initialization
 initialize
 
-	|simpleCircle simpleLesson|
+	| simpleLesson |
 
 	super initialize.
 	self extent: 800@600.
@@ -10,8 +10,8 @@ initialize
 	
 	codeWindowText := ''.
 	
-	simpleCircle := CircleMorph new.
-	self lessonGUI addMorph: simpleCircle.
+	self mouseMorph: CircleMorph new.
+	self lessonGUI addMorph: self mouseMorph.
 	
 	simpleLesson := SqueakTutorialLesson lessonName: 'LESSON 1' lessonDescription: 'This is the first lesson of this tutorial! ...'.
 	self loadLesson: simpleLesson.

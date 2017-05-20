@@ -1,4 +1,9 @@
 as yet unclassified
-getCodeWindowText: string from: aPluggableTextMorph
+getCodeWindowText: aPosition from: aPluggableTextMorph
 	"set text from the code window when accepted"
-	codeWindowText := string.
+	codeWindowText := aPosition.
+	
+	"<<<erzeugt fehler!>>>"
+	"self mouseMorph position: codeWindowText."
+	
+	Transcript show: aPosition.

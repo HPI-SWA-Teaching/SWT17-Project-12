@@ -15,7 +15,8 @@
 		"currentSelectedClass",
 		"currentSelectedMessage",
 		"messageDescription",
-		"codeWindowText" ],
+		"codeWindowText",
+		"mouseMorph" ],
 	"name" : "SqueakTutorial",
 	"pools" : [
 		 ],
