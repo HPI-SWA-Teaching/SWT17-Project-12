@@ -20,5 +20,5 @@
 	"name" : "SqueakTutorial",
 	"pools" : [
 		 ],
-	"super" : "RectangleMorph",
+	"super" : "PluggableSystemWindow",
 	"type" : "normal" }
