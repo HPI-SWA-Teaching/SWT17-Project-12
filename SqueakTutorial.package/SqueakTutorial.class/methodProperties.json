@@ -14,7 +14,7 @@
 		"initialize" : "UA 5/20/2017 18:42",
 		"initializeEditButtons:" : "FM 5/14/2017 17:26",
 		"initializeEditGUI" : "UA 5/20/2017 18:55",
-		"initializeLessonGUI" : "FM 5/20/2017 14:46",
+		"initializeLessonGUI" : "FM 5/20/2017 19:17",
 		"lessonDescription" : "FM 5/14/2017 15:42",
 		"lessonDescription:" : "FM 5/14/2017 15:42",
 		"lessonGUI" : "FM 5/14/2017 14:31",
@@ -35,6 +35,4 @@
 		"menu:" : "UA 5/20/2017 18:43",
 		"messageDescription" : "FM 5/20/2017 17:31",
 		"messageDescription:" : "FM 5/20/2017 17:31",
-		"openInfoWindow" : "FM 5/20/2017 17:33",
-		"openInfoWindow2" : "FM 5/20/2017 14:39",
-		"openInfoWindow3" : "FM 5/20/2017 14:46" } }
+		"openInfoWindow" : "FM 5/20/2017 17:33" } }
