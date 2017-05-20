@@ -34,6 +34,8 @@ initializeLessonGUI
 	helpButton label: '?'.
 	helpButton extent: 20@20.
 	helpButton position: 770@130.
+	helpButton target: self;
+				actionSelector: #openInfoWindow.
 	self addMorph: helpButton.
 
 	

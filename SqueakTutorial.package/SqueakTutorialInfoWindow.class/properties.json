@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakTutorial",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"lessonGUI",
+		"lessonDescription" ],
+	"name" : "SqueakTutorialInfoWindow",
+	"pools" : [
+		 ],
+	"super" : "PluggableSystemWindow",
+	"type" : "normal" }

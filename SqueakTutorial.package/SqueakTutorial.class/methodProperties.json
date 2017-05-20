@@ -4,10 +4,11 @@
 	"instance" : {
 		"initialize" : "UA 5/18/2017 15:47",
 		"initializeEditButtons:" : "FM 5/14/2017 17:26",
-		"initializeEditGUI" : "FM 5/20/2017 11:46",
-		"initializeLessonGUI" : "FM 5/20/2017 12:12",
+		"initializeEditGUI" : "FM 5/20/2017 12:20",
+		"initializeLessonGUI" : "FM 5/20/2017 12:23",
 		"lessonDescription" : "FM 5/14/2017 15:42",
 		"lessonDescription:" : "FM 5/14/2017 15:42",
 		"lessonGUI" : "FM 5/14/2017 14:31",
 		"lessonGUI:" : "FM 5/14/2017 14:31",
-		"loadLesson:" : "FM 5/14/2017 16:23" } }
+		"loadLesson:" : "FM 5/14/2017 16:23",
+		"openInfoWindow" : "FM 5/20/2017 13:21" } }
