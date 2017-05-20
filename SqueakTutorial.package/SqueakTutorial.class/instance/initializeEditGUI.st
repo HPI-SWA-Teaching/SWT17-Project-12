@@ -5,8 +5,8 @@ initializeEditGUI
 
 	editGUI := PluggableTextMorph new.
 	editGUI color: Color white.
-	editGUI extent: 390@500.
-	editGUI position: 405@5.
+	editGUI extent: 390@350.
+	editGUI position: 405@155.
 	self addMorph: editGUI.
 	
 	buttonGUIBG := TransformMorph new.
