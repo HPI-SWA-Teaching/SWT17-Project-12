@@ -1,12 +1,11 @@
 initialization
 initializeEditGUI
 
-	|editGUI buttonGUIBG|
 	
-	editGUI := PluggableTextMorph new.
-	editGUI extent: 390@350.
-	editGUI position: 405@155.
-	editGUI on: self
+	self editGUI: PluggableTextMorph new.
+	"self editGUI extent: 390@350.
+	self editGUI position: 405@155."
+	self editGUI on: self
 			text: #codeWindowText
 			accept: #getCodeWindowText:from:
 			readSelection: nil
@@ -14,8 +13,10 @@ initializeEditGUI
 	
 	"self addMorph: editGUI
 		fullFrame: (LayoutFrame
-			fractions: (0.5@0 corner: 1@1)
-			offsets: (0@200 corner: 0@0))."
+			fractions: (0@0 corner: 0@1)
+			offsets: (0@0 corner: 0@0))."
+	
+	"self addMorph: editGUI."
 	
 	"self lessonInfoWindow
 		addMorph: self listClasses
@@ -23,14 +24,12 @@ initializeEditGUI
 			fractions: (0@0 corner: 0.5@1)
 			offsets: (0@0 corner: 0@100 negated))."
 	
-	self addMorph: editGUI.
+	"self buttonGUIBG: TransformMorph new.
+	self buttonGUIBG color: Color white.
+	self buttonGUIBG extent: 390@90.
+	self buttonGUIBG position: 405@505."
+	"self addMorph: self buttonGUIBG."
 	
-	buttonGUIBG := TransformMorph new.
-	buttonGUIBG color: Color white.
-	buttonGUIBG extent: 390@90.
-	buttonGUIBG position: 405@505.
-	self addMorph: buttonGUIBG.
-	
-	self initializeEditButtons: buttonGUIBG.
+	"self initializeEditButtons: buttonGUIBG."
 
 	

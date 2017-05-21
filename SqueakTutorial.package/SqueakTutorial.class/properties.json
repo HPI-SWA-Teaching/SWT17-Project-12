@@ -16,7 +16,11 @@
 		"currentSelectedMessage",
 		"messageDescription",
 		"codeWindowText",
-		"mouseMorph" ],
+		"mouseMorph",
+		"editGUI",
+		"lessonDescriptionBackground",
+		"buttonReset",
+		"buttonFinish" ],
 	"name" : "SqueakTutorial",
 	"pools" : [
 		 ],
