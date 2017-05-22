@@ -1,7 +1,6 @@
 initialization
 initializeLessonGUI
 
-	| helpButton |
 	self lessonDescriptionBackground: AlignmentMorph new.
 	"lessonDescriptionBackground extent: 390@150.
 	lessonDescriptionBackground position: 405@5."
@@ -37,13 +36,5 @@ initializeLessonGUI
 			offsets: (0@0 corner: 0@0))."
 	"self addMorph: self lessonGUI."
 	
-	"initialize help button"
-	helpButton := SimpleButtonMorph new.
-	helpButton label: '?'.
-	helpButton extent: 20@20.
-	helpButton position: 770@130.
-	helpButton target: self;
-				actionSelector: #openInfoWindow.
-	"self addMorph: helpButton."
-
 	
+			
