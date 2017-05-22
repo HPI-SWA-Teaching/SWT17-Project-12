@@ -22,7 +22,7 @@ initializeLessonGUI
 	
 	self lessonDescription: TextMorph new.
 	self lessonDescription contents: 'LESSON_DESCRIPTION!' , Character cr asString , 'LESSON_DESCRIPTION!' , Character cr asString , 'LESSON_DESCRIPTION!' , Character cr asString , 'LESSON_DESCRIPTION!'.
-	"lessonDescriptionBackground addMorph: self lessonDescription."
+	lessonDescriptionBackground addMorph: self lessonDescription.
 	
 	self lessonGUI: TransformMorph new.
 	self lessonGUI borderColor: Color black.
