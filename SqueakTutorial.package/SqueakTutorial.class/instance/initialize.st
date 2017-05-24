@@ -2,8 +2,6 @@ initialization
 initialize
 
 	| simpleLesson helpButton |
-	
-	"foo"
 
 	super initialize.
 	self extent: 800@600.
@@ -39,11 +37,15 @@ initialize
 	
 	self addMorph: self buttonReset
 		fullFrame: (LayoutFrame
-			fractions: (0.5@1 corner: 0.75@1)
+			fractions: (0.5@1 corner: 0.666@1)
+			offsets: (0@90 negated corner: 0@0)).
+	self addMorph: self buttonRun
+		fullFrame: (LayoutFrame
+			fractions: (0.666@1 corner: 0.833@1)
 			offsets: (0@90 negated corner: 0@0)).
 	self addMorph: self buttonFinish
 		fullFrame: (LayoutFrame
-			fractions: (0.75@1 corner: 1@1)
+			fractions: (0.833@1 corner: 1@1)
 			offsets: (0@90 negated corner: 0@0)).
 	self addMorph: self lessonGUI
 		fullFrame: (LayoutFrame

@@ -20,7 +20,8 @@
 		"editGUI",
 		"lessonDescriptionBackground",
 		"buttonReset",
-		"buttonFinish" ],
+		"buttonFinish",
+		"buttonRun" ],
 	"name" : "SqueakTutorial",
 	"pools" : [
 		 ],
