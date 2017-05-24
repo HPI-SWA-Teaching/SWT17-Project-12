@@ -1,8 +1,6 @@
 initialization
 initialize
 
-	"Dies ist ein lustiger Kommentar hihi"
-
 	| simpleLesson helpButton |
 	
 	"foo"
