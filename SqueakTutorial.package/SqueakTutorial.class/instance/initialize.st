@@ -2,6 +2,8 @@ initialization
 initialize
 
 	| simpleLesson helpButton |
+	
+	"foo"
 
 	super initialize.
 	self extent: 800@600.
