@@ -4,6 +4,8 @@ initialize
 	"Dies ist ein lustiger Kommentar hihi"
 
 	| simpleLesson helpButton |
+	
+	"foo"
 
 	super initialize.
 	self extent: 800@600.
