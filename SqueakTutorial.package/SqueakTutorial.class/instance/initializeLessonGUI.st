@@ -21,7 +21,8 @@ initializeLessonGUI
 	"self addMorph: lessonDescriptionBackground."
 	
 	self lessonDescription: TextMorph new.
-	self lessonDescription contents: 'LESSON_DESCRIPTION!' , Character cr asString , 'LESSON_DESCRIPTION!' , Character cr asString , 'LESSON_DESCRIPTION!' , Character cr asString , 'LESSON_DESCRIPTION!'.
+	"self lessonDescription contents: 'LESSON_DESCRIPTION!' , Character cr asString , 'LESSON_DESCRIPTION!' , Character cr asString , 'LESSON_DESCRIPTION!' , Character cr asString , 'LESSON_DESCRIPTION!'."
+	"self lessonDescription string: 'foo' fontName: 'BitstreamVeraSans' size: 12."
 	lessonDescriptionBackground addMorph: self lessonDescription.
 	
 	self lessonGUI: TransformMorph new.
