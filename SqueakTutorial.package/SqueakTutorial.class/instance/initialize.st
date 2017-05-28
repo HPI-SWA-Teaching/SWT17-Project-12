@@ -55,10 +55,5 @@ initialize
 	
 	codeWindowText := ''.
 	
-	self mouseMorph: ImageMorph new.
-	self mouseMorph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse.png') fullName) scaledToSize: 50@50).
-	self mouseMorph extent: 5@5.
-	self lessonGUI addMorph: self mouseMorph.
-	
 	simpleLesson := SqueakTutorialLesson lessonName: 'LESSON 1' lessonDescription: 'This is the first lesson of this tutorial! ...'.
 	self loadLesson: simpleLesson.

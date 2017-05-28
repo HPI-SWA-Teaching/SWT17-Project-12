@@ -32,8 +32,8 @@ getCodeWindowText: aPosition from: aPluggableTextMorph
                          asTokens: false.
 			attributesArray add: anAttribute].
 	
-	self mouseMorph perform: (messageString asSymbol) withEnoughArguments: attributesArray.
-	"self mouseMorph position: 30@30."
+	"self mouseMorph perform: (messageString asSymbol) withEnoughArguments: attributesArray."
+	self currentLesson perform: (messageString asSymbol) withEnoughArguments: attributesArray.
 	
 	Transcript show: messageString.
 	Transcript show: Character cr.
