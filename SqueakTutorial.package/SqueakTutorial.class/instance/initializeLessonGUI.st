@@ -5,10 +5,10 @@ initializeLessonGUI
 	"lessonDescriptionBackground extent: 390@150.
 	lessonDescriptionBackground position: 405@5."
 	self lessonDescriptionBackground color: Color white.
-	self lessonDescriptionBackground borderWidth: 3.
+	self lessonDescriptionBackground borderWidth: 0. " -> auf 0 gestellt - Jakob"
 	self lessonDescriptionBackground borderColor: Color red.
 	self lessonDescriptionBackground layoutPolicy: TableLayout new;
-	  listDirection: #leftToRight;
+	  listDirection: #topToBottom;
 	  wrapCentering: #center;
 	  hResizing: #spaceFill;
 	  vResizing: #spaceFill;
@@ -22,8 +22,8 @@ initializeLessonGUI
 	
 	self lessonDescription: TextMorph new.
 	"self lessonDescription contents: 'LESSON_DESCRIPTION!' , Character cr asString , 'LESSON_DESCRIPTION!' , Character cr asString , 'LESSON_DESCRIPTION!' , Character cr asString , 'LESSON_DESCRIPTION!'."
-	"self lessonDescription string: 'foo' fontName: 'BitstreamVeraSans' size: 12."
 	lessonDescriptionBackground addMorph: self lessonDescription.
+	"self lessonDescription string: 'foo' fontName: 'BitstreamVeraSans' size: 12."
 	
 	self lessonGUI: TransformMorph new.
 	self lessonGUI borderColor: Color black.

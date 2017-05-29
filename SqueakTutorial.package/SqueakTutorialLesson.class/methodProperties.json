@@ -2,14 +2,11 @@
 	"class" : {
 		"lessonName:lessonDescription:" : "FM 5/14/2017 16:26" },
 	"instance" : {
-		"addMessageToClass:withName:withInfo:" : "FM 5/24/2017 16:32",
+		"addMessageToClass:withName:withInfo:" : "FM 5/20/2017 17:27",
 		"classInfos" : "FM 5/20/2017 16:54",
 		"classInfos:" : "FM 5/20/2017 16:49",
 		"initialize" : "FM 5/22/2017 16:52",
 		"lessonDescription" : "FM 5/14/2017 16:18",
 		"lessonDescription:" : "FM 5/14/2017 16:18",
 		"lessonName" : "FM 5/14/2017 16:18",
-		"lessonName:" : "FM 5/14/2017 16:18",
-		"mouseMorph" : "FM 5/28/2017 14:53",
-		"mouseMorph:" : "FM 5/28/2017 14:53",
-		"move:" : "FM 5/28/2017 15:01" } }
+		"lessonName:" : "FM 5/14/2017 16:18" } }
