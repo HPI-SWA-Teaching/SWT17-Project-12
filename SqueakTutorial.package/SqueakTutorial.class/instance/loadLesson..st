@@ -8,12 +8,8 @@ loadLesson: aSqueakTutorialLesson
 	self lessonDescription wrapFlag: true.
 	self lessonDescription readOnly: true.
 	
-	
 	self currentLesson: aSqueakTutorialLesson.
-	aSqueakTutorialLesson mouseMorph: ImageMorph new.
-	aSqueakTutorialLesson mouseMorph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse.png') fullName) scaledToSize: 50@50).
-	aSqueakTutorialLesson mouseMorph extent: 5@5.
-	self lessonGUI addMorph: aSqueakTutorialLesson mouseMorph.
+	aSqueakTutorialLesson initializeLessonDisplay: self lessonGUI.
 	
 	self currentLessonClassInfos: aSqueakTutorialLesson classInfos.
 	(self listClasses isNil) ifFalse: [self listClasses updateList]

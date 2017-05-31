@@ -1,0 +1,4 @@
+initialization
+registerClassInfos
+
+	^ self subclassResponsibility

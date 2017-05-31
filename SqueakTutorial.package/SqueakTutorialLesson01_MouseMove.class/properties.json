@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"lessonName",
-		"lessonDescription",
-		"classInfos" ],
-	"name" : "SqueakTutorialLesson",
+		"mouseMorph" ],
+	"name" : "SqueakTutorialLesson01_MouseMove",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SqueakTutorialLesson",
 	"type" : "normal" }

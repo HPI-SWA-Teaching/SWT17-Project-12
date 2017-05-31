@@ -1,4 +1,4 @@
-nil
+initialization
 addMessageToClass: aClassString withName: aMessageName withInfo: aMessageInfo
 
 	| tempDictionary |

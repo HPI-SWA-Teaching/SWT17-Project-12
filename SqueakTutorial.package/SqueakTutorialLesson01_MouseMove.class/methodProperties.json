@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initialize" : "FM 5/31/2017 13:30",
+		"initializeLessonDisplay:" : "FM 5/31/2017 13:24",
+		"mouseMorph" : "FM 5/31/2017 13:22",
+		"mouseMorph:" : "FM 5/31/2017 13:22",
+		"move:" : "FM 5/31/2017 13:19",
+		"registerClassInfos" : "FM 5/31/2017 13:21" } }
