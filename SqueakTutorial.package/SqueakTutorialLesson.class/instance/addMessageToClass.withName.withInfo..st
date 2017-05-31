@@ -9,5 +9,4 @@ addMessageToClass: aClassString withName: aMessageName withInfo: aMessageInfo
 		ifFalse: [
 			tempDictionary := Dictionary new.
 			tempDictionary at: aMessageName put: aMessageInfo.
-			self classInfos at: aClassString put: tempDictionary.
-			Transcript show: self classInfos]
+			self classInfos at: aClassString put: tempDictionary]

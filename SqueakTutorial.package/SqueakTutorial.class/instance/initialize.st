@@ -27,11 +27,10 @@ initialize
 		fullFrame: (LayoutFrame
 			fractions: (0.5@0 corner: 1@0)
 			"Hab den Offset rausgenommen, weil der für komisches Verhalten des TextMorphs gesorgt hat - Jakob"
-			offsets: (0@0 corner: 0@0)).
+			offsets: (0@0 corner: 0@200)).
 	self addMorph: editGUI
 		fullFrame: (LayoutFrame
 			fractions: (0.5@0 corner: 1@1)
-			"offsets: (0@200 corner: 0@90 negated))."
 			offsets: (0@200 corner: 0@140 negated)).
 	
 	self addMorph: helpButton
@@ -41,11 +40,15 @@ initialize
 	
 	self addMorph: self buttonReset
 		fullFrame: (LayoutFrame
-			fractions: (0.5@1 corner: 0.75@1)
+			fractions: (0.5@1 corner: 0.666@1)
+			offsets: (0@90 negated corner: 0@0)).
+	self addMorph: self buttonRun
+		fullFrame: (LayoutFrame
+			fractions: (0.666@1 corner: 0.833@1)
 			offsets: (0@90 negated corner: 0@0)).
 	self addMorph: self buttonFinish
 		fullFrame: (LayoutFrame
-			fractions: (0.75@1 corner: 1@1)
+			fractions: (0.833@1 corner: 1@1)
 			offsets: (0@90 negated corner: 0@0)).
 	self addMorph: self lessonGUI
 		fullFrame: (LayoutFrame

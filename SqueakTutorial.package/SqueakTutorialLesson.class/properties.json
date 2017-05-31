@@ -8,7 +8,8 @@
 	"instvars" : [
 		"lessonName",
 		"lessonDescription",
-		"classInfos" ],
+		"classInfos",
+		"mouseMorph" ],
 	"name" : "SqueakTutorialLesson",
 	"pools" : [
 		 ],
