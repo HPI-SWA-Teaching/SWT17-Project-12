@@ -8,3 +8,8 @@ initializeEditButtons
 	self buttonReset label: 'RESET'.
 	self buttonRun label: 'RUN'.
 	self buttonFinish label: 'FINISH'.
+	
+	self buttonRun target: self.
+	self buttonRun actionSelector: #runCodeFromInputField.
+	
+	self buttonFinish enabled: false. 
