@@ -6,7 +6,6 @@ initialize
 	"foo"
 	
 	super initialize.
-	self extent: 800@600.
 	self initializeLessonGUI.
 	self initializeEditGUI.
 	self initializeEditButtons.
@@ -15,8 +14,6 @@ initialize
 	"initialize help button"
 	helpButton := SimpleButtonMorph new.
 	helpButton label: '?'.
-	helpButton extent: 20@20.
-	helpButton position: 770@130.
 	helpButton target: self;
 				actionSelector: #openInfoWindow.
 	"self addMorph: helpButton
