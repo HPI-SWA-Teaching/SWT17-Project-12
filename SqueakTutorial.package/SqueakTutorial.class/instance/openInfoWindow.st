@@ -43,7 +43,21 @@ openInfoWindow
 			fractions: (0.5@0 corner: 1@1)
 			offsets: (0@0 corner: 0@100 negated)).
 	
-	self messageDescription: PluggableTextMorph new.
+	self messageDescription: PluggableCodePaneSpec new.
+	self messageDescription readOnly: true.
+	self messageDescription model: Model new.
+	self messageDescription setText: 'abc'.
+	
+	self messageDescription: (ToolBuilder default buildPluggableCodePane: self messageDescription).
+	
+	self lessonInfoWindow
+		addMorph: self messageDescription
+		fullFrame: (LayoutFrame
+			fractions: (0@1 corner: 1@1)
+			offsets: (0@100 negated corner: 0@0)).
+	
+	
+	"self messageDescription: PluggableTextMorph new.
 	self messageDescription readOnly: true.
 	self messageDescription setText: ''.
 	
@@ -51,7 +65,7 @@ openInfoWindow
 		addMorph: self messageDescription
 		fullFrame: (LayoutFrame
 			fractions: (0@1 corner: 1@1)
-			offsets: (0@100 negated corner: 0@0)).
+			offsets: (0@100 negated corner: 0@0))."
 	
 	
 		
