@@ -5,8 +5,6 @@ initialize
 	
 	"foo"
 	
-	Transcript show: self class sharedPools.
-
 	super initialize.
 	self extent: 800@600.
 	self initializeLessonGUI.
