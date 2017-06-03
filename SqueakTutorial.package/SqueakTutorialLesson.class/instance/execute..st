@@ -12,4 +12,10 @@ execute: codeString
 	3. wait time
 	4. repeate 2-3 until no more code blocks available
 	
+	
+	-----------------------------------------------------
+	
+	1. split string in different code blocks (by `.` / `LINE BREAK` / `EOF`)
 	"
+	
+	

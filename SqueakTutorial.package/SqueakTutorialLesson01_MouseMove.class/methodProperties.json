@@ -2,9 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "FM 5/31/2017 13:30",
-		"initializeLessonDisplay:" : "FM 5/31/2017 13:24",
-		"mouseMorph" : "FM 5/31/2017 13:22",
-		"mouseMorph:" : "FM 5/31/2017 13:22",
-		"move:" : "FM 5/31/2017 13:43",
+		"initialize" : "FM 6/3/2017 15:26",
+		"initializeLessonDisplay:" : "FM 6/3/2017 15:26",
+		"mouse" : "FM 6/3/2017 15:41",
+		"mouse:" : "FM 6/3/2017 15:22",
 		"registerClassInfos" : "FM 5/31/2017 13:21" } }

@@ -1,19 +1,22 @@
 as yet unclassified
 getCodeWindowText: aPosition from: aPluggableTextMorph
 
-	|messageStringArray messageString attributesArrayOld attributesArray|
+	| messageString|
 	
 	messageString := ''.
 
 	"set text from the code window when accepted"
 	codeWindowText := aPosition.
 	
-	"<<<erzeugt fehler!>>>"
-	"self mouseMorph position: codeWindowText asNumber asPoint."
-	"self perform: codeWindowText asString asSymbol with:"
-	"Transcript show: codeWindowText asString asSymbol."
 	
-	messageStringArray := '[a-zA-Z0-9]+[:]' asRegex matchesIn: codeWindowText.
+	"(Compiler evaluate: codeWindowText asString for: self currentLesson logged: false)."
+	(Compiler evaluate: ('self ' , codeWindowText) for: self currentLesson logged: false).
+	
+	
+	"-----------------------
+	OLD
+	--------------"
+	"messageStringArray := '[a-zA-Z0-9]+[:]' asRegex matchesIn: codeWindowText.
 	messageStringArray do: [ :aMessage | messageString := messageString , aMessage].
 	
 	attributesArray := OrderedCollection new.
@@ -30,11 +33,10 @@ getCodeWindowText: aPosition from: aPluggableTextMorph
 			copyReplaceAll: ':'
 			with: ''
 			asTokens: false.
-		attributesArray add: anAttribute].
+		attributesArray add: anAttribute]."
 	
-	"self mouseMorph perform: (messageString asSymbol) withEnoughArguments: attributesArray."
-	self currentLesson perform: (messageString asSymbol) withEnoughArguments: attributesArray.
+	"self currentLesson perform: (messageString asSymbol) withEnoughArguments: attributesArray."
 	
-	Transcript show: messageString.
+	"Transcript show: messageString.
 	Transcript show: Character cr.
-	Transcript show: attributesArray.
+	Transcript show: attributesArray."
