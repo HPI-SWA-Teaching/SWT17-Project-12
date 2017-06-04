@@ -3,6 +3,8 @@ initialize
 
 	| helpButton |
 	
+	self grid: SqueakTutorialGrid new.
+	
 	"foo"
 	
 	super initialize.
@@ -51,9 +53,6 @@ initialize
 		fullFrame: (LayoutFrame
 			fractions: (0@0 corner: 0.5@1)
 			offsets: (0@0 corner: 0@0)).
-	
-	
-	codeWindowText := ''.
 	
 	"self mouseMorph: ImageMorph new.
 	self mouseMorph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse.png') fullName) scaledToSize: 50@50).

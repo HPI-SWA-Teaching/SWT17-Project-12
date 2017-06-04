@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakTutorial",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SqueakTutorialCell",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

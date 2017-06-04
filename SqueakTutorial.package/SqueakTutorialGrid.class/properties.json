@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakTutorial",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cells",
+		"numberOfRows",
+		"numberOfColumns" ],
+	"name" : "SqueakTutorialGrid",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
