@@ -22,10 +22,9 @@ initialize
 		fullFrame: (LayoutFrame
 			fractions: (1@0 corner: 1@1)
 			offsets: (20@20 corner: 0@0))."
-	self addMorph: self lessonDescriptionBackground
+	self addMorph: self lessonDescription
 		fullFrame: (LayoutFrame
 			fractions: (0.5@0 corner: 1@0)
-			"Hab den Offset rausgenommen, weil der für komisches Verhalten des TextMorphs gesorgt hat - Jakob"
 			offsets: (0@0 corner: 0@200)).
 	self addMorph: editGUI
 		fullFrame: (LayoutFrame
