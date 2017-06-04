@@ -13,7 +13,7 @@ initializeLessonGUI
 	  layoutInset: 2;
 	  rubberBandCells: true.
 	
-	self lessonDescription: TextMorph new.
+	self lessonDescription: PluggableTextMorphPlus new.
 	lessonDescriptionBackground addMorph: self lessonDescription.
 	
 	self lessonGUI: TransformMorph new.
