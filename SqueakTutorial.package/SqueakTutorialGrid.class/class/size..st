@@ -1,10 +1,9 @@
 as yet unclassified
-size: aPoint
+size: aInt
 
 	| model |
 	model := self new.
 	model
-		numberOfRows: aPoint y;
-		numberOfColumns: aPoint x.
-	model initialize.
+		numberOfRows: aInt;
+		numberOfColumns: aInt.
 	^model

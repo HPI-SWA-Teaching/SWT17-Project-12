@@ -7,12 +7,12 @@ initialize
 	self numberOfRows: 10.
 
 	self cells: Dictionary new.
-	1 to: self numberOfColumns do: [:x |
-		1 to: self numberOfRows do: [:y |
+	0 to: (self numberOfColumns - 1) do: [:x |
+		0 to: (self numberOfRows - 1) do: [:y |
 			| pt cell |
 			pt := x@y.
 			cell := SqueakTutorialCell new.
-			cell position: (50 * (x - 1))@(50 * (y - 1)).
+			cell position: (50 * x)@(50 * y).
 			self addMorph: cell.
 			
 			self cells at: pt put: cell]].

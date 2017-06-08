@@ -3,7 +3,8 @@ initialize
 
 	| helpButton |
 	
-	self grid: SqueakTutorialGrid new.
+	"self grid: SqueakTutorialGrid new."
+	self grid: (SqueakTutorialGrid size: 10).
 	
 	"foo"
 	
