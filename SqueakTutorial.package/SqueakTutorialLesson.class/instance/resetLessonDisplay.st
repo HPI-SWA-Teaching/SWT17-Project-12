@@ -1,0 +1,4 @@
+initialization
+resetLessonDisplay
+
+	^self subclassResponsibility.
