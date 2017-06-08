@@ -1,10 +1,9 @@
 accessing
-initialize
+initializeCells
 
-	super initialize.
-	self extent: 500@500.
-	self numberOfColumns: 10.
-	self numberOfRows: 10.
+	| cellSize |
+	
+	cellSize := (self extent x) / (self numberOfColumns).
 
 	self cells: Dictionary new.
 	0 to: (self numberOfColumns - 1) do: [:x |
@@ -12,8 +11,8 @@ initialize
 			| pt cell |
 			pt := x@y.
 			cell := SqueakTutorialCell new.
-			cell position: (50 * x)@(50 * y).
+			cell extent: cellSize@cellSize.
+			cell position: (cellSize * x)@(cellSize * y).
 			self addMorph: cell.
 			
 			self cells at: pt put: cell]].
-	Transcript show: self cells.

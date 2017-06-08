@@ -6,3 +6,6 @@ open
 	tutorial := SqueakTutorial new.
 	tutorial openInWorld.
 	tutorial fullScreen.
+	tutorial loadLesson1.
+	
+	
