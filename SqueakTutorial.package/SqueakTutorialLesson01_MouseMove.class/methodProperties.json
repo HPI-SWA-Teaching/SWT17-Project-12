@@ -2,8 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "J.W. 6/4/2017 21:19",
-		"initializeLessonDisplay:" : "FM 6/3/2017 15:26",
+		"initialize" : "FM 6/8/2017 14:30",
+		"initializeLessonDisplay:" : "FM 6/8/2017 14:30",
 		"mouse" : "FM 6/3/2017 15:41",
 		"mouse:" : "FM 6/3/2017 15:22",
-		"registerClassInfos" : "FM 6/3/2017 16:44" } }
+		"registerClassInfos" : "FM 6/3/2017 16:44",
+		"x" : "FM 6/8/2017 14:25",
+		"x:" : "FM 6/8/2017 14:25",
+		"y" : "FM 6/8/2017 14:25",
+		"y:" : "FM 6/8/2017 14:25" } }

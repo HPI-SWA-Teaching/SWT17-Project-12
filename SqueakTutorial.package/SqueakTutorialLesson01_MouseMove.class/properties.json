@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"mouse" ],
+		"mouse",
+		"x",
+		"y" ],
 	"name" : "SqueakTutorialLesson01_MouseMove",
 	"pools" : [
 		 ],

@@ -12,5 +12,5 @@
 	"name" : "SqueakTutorialGrid",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TransformMorph",
 	"type" : "normal" }

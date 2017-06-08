@@ -9,7 +9,9 @@ loadLesson: aSqueakTutorialLesson
 	self lessonDescription readOnly: true.
 	
 	self currentLesson: aSqueakTutorialLesson.
-	aSqueakTutorialLesson initializeLessonDisplay: self lessonGUI.
+	self currentLesson squeakTutorial: self.
+	aSqueakTutorialLesson initializeLessonDisplay: self.
+	"(self grid cellAt: 1@1) addMorph: aSqueakTutorialLesson mouse."
 	
 	self currentLessonClassInfos: aSqueakTutorialLesson classInfos.
 	(self listClasses isNil) ifFalse: [self listClasses updateList]

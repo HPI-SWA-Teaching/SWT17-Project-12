@@ -1,7 +1,11 @@
 movement
 move: aDirection
 	
-	(aDirection = #up) ifTrue: [self mouseMorph position: (self mouseMorph position x)@(self mouseMorph position y - 10)].
-	(aDirection = #down) ifTrue: [self mouseMorph position: (self mouseMorph position x)@(self mouseMorph position y + 10)].
-	(aDirection = #left) ifTrue: [self mouseMorph position: (self mouseMorph position x - 10)@(self mouseMorph position y)].
-	(aDirection = #right) ifTrue: [self mouseMorph position: (self mouseMorph position x + 10)@(self mouseMorph position y)].
+	(self currentLesson squeakTutorial grid cellAt: ((currentLesson x)@(currentLesson y))) removeAllMorphs.
+	
+	(aDirection = #up) ifTrue: [self currentLesson y: self currentLesson y - 1].
+	(aDirection = #down) ifTrue: [self currentLesson y: self currentLesson y + 1].
+	(aDirection = #left) ifTrue: [self currentLesson x: self currentLesson x - 1].
+	(aDirection = #right) ifTrue: [self currentLesson x: self currentLesson x + 1].
+	
+	(self currentLesson squeakTutorial grid cellAt: ((currentLesson x)@(currentLesson y))) addMorph: self mouseMorph.
