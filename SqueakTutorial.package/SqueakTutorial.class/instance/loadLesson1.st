@@ -3,6 +3,7 @@ loadLesson1
 
 	self grid: (SqueakTutorialGrid size: 10 onMorph: self lessonGUI).
 	self lessonGUI addMorph: self grid.
+	Transcript show: self lessonGUI extent x.
 	
 	"self mouseMorph: ImageMorph new.
 	self mouseMorph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse.png') fullName) scaledToSize: 50@50).
