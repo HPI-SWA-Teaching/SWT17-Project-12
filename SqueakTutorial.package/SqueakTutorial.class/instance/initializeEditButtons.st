@@ -12,4 +12,8 @@ initializeEditButtons
 	self buttonRun target: self.
 	self buttonRun actionSelector: #runCodeFromInputField.
 	
+	self buttonFinish target: self.
+	self buttonFinish actionSelector: nil.
+	self buttonFinish color: Color gray.
+	
 	self buttonFinish enabled: false. 
