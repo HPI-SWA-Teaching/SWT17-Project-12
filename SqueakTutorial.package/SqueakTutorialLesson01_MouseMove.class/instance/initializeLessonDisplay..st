@@ -7,7 +7,7 @@ initializeLessonDisplay: aSqueakTutorial
 	self mouse mouseMorph: ImageMorph new.
 	self mouse mouseMorph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse.png') fullName) scaledToSize: cellExtents@cellExtents).
 	"self mouse mouseMorph extent: 5@5. -> scheint keinen Effekt zu haben..."
-	self mouse direction: #up.
+	self mouse direction: #down.
 	(aSqueakTutorial grid cellAt: 1@1) addMorph: self mouse mouseMorph.
 	
 	self cheese cheeseMorph: ImageMorph new.
