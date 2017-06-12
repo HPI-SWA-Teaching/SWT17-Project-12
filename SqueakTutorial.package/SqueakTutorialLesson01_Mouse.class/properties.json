@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"mouseMorph",
-		"currentLesson" ],
+		"currentLesson",
+		"direction" ],
 	"name" : "SqueakTutorialLesson01_Mouse",
 	"pools" : [
 		 ],

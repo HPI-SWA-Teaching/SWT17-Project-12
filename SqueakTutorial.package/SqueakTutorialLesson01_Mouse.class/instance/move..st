@@ -3,10 +3,10 @@ move: aDirection
 	
 	(self currentLesson squeakTutorial grid cellAt: ((currentLesson x)@(currentLesson y))) removeAllMorphs.
 	
-	(aDirection = #up) ifTrue: [self currentLesson y: self currentLesson y - 1].
-	(aDirection = #down) ifTrue: [self currentLesson y: self currentLesson y + 1].
-	(aDirection = #left) ifTrue: [self currentLesson x: self currentLesson x - 1].
-	(aDirection = #right) ifTrue: [self currentLesson x: self currentLesson x + 1].
+	(aDirection = #up) ifTrue: [self rotate: aDirection. (Delay forSeconds: 0.1) wait. self currentLesson y: self currentLesson y - 1].
+	(aDirection = #down) ifTrue: [self rotate: aDirection. (Delay forSeconds: 0.1) wait. self currentLesson y: self currentLesson y + 1].
+	(aDirection = #left) ifTrue: [self rotate: aDirection. (Delay forSeconds: 0.1) wait. self currentLesson x: self currentLesson x - 1].
+	(aDirection = #right) ifTrue: [self rotate: aDirection. (Delay forSeconds: 0.1) wait. self currentLesson x: self currentLesson x + 1].
 	
 	(self currentLesson x < 0) ifTrue: [self currentLesson x: 0].
 	(self currentLesson y < 0) ifTrue: [self currentLesson y: 0].
