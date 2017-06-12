@@ -6,6 +6,9 @@ initializeEditButtons
 	self buttonFinish: SimpleButtonMorph new.
 	
 	self buttonReset label: 'RESET'.
+	self buttonReset target: self.
+	self buttonReset actionSelector: #resetLesson.
+	
 	self buttonRun label: 'RUN'.
 	self buttonFinish label: 'FINISH'.
 	
