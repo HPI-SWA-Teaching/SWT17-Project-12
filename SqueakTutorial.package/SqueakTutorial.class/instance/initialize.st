@@ -9,6 +9,9 @@ initialize
 	"foo"
 	
 	super initialize.
+	
+	self paneColor: Color white.
+	
 	self initializeLessonGUI.
 	self initializeEditGUI.
 	self initializeEditButtons.

@@ -14,6 +14,7 @@ initializeLessonGUI
 	  rubberBandCells: true.
 	
 	self lessonDescription: PluggableTextMorphPlus new.
+	self lessonDescription color: Color black.
 	lessonDescriptionBackground addMorph: self lessonDescription.
 	
 	self lessonGUI: TransformMorph new.
