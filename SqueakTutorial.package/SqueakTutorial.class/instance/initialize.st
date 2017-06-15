@@ -1,7 +1,6 @@
 initialization
 initialize
 
-	| helpButton |
 	
 	"self grid: SqueakTutorialGrid new."
 	
@@ -15,17 +14,7 @@ initialize
 	self initializeLessonGUI.
 	self initializeEditGUI.
 	self initializeEditButtons.
-	"self fullScreen."
 	
-	"initialize help button"
-	helpButton := SimpleButtonMorph new.
-	helpButton label: '?'.
-	helpButton target: self;
-				actionSelector: #openInfoWindow.
-	"self addMorph: helpButton
-		fullFrame: (LayoutFrame
-			fractions: (1@0 corner: 1@1)
-			offsets: (20@20 corner: 0@0))."
 	self addMorph: self lessonDescription
 		fullFrame: (LayoutFrame
 			fractions: (0.5@0 corner: 1@0)
@@ -35,7 +24,7 @@ initialize
 			fractions: (0.5@0 corner: 1@1)
 			offsets: (0@200 corner: 0@140 negated)).
 	
-	self addMorph: helpButton
+	self addMorph: self buttonHelp
 		fullFrame: (LayoutFrame
 			fractions: (0.5@1 corner: 1@1)
 			offsets: (0@140 negated corner: 0@90 negated)).

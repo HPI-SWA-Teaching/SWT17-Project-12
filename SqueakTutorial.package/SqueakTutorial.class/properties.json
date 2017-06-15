@@ -20,6 +20,7 @@
 		"buttonReset",
 		"buttonFinish",
 		"buttonRun",
+		"buttonHelp",
 		"currentLesson",
 		"grid" ],
 	"name" : "SqueakTutorial",

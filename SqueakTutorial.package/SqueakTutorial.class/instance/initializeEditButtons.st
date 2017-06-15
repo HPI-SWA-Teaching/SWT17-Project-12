@@ -4,19 +4,22 @@ initializeEditButtons
 	self buttonReset: SimpleButtonMorph new.
 	self buttonRun: SimpleButtonMorph new.
 	self buttonFinish: SimpleButtonMorph new.
+	self buttonHelp: SimpleButtonMorph new.
 	
-	self buttonReset label: 'RESET'.
-	self buttonReset target: self.
-	self buttonReset actionSelector: #resetLesson.
+	self buttonHelp label: '?';
+					target: self;
+					actionSelector: #openInfoWindow.
 	
-	self buttonRun label: 'RUN'.
-	self buttonFinish label: 'FINISH'.
+	self buttonReset label: 'RESET';
+					target: self;
+					actionSelector: #resetLesson.
 	
-	self buttonRun target: self.
-	self buttonRun actionSelector: #runCodeFromInputField.
-	
-	self buttonFinish target: self.
-	self buttonFinish actionSelector: nil.
-	self buttonFinish color: Color gray.
-	
-	self buttonFinish enabled: false. 
+	self buttonRun label: 'RUN';
+					target: self;
+					actionSelector: #runCodeFromInputField.
+					
+	self buttonFinish label: 'FINISH';
+					target: self;
+					actionSelector: nil;
+					color: Color gray;
+					enabled: false. 
