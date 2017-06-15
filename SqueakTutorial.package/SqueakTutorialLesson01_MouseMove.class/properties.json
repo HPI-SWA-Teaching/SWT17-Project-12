@@ -8,8 +8,8 @@
 	"instvars" : [
 		"mouse",
 		"cheese",
-		"x",
-		"y" ],
+		"gridX",
+		"gridY" ],
 	"name" : "SqueakTutorialLesson01_MouseMove",
 	"pools" : [
 		 ],
