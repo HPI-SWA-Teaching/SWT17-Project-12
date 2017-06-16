@@ -21,8 +21,7 @@
 		"buttonFinish",
 		"buttonRun",
 		"buttonHelp",
-		"currentLesson",
-		"grid" ],
+		"currentLesson" ],
 	"name" : "SqueakTutorial",
 	"pools" : [
 		 ],

@@ -1,7 +1,7 @@
 movement
 move: aDirection
 	
-	(self currentLesson squeakTutorial grid cellAt: ((currentLesson gridX)@(currentLesson gridY))) removeAllMorphs.
+	(self currentLesson grid cellAt: ((currentLesson gridX)@(currentLesson gridY))) removeAllMorphs.
 	
 	(aDirection = #up) ifTrue: [self rotate: aDirection. (Delay forSeconds: 0.1) wait. self currentLesson gridY: self currentLesson gridY - 1].
 	(aDirection = #down) ifTrue: [self rotate: aDirection. (Delay forSeconds: 0.1) wait. self currentLesson gridY: self currentLesson gridY + 1].
@@ -10,7 +10,7 @@ move: aDirection
 	
 	(self currentLesson gridX < 0) ifTrue: [self currentLesson gridX: 0].
 	(self currentLesson gridY < 0) ifTrue: [self currentLesson gridY: 0].
-	(self currentLesson gridX >= self currentLesson squeakTutorial grid numberOfRows) ifTrue: [self currentLesson gridX: self currentLesson squeakTutorial grid numberOfRows - 1].
-	(self currentLesson gridY >= self currentLesson squeakTutorial grid numberOfRows) ifTrue: [self currentLesson gridY: self currentLesson squeakTutorial grid numberOfRows - 1].
+	(self currentLesson gridX >= self currentLesson grid numberOfRows) ifTrue: [self currentLesson gridX: self currentLesson grid numberOfRows - 1].
+	(self currentLesson gridY >= self currentLesson grid numberOfRows) ifTrue: [self currentLesson gridY: self currentLesson grid numberOfRows - 1].
 	
-	(self currentLesson squeakTutorial grid cellAt: ((currentLesson gridX)@(currentLesson gridY))) addMorph: self mouseMorph.
+	(self currentLesson grid cellAt: ((currentLesson gridX)@(currentLesson gridY))) addMorph: self mouseMorph.
