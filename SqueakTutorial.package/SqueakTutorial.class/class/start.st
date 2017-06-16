@@ -6,5 +6,3 @@ start
 	startScreen := SqueakTutorialMenu new.
 	startScreen openInWorld.
 	startScreen fullScreen.
-	
-	

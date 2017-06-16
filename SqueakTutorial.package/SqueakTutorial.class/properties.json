@@ -6,18 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"lessonGUI",
-		"lessonDescription",
-		"messageDescription",
-		"editGUI",
-		"lessonDescriptionBackground",
-		"buttonReset",
-		"buttonFinish",
-		"buttonRun",
-		"buttonHelp",
-		"currentLesson" ],
+		 ],
 	"name" : "SqueakTutorial",
 	"pools" : [
 		 ],
-	"super" : "PluggableSystemWindow",
+	"super" : "Object",
 	"type" : "normal" }

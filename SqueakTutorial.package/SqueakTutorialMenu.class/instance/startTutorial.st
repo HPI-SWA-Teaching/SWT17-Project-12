@@ -3,7 +3,7 @@ startTutorial
 
 	| tutorial |
 	
-	tutorial := SqueakTutorial new.
+	tutorial := SqueakTutorialLessonWindow new.
 	tutorial openInWorld.
 	tutorial fullScreen.
 	tutorial loadLesson1.

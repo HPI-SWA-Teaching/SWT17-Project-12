@@ -9,8 +9,8 @@ initialize
 	startScreen color: Color white.
 
 	startButton := SimpleButtonMorph new.
-	startButton label: 'Start Tutorial'.
-	startButton target: self;
+	startButton label: 'Start Tutorial';
+				target: self;
 				actionSelector: #startTutorial.
 	
 	self addMorph: startScreen
