@@ -7,8 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"cells",
-		"numberOfRows",
-		"numberOfColumns" ],
+		"cellAmount" ],
 	"name" : "SqueakTutorialGrid",
 	"pools" : [
 		 ],

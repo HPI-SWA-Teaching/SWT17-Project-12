@@ -1,4 +1,0 @@
-accessing
-numberOfColumns
-	
-	^ numberOfColumns

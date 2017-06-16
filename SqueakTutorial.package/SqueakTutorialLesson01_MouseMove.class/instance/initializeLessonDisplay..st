@@ -7,7 +7,7 @@ initializeLessonDisplay: aSqueakTutorial
 	aSqueakTutorial lessonGUI addMorph: self grid.
 	Transcript show: aSqueakTutorial lessonGUI extent x.
 
-	cellExtents := (self grid extent x) / (self grid numberOfColumns).
+	cellExtents := (self grid extent x) / (self grid cellAmount).
 	self mouse mouseMorph: ImageMorph new.
 	self mouse mouseMorph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse.png') fullName) scaledToSize: cellExtents@cellExtents).
 	"self mouse mouseMorph extent: 5@5. -> scheint keinen Effekt zu haben..."
@@ -16,8 +16,8 @@ initializeLessonDisplay: aSqueakTutorial
 	
 	self cheese cheeseMorph: ImageMorph new.
 	self cheese cheeseMorph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'cheese.png') fullName) scaledToSize: cellExtents@cellExtents).
-	cheeseX := (self grid numberOfColumns - 3) atRandom + 2.
-	cheeseY := (self grid numberOfRows - 3) atRandom + 2.
+	cheeseX := (self grid cellAmount - 3) atRandom + 2.
+	cheeseY := (self grid cellAmount - 3) atRandom + 2.
 	(self grid cellAt: cheeseX@cheeseY) addMorph: self cheese cheeseMorph.
 	self cheese gridX: cheeseX.
 	self cheese gridY: cheeseY.

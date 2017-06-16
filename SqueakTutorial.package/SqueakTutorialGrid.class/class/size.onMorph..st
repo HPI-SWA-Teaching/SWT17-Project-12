@@ -1,15 +1,11 @@
 as yet unclassified
-size: aInt onMorph: aMorph
+size: anInt onMorph: aMorph
 
 	| model |
 	model := self new.
-	model
-		numberOfRows: aInt;
-		numberOfColumns: aInt.
-		
-	"SET EXTENT"
-	Transcript show: aMorph extent x.
-	model extent: (aMorph extent x) @ (aMorph extent x).
+	model cellAmount: anInt.
+	
+	model extent: (aMorph extent x min: aMorph extent y) @ (aMorph extent x min: aMorph extent y).
 	model initializeCells.
 	
 	^model
