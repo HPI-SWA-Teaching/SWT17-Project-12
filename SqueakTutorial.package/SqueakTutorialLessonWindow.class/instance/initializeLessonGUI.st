@@ -1,11 +1,13 @@
 initialization
 initializeLessonGUI
 
-	self lessonDescriptionBackground: AlignmentMorph new.
-	self lessonDescriptionBackground color: Color white.
-	self lessonDescriptionBackground borderWidth: 0. " -> auf 0 gestellt - Jakob"
-	self lessonDescriptionBackground borderColor: Color red.
-	self lessonDescriptionBackground layoutPolicy: TableLayout new;
+	| lessonDescriptionBackground |
+
+	lessonDescriptionBackground := AlignmentMorph new.
+	lessonDescriptionBackground color: Color white.
+	lessonDescriptionBackground borderWidth: 0. " -> auf 0 gestellt - Jakob"
+	lessonDescriptionBackground borderColor: Color red.
+	lessonDescriptionBackground layoutPolicy: TableLayout new;
 	  listDirection: #topToBottom;
 	  wrapCentering: #center;
 	  hResizing: #spaceFill;
