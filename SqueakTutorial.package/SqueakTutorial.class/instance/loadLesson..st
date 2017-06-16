@@ -11,6 +11,8 @@ loadLesson: aSqueakTutorialLesson
 	self currentLesson: aSqueakTutorialLesson.
 	self currentLesson squeakTutorial: self.
 	aSqueakTutorialLesson initializeLessonDisplay: self.
+	
+	self label: self currentLesson lessonName.
 	"(self grid cellAt: 1@1) addMorph: aSqueakTutorialLesson mouse."
 	
 	self currentLessonClassInfos: aSqueakTutorialLesson classInfos.
