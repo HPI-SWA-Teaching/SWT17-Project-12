@@ -19,10 +19,10 @@ initializeLessonGUI
 	self lessonDescription color: Color black.
 	lessonDescriptionBackground addMorph: self lessonDescription.
 	
-	self lessonGUI: TransformMorph new.
-	self lessonGUI borderColor: Color black.
-	self lessonGUI borderWidth: 1.
-	self lessonGUI color: Color white.
+	self lessonDisplay: TransformMorph new.
+	self lessonDisplay borderColor: Color black.
+	self lessonDisplay borderWidth: 1.
+	self lessonDisplay color: Color white.
 	
 	
 			

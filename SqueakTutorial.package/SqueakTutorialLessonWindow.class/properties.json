@@ -6,15 +6,15 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"lessonGUI",
 		"lessonDescription",
 		"messageDescription",
-		"editGUI",
+		"codeInputField",
 		"buttonReset",
 		"buttonFinish",
 		"buttonRun",
 		"buttonHelp",
-		"currentLesson" ],
+		"currentLesson",
+		"lessonDisplay" ],
 	"name" : "SqueakTutorialLessonWindow",
 	"pools" : [
 		 ],

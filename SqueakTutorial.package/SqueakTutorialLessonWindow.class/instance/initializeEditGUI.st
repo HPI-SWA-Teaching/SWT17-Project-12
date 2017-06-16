@@ -2,9 +2,9 @@ initialization
 initializeEditGUI
 
 	"lesson description wrapper"
-	self editGUI: PluggableCodePaneSpec new.
-	self editGUI model: Model new.
-	self editGUI setText: ''.
+	self codeInputField: PluggableCodePaneSpec new.
+	self codeInputField model: Model new.
+	self codeInputField setText: ''.
 	
-	self editGUI: (ToolBuilder default buildPluggableCodePane: self editGUI).
+	self codeInputField: (ToolBuilder default buildPluggableCodePane: self codeInputField).
 	

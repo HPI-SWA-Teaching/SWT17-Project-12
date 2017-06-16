@@ -1,4 +1,0 @@
-accessing
-editGUI
-	
-	^ editGUI

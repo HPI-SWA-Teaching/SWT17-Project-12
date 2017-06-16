@@ -3,9 +3,9 @@ initializeLessonDisplay: aSqueakTutorial
 
 	| cellExtents cheeseX cheeseY |
 
-	self grid: (SqueakTutorialGrid size: 10 onMorph: aSqueakTutorial lessonGUI).
-	aSqueakTutorial lessonGUI addMorph: self grid.
-	Transcript show: aSqueakTutorial lessonGUI extent x.
+	self grid: (SqueakTutorialGrid size: 10 onMorph: aSqueakTutorial lessonDisplay).
+	aSqueakTutorial lessonDisplay addMorph: self grid.
+	Transcript show: aSqueakTutorial lessonDisplay extent x.
 
 	cellExtents := (self grid extent x) / (self grid cellAmount).
 	self mouse mouseMorph: ImageMorph new.

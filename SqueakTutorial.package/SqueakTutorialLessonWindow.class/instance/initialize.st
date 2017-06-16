@@ -20,7 +20,7 @@ initialize
 			fractions: (0.5@0 corner: 1@0)
 			offsets: (0@0 corner: 0@200)).
 			
-	self addMorph: self editGUI
+	self addMorph: self codeInputField
 		fullFrame: (LayoutFrame
 			fractions: (0.5@0 corner: 1@1)
 			offsets: (0@200 corner: 0@140 negated)).
@@ -45,7 +45,7 @@ initialize
 			fractions: (0.833@1 corner: 1@1)
 			offsets: (0@90 negated corner: 0@0)).
 			
-	self addMorph: self lessonGUI
+	self addMorph: self lessonDisplay
 		fullFrame: (LayoutFrame
 			fractions: (0@0 corner: 0.5@1)
 			offsets: (0@0 corner: 0@0)).
