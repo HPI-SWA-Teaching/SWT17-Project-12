@@ -4,9 +4,7 @@ initialize
 	super initialize.
 	
 	self mouse: SqueakTutorialLesson01_Mouse new.
-	self mouse currentLesson: self.
 	self cheese: SqueakTutorialLesson01_Cheese new.
-	self cheese currentLesson: self.
 	
 	self gridX: 1.
 	self gridY: 1.

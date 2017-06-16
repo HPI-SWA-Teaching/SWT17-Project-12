@@ -7,7 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"cheeseMorph",
-		"currentLesson",
 		"gridX",
 		"gridY" ],
 	"name" : "SqueakTutorialLesson01_Cheese",
