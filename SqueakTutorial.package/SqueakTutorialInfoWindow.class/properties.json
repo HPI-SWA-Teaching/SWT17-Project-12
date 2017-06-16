@@ -6,10 +6,14 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"lessonGUI",
-		"lessonDescription" ],
+		"listClasses",
+		"listMessages",
+		"messageDescription",
+		"classInfos",
+		"currentSelectedClass",
+		"currentSelectedMessage" ],
 	"name" : "SqueakTutorialInfoWindow",
 	"pools" : [
 		 ],
-	"super" : "PluggableSystemWindow",
+	"super" : "Object",
 	"type" : "normal" }

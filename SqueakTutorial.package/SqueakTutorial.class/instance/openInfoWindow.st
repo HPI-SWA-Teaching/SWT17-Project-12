@@ -1,13 +1,13 @@
 initialization
 openInfoWindow
 	
-	self lessonInfoWindow: PluggableWindowSpec new.
+	SqueakTutorialInfoWindow open: self currentLesson classInfos.
+	
+	"self lessonInfoWindow: PluggableWindowSpec new.
 	self lessonInfoWindow extent: 400@400.
 	self lessonInfoWindow label: 'InfoWindow'.
 	
 	self lessonInfoWindow: (ToolBuilder default buildPluggableWindow: self lessonInfoWindow).
-	
-	"window := SystemWindow labelled: 'Layout'."
 	
 	self listClasses: PluggableListSpec new.
 	self listClasses hScrollBarPolicy: #never.
@@ -57,20 +57,9 @@ openInfoWindow
 			offsets: (0@100 negated corner: 0@0)).
 	
 	
-	"self messageDescription: PluggableTextMorph new.
-	self messageDescription readOnly: true.
-	self messageDescription setText: ''.
-	
-	self lessonInfoWindow
-		addMorph: self messageDescription
-		fullFrame: (LayoutFrame
-			fractions: (0@1 corner: 1@1)
-			offsets: (0@100 negated corner: 0@0))."
-	
-	
 		
 		
 	
-	self lessonInfoWindow openAsIs.
+	self lessonInfoWindow openAsIs."
 		
 	

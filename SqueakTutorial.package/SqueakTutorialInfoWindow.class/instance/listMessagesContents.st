@@ -3,4 +3,4 @@ listMessagesContents
 
 	(self currentSelectedClass ifNil: [^ nil]).
 
-	^ (self currentLessonClassInfos at: self currentSelectedClass) keys
+	^ (self classInfos at: self currentSelectedClass) keys
