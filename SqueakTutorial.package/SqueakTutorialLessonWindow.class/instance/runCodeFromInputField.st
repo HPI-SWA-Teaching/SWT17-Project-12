@@ -1,4 +1,4 @@
-as yet unclassified
+code running
 runCodeFromInputField
 	
 	| codeString |

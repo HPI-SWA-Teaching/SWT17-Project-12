@@ -1,4 +1,0 @@
-accessing
-currentLessonClassInfos
-	
-	^ currentLessonClassInfos

@@ -13,7 +13,7 @@ initialize
 	
 	self initializeLessonGUI.
 	self initializeEditGUI.
-	self initializeEditButtons.
+	self initializeButtons.
 	
 	self addMorph: self lessonDescription
 		fullFrame: (LayoutFrame

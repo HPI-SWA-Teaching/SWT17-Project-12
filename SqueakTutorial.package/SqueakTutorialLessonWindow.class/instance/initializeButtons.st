@@ -1,5 +1,5 @@
 initialization
-initializeEditButtons
+initializeButtons
 	
 	self buttonReset: SimpleButtonMorph new.
 	self buttonRun: SimpleButtonMorph new.
@@ -22,4 +22,4 @@ initializeEditButtons
 					target: self;
 					actionSelector: nil;
 					color: Color gray;
-					enabled: false. 
+					enabled: false.

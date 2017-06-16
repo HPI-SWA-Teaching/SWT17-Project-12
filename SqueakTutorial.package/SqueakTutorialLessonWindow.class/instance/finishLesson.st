@@ -1,6 +1,5 @@
-as yet unclassified
+lessons
 finishLesson
 
 	SqueakTutorial start.
-	
 	self delete.

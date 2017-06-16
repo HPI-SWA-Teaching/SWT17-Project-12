@@ -1,4 +1,4 @@
-as yet unclassified
+lessons
 resetLesson
 
 	self currentLesson resetLessonDisplay.
