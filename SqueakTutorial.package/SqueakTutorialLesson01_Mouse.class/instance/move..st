@@ -1,16 +1,16 @@
 movement
 move: aDirection
 	
-	(self currentLesson grid cellAt: ((currentLesson gridX)@(currentLesson gridY))) removeAllMorphs.
+	(self lesson grid cellAt: ((self lesson gridX)@(self lesson gridY))) removeAllMorphs.
 	
-	(aDirection = #up) ifTrue: [self rotate: aDirection. (Delay forSeconds: 0.1) wait. self currentLesson gridY: self currentLesson gridY - 1].
-	(aDirection = #down) ifTrue: [self rotate: aDirection. (Delay forSeconds: 0.1) wait. self currentLesson gridY: self currentLesson gridY + 1].
-	(aDirection = #left) ifTrue: [self rotate: aDirection. (Delay forSeconds: 0.1) wait. self currentLesson gridX: self currentLesson gridX - 1].
-	(aDirection = #right) ifTrue: [self rotate: aDirection. (Delay forSeconds: 0.1) wait. self currentLesson gridX: self currentLesson gridX + 1].
+	(aDirection = #up) ifTrue: [self rotate: aDirection. (Delay forSeconds: 0.1) wait. self lesson gridY: self lesson gridY - 1].
+	(aDirection = #down) ifTrue: [self rotate: aDirection. (Delay forSeconds: 0.1) wait. self lesson gridY: self lesson gridY + 1].
+	(aDirection = #left) ifTrue: [self rotate: aDirection. (Delay forSeconds: 0.1) wait. self lesson gridX: self lesson gridX - 1].
+	(aDirection = #right) ifTrue: [self rotate: aDirection. (Delay forSeconds: 0.1) wait. self lesson gridX: self lesson gridX + 1].
 	
-	(self currentLesson gridX < 0) ifTrue: [self currentLesson gridX: 0].
-	(self currentLesson gridY < 0) ifTrue: [self currentLesson gridY: 0].
-	(self currentLesson gridX >= self currentLesson grid numberOfRows) ifTrue: [self currentLesson gridX: self currentLesson grid numberOfRows - 1].
-	(self currentLesson gridY >= self currentLesson grid numberOfRows) ifTrue: [self currentLesson gridY: self currentLesson grid numberOfRows - 1].
+	(self lesson gridX < 0) ifTrue: [self lesson gridX: 0].
+	(self lesson gridY < 0) ifTrue: [self lesson gridY: 0].
+	(self lesson gridX >= self lesson grid cellAmount) ifTrue: [self lesson gridX: self lesson grid cellAmount - 1].
+	(self lesson gridY >= self lesson grid cellAmount) ifTrue: [self lesson gridY: self lesson grid cellAmount - 1].
 	
-	(self currentLesson grid cellAt: ((currentLesson gridX)@(currentLesson gridY))) addMorph: self mouseMorph.
+	(self lesson grid cellAt: ((self lesson gridX)@(self lesson gridY))) addMorph: self mouseMorph.

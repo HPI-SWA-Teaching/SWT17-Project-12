@@ -3,7 +3,7 @@ runCodeFromInputField
 	
 	| codeString |
 	
-	codeString := self editGUI text.
+	codeString := self codeInputField text.
 	self currentLesson resetLessonDisplay.
 	(Compiler evaluate: codeString for: self currentLesson logged: false).
 	(self currentLesson isFinished) ifTrue: [

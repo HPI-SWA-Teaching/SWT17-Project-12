@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"lesson",
 		"mouseMorph",
 		"direction" ],
 	"name" : "SqueakTutorialLesson01_Mouse",
