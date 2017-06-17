@@ -1,12 +1,6 @@
 initialization
 initialize
 
-	
-	"self grid: SqueakTutorialGrid new."
-	
-	
-	"foo"
-	
 	super initialize.
 	
 	self paneColor: Color white.

@@ -48,7 +48,7 @@ open: aClassInfoDictionary
 	infoWindow messageDescription: PluggableCodePaneSpec new.
 	infoWindow messageDescription readOnly: true.
 	infoWindow messageDescription model: Model new.
-	infoWindow messageDescription setText: 'abc'.
+	infoWindow messageDescription setText: ''.
 	
 	infoWindow messageDescription: (ToolBuilder default buildPluggableCodePane: infoWindow messageDescription).
 	
