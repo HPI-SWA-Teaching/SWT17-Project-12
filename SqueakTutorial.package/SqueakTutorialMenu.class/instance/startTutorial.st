@@ -6,6 +6,6 @@ startTutorial
 	tutorial := SqueakTutorialLessonWindow new.
 	tutorial openInWorld.
 	tutorial fullScreen.
-	tutorial loadLesson: SqueakTutorialLesson01_MouseMove new..
+	tutorial loadLesson: SqueakTutorialLessonManager next.
 	
 	self delete.

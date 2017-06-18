@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakTutorial",
+	"classinstvars" : [
+		"count" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SqueakTutorialLessonManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

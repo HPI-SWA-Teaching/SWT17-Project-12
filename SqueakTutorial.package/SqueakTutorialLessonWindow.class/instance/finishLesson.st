@@ -1,5 +1,7 @@
 lessons
 finishLesson
 
-	SqueakTutorial start.
-	self delete.
+	self loadLesson: SqueakTutorialLessonManager next.
+
+	"SqueakTutorial start.
+	self delete."
