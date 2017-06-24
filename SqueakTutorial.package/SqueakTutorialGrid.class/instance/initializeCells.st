@@ -3,7 +3,7 @@ initializeCells
 
 	| cellSize |
 	
-	cellSize := (self extent x) / (self cellAmount).
+	cellSize := ((self extent x) / (self cellAmount)) rounded.
 
 	self cells: Dictionary new.
 	0 to: (self cellAmount - 1) do: [:x |
