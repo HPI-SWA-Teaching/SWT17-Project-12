@@ -14,3 +14,5 @@ move: aDirection
 	(self lesson gridY >= self lesson grid cellAmount) ifTrue: [self lesson gridY: self lesson grid cellAmount - 1].
 	
 	(self lesson grid cellAt: ((self lesson gridX)@(self lesson gridY))) addMorph: self mouseMorph.
+	
+"Test comment"
