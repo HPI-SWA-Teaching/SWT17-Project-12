@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"buttonBack" : "FM 6/25/2017 22:56",
+		"buttonBack:" : "FM 6/25/2017 22:56",
 		"buttonFinish" : "FM 5/21/2017 02:55",
 		"buttonFinish:" : "FM 5/21/2017 02:55",
 		"buttonHelp" : "UA 6/15/2017 23:01",
@@ -15,8 +17,9 @@
 		"currentLesson" : "FM 5/31/2017 12:47",
 		"currentLesson:" : "FM 5/31/2017 12:47",
 		"finishLesson" : "FM 6/18/2017 13:03",
-		"initialize" : "UA 6/24/2017 18:02",
-		"initializeButtons" : "FM 6/16/2017 16:01",
+		"goBackToMenu" : "FM 6/25/2017 23:11",
+		"initialize" : "FM 6/25/2017 23:11",
+		"initializeButtons" : "FM 6/25/2017 22:57",
 		"initializeEditGUI" : "UA 6/17/2017 23:14",
 		"initializeLessonGUI" : "UA 6/17/2017 23:15",
 		"lessonDescription" : "FM 5/14/2017 15:42",

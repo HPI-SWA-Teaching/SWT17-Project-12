@@ -5,6 +5,7 @@ initializeButtons
 	self buttonRun: SimpleButtonMorph new.
 	self buttonFinish: SimpleButtonMorph new.
 	self buttonHelp: SimpleButtonMorph new.
+	self buttonBack: SimpleButtonMorph new.
 	
 	self buttonHelp label: '?';
 					target: self;
@@ -23,3 +24,7 @@ initializeButtons
 					actionSelector: nil;
 					color: Color gray;
 					enabled: false.
+		
+	self buttonBack label: 'BACK TO MENU';
+					target: self;
+					actionSelector: #goBackToMenu.

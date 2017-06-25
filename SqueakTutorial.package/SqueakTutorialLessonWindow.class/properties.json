@@ -13,6 +13,7 @@
 		"buttonFinish",
 		"buttonRun",
 		"buttonHelp",
+		"buttonBack",
 		"currentLesson",
 		"lessonDisplay" ],
 	"name" : "SqueakTutorialLessonWindow",
