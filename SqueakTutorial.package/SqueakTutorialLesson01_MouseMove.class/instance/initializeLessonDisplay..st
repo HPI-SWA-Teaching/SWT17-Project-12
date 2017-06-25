@@ -9,9 +9,10 @@ initializeLessonDisplay: aSqueakTutorial
 
 	cellExtents := (self grid extent x) / (self grid cellAmount).
 	self mouse mouseMorph: ImageMorph new.
-	self mouse mouseMorph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse_down.png') fullName) scaledToSize: cellExtents@cellExtents).
+	self mouse mouseMorph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse_down_grey.png') fullName) scaledToSize: cellExtents@cellExtents).
 	"self mouse mouseMorph extent: 5@5. -> scheint keinen Effekt zu haben..."
 	self mouse direction: #down.
+	self mouse color: 'grey'.
 	(self grid cellAt: 1@1) addMorph: self mouse mouseMorph.
 	
 	self cheese cheeseMorph: ImageMorph new.

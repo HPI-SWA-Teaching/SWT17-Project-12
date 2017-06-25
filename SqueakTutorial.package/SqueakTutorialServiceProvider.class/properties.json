@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"lesson",
-		"mouseMorph",
-		"direction",
-		"color" ],
-	"name" : "SqueakTutorialLesson01_Mouse",
+		 ],
+	"name" : "SqueakTutorialServiceProvider",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ServiceProvider",
 	"type" : "normal" }
