@@ -1,28 +1,24 @@
 movement
 rotate: newDirection
-
-	| currentDirection |
+	
+	| currentDirection cellExtents |
+	
 	currentDirection := self direction.
 	
-	(currentDirection = #up) ifTrue: [
-		(newDirection = #down) ifTrue: [self mouseMorph image rotateBy: 180].
-		(newDirection = #right) ifTrue: [self mouseMorph image rotateBy: 90].
-		(newDirection = #left) ifTrue: [self mouseMorph image rotateBy: -90].
+	(newDirection = self direction) ifFalse: [
+		cellExtents := (self lesson grid extent x) / (self lesson grid cellAmount).
+		(newDirection = #up) ifTrue: [
+			self mouseMorph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse_up.png') fullName) scaledToSize: cellExtents@cellExtents).
 		].
-	(currentDirection = #down) ifTrue: [
-		(newDirection = #up) ifTrue: [self mouseMorph image rotateBy: 180].
-		(newDirection = #right) ifTrue: [self mouseMorph image rotateBy: -90].
-		(newDirection = #left) ifTrue: [self mouseMorph image rotateBy: 90].
+		(newDirection = #down) ifTrue: [
+			self mouseMorph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse_down.png') fullName) scaledToSize: cellExtents@cellExtents).
 		].
-	(currentDirection = #left) ifTrue: [
-		(newDirection = #up) ifTrue: [self mouseMorph image rotateBy: 90].
-		(newDirection = #down) ifTrue: [self mouseMorph image rotateBy: -90].
-		(newDirection = #right) ifTrue: [self mouseMorph image rotateBy: 180].
+		(newDirection = #left) ifTrue: [
+			self mouseMorph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse_left.png') fullName) scaledToSize: cellExtents@cellExtents).
 		].
-	(currentDirection = #right) ifTrue: [
-		(newDirection = #up) ifTrue: [self mouseMorph image rotateBy: -90].
-		(newDirection = #down) ifTrue: [self mouseMorph image rotateBy: 90].
-		(newDirection = #left) ifTrue: [self mouseMorph image rotateBy: 180].
+		(newDirection = #right) ifTrue: [
+			self mouseMorph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse_right.png') fullName) scaledToSize: cellExtents@cellExtents).
 		].
 	
-	self direction: newDirection.
+		self direction: newDirection.
+	].
