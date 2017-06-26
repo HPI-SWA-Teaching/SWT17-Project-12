@@ -1,4 +1,4 @@
-movement
+mouse controlling
 rotate: newDirection
 	
 	| currentDirection cellExtents |

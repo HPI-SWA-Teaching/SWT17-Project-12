@@ -9,7 +9,8 @@
 		"lessonName",
 		"lessonDescription",
 		"classInfos",
-		"squeakTutorial" ],
+		"squeakTutorial",
+		"lessonWindow" ],
 	"name" : "SqueakTutorialLesson",
 	"pools" : [
 		 ],

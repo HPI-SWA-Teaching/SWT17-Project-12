@@ -6,6 +6,7 @@ initialize
 	self mouse: SqueakTutorialLesson01_Mouse new.
 	self mouse lesson: self.
 	self cheese: SqueakTutorialLesson01_Cheese new.
+	self cheeseCounter: 1.
 	
 	self gridX: 1.
 	self gridY: 1.

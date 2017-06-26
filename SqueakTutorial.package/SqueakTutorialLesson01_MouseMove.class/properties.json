@@ -10,7 +10,8 @@
 		"cheese",
 		"grid",
 		"gridX",
-		"gridY" ],
+		"gridY",
+		"cheeseCounter" ],
 	"name" : "SqueakTutorialLesson01_MouseMove",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
-as yet unclassified
+mouse controlling
 moveDown
 	
 	(self lesson grid cellAt: ((self lesson gridX)@(self lesson gridY))) removeAllMorphs.

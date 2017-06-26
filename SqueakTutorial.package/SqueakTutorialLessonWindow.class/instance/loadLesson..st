@@ -10,6 +10,7 @@ loadLesson: aSqueakTutorialLesson
 	
 	self currentLesson: aSqueakTutorialLesson.
 	self currentLesson squeakTutorial: self.
+	self currentLesson lessonWindow: self.
 	aSqueakTutorialLesson initializeLessonDisplay: self.
 	
 	self label: self currentLesson lessonName.

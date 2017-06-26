@@ -1,4 +1,4 @@
-movement
+mouse controlling
 move: aDirection
 	
 	(self lesson grid cellAt: ((self lesson gridX)@(self lesson gridY))) removeAllMorphs.
