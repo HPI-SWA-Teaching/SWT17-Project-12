@@ -5,7 +5,7 @@ moveDown
 	self rotate: #down.
 	(self lesson grid cellAt: ((self lesson gridX)@(self lesson gridY))) addMorph: self mouseMorph.
 	
-	(Delay forSeconds: 0.1) wait.
+	(Delay forMilliseconds: 500) wait.
 	
 	(self lesson grid cellAt: ((self lesson gridX)@(self lesson gridY))) removeAllMorphs.
 	self lesson gridY: self lesson gridY + 1.

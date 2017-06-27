@@ -5,7 +5,7 @@ moveLeft
 	self rotate: #left.
 	(self lesson grid cellAt: ((self lesson gridX)@(self lesson gridY))) addMorph: self mouseMorph.
 	
-	(Delay forSeconds: 0.1) wait.
+	(Delay forMilliseconds: 500) wait.
 	
 	(self lesson grid cellAt: ((self lesson gridX)@(self lesson gridY))) removeAllMorphs.
 	self lesson gridX: self lesson gridX - 1.
