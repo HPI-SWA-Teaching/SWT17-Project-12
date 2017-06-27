@@ -1,0 +1,17 @@
+{
+	"category" : "SqueakTutorial",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mouse",
+		"grid",
+		"gridX",
+		"gridY" ],
+	"name" : "SqueakTutorialLesson02",
+	"pools" : [
+		 ],
+	"super" : "SqueakTutorialLesson",
+	"type" : "normal" }
