@@ -7,11 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"mouse",
-		"cheese",
+		"goal",
 		"grid",
 		"gridX",
-		"gridY",
-		"cheeseCounter" ],
+		"gridY" ],
 	"name" : "SqueakTutorialLesson01_MouseMove",
 	"pools" : [
 		 ],

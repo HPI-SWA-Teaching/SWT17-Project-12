@@ -1,5 +1,5 @@
 as yet unclassified
 isFinished
 
-	"^ ((self cheese gridX = self gridX) and: (self cheese gridY = self gridY))"
-	^(self cheeseCounter = 0)
+	^ ((self goal gridX = self gridX) and: (self goal gridY = self gridY))
+	"^(self cheeseCounter = 0)"

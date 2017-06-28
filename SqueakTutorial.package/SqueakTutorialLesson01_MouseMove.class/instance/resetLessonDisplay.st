@@ -12,6 +12,5 @@ resetLessonDisplay
 	
 	self mouse direction: #down.
 	
-	self cheese cheeseMorph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'cheese.png') fullName) scaledToSize: cellExtents@cellExtents).
-	(self grid cellAt: (self cheese gridX)@(self cheese gridY)) addMorph: self cheese cheeseMorph.
-	self cheeseCounter: 1.
+	self goal morph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'goal.png') fullName) scaledToSize: cellExtents@cellExtents).
+	(self grid cellAt: (self goal gridX)@(self goal gridY)) addMorph: self goal morph.

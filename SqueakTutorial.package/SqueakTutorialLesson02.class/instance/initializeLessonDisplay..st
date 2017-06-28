@@ -1,7 +1,7 @@
 initialization
 initializeLessonDisplay: aSqueakTutorial
 
-	| cellExtents |
+	| cellExtents goalX goalY |
 
 	self grid: (SqueakTutorialGrid size: 10 onMorph: aSqueakTutorial).
 	aSqueakTutorial lessonDisplay addMorph: self grid.
@@ -12,3 +12,11 @@ initializeLessonDisplay: aSqueakTutorial
 	self mouse direction: #down.
 	self mouse color: 'grey'.
 	(self grid cellAt: 1@1) addMorph: self mouse mouseMorph.
+	
+	self goal morph: ImageMorph new.
+	self goal morph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'goal.png') fullName) scaledToSize: cellExtents@cellExtents).
+	goalX := (self grid cellAmount - 5) atRandom + 4.
+	goalY := (self grid cellAmount - 5) atRandom + 4.
+	(self grid cellAt: goalX@goalY) addMorph: self goal morph.
+	self goal gridX: goalX.
+	self goal gridY: goalY.

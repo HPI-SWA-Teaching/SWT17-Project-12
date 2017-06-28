@@ -17,6 +17,6 @@ registerClassInfos
 		withName: 'moveUp'
 		withInfo: ('"moveUp"' , Character cr , Character cr , '"Moves the mouse one cell to top."').
 		
-	self addMessageToClass: 'mouse'
-		withName: 'eatCheese'
-		withInfo: ('"eatCheese"' , Character cr , Character cr , '"Lets the mouse eat some cheese if she is on the same field as the cheese. If not nothing happens."').
+	self addMessageToClass: 'Integer'
+		withName: 'timesRepeat (Loop)'
+		withInfo: ('" ***x*** timesRepeat: [ ***Instruction to repeat*** ]"' , Character cr , Character cr , '"Repeats the Instruction given x times."').
