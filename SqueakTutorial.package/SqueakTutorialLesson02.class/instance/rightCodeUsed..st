@@ -11,8 +11,4 @@ rightCodeUsed: theCode
 	bool2 := (theCode occurrencesOfRegex: right) <= 1.
 	bool3 := (theCode occurrencesOfRegex: down) <= 1.
 	
-	Transcript show: ('1 - ' , ((theCode occurrencesOfRegex: loop) > 0) asString).
-	Transcript show: ('2 - ' , ((theCode occurrencesOfRegex: right) <= 1) asString).
-	Transcript show: ('3 - ' , ((theCode occurrencesOfRegex: down) <= 1) asString).
-	
 	^ ((bool1 and: bool2) and: bool3)

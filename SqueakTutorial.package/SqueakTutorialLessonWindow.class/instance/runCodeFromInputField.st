@@ -3,12 +3,12 @@ runCodeFromInputField
 	
 	| codeString |
 	
-	codeString := self codeInputField text.
+	codeString := self codeInputField text asString.
 	self currentLesson resetLessonDisplay.
 	
 	[
 		(Compiler evaluate: codeString for: self currentLesson logged: false).
-		((self currentLesson isFinished) and: (self currentLesson rightCodeUsed: codeString asString)) ifTrue: [self enableFinishButton]. 
+		((self currentLesson isFinished) and: (self currentLesson rightCodeUsed: codeString)) ifTrue: [self enableFinishButton]. 
 	] fork.
 
 	"Transcript show: ('-1 - ' , (self currentLesson isFinished)).
