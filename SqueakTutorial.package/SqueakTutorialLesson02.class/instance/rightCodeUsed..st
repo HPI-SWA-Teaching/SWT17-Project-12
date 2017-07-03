@@ -1,9 +1,18 @@
 as yet unclassified
 rightCodeUsed: theCode
-
-	| loop right down |
+	
+	| loop right down bool1 bool2 bool3 |
 	
 	loop := 'timesRepeat'.
 	right := 'moveRight'.
 	down := 'moveDown'.
-	(((theCode occurrencesOfRegex: loop) > 0) and: (((theCode occurrencesOfRegex: right) <= 1) and: ((theCode occurrencesOfRegex: down) <= 1))) ifTrue: [ ^true ].
+	
+	bool1 := (theCode occurrencesOfRegex: loop) > 0.
+	bool2 := (theCode occurrencesOfRegex: right) <= 1.
+	bool3 := (theCode occurrencesOfRegex: down) <= 1.
+	
+	Transcript show: ('1 - ' , ((theCode occurrencesOfRegex: loop) > 0) asString).
+	Transcript show: ('2 - ' , ((theCode occurrencesOfRegex: right) <= 1) asString).
+	Transcript show: ('3 - ' , ((theCode occurrencesOfRegex: down) <= 1) asString).
+	
+	^ ((bool1 and: bool2) and: bool3)
