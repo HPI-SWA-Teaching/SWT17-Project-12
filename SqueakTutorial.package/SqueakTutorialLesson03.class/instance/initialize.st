@@ -6,7 +6,21 @@ initialize
 	self mouse: SqueakTutorialLesson01_Mouse new.
 	self mouse lesson: self.
 	self goal: SqueakTutorialGoal new.
-	self obstaclePositions: (#(2@3, 2@1, 2@2) asOrderedCollection).
+	"self obstaclePositions: (OrderedCollection newFrom: #((2@3) (2@1) (2@2)))."
+	"self obstaclePositions: #(
+		#(0 0) #(1 0) #(2 0)
+		#(0 1) #(2 1)
+		#(0 2) #(2 2)
+		#(0 3) #(2 3)
+		#(0 4) #(2 4)
+		#(0 5) #(2 5)
+		#(0 6) #(2 6) #(3 6) # (4 6) #(5 6) # (6 6) #(7 6) # (8 6)
+		#(0 7) #(8 7)
+		#(0 8) #(1 8) # (2 8) #(3 8) # (4 8) #(5 8) # (6 8) #(7 8) # (8 8)
+	)."
+	"self createObstaclePositionsFromPattern: '###-------','#-#-------','#-#-------','#-#-------','#-#-------','#-#-------','#-#######-','#-------#-','#########-','----------'."
+	self createObstaclePositionsFromPattern: '###-------#-#-------#-#-------#-#-------#-#-------#-#-------#-#######-#-------#-#########-----------'.
+	"self obstaclePositions: (#(0 1 2) asOrderedCollection)."
 	
 	self gridX: 1.
 	self gridY: 1.

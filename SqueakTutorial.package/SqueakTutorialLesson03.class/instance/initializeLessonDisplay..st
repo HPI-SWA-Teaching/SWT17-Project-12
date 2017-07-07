@@ -15,8 +15,8 @@ initializeLessonDisplay: aSqueakTutorial
 	
 	self goal morph: ImageMorph new.
 	self goal morph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'goal.png') fullName) scaledToSize: cellExtents@cellExtents).
-	goalX := (self grid cellAmount - 5) atRandom + 4.
-	goalY := (self grid cellAmount - 5) atRandom + 4.
+	goalX := 7.
+	goalY := 7.
 	(self grid cellAt: goalX@goalY) addMorph: self goal morph.
 	self goal gridX: goalX.
 	self goal gridY: goalY.

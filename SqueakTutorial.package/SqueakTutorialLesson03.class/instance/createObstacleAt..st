@@ -8,5 +8,5 @@ createObstacleAt: aPosition
 	(self grid cellAt: aPosition) isBlocked: True.
 	
 	morph:= ImageMorph new.
-	morph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'goal.png') fullName) scaledToSize: cellExtents@cellExtents).
+	morph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'wall.png') fullName) scaledToSize: cellExtents@cellExtents).
 	(self grid cellAt: aPosition) addMorph: morph.
