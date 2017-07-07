@@ -20,3 +20,5 @@ initializeLessonDisplay: aSqueakTutorial
 	(self grid cellAt: goalX@goalY) addMorph: self goal morph.
 	self goal gridX: goalX.
 	self goal gridY: goalY.
+	
+	self createObstacles.

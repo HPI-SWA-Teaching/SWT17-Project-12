@@ -6,6 +6,7 @@ initialize
 	self mouse: SqueakTutorialLesson01_Mouse new.
 	self mouse lesson: self.
 	self goal: SqueakTutorialGoal new.
+	self obstaclePositions: (#(2@3, 2@1, 2@2) asOrderedCollection).
 	
 	self gridX: 1.
 	self gridY: 1.

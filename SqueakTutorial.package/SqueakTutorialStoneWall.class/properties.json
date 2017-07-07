@@ -6,14 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"mouse",
-		"grid",
-		"gridX",
-		"gridY",
-		"goal",
-		"obstaclePositions" ],
-	"name" : "SqueakTutorialLesson03",
+		 ],
+	"name" : "SqueakTutorialStoneWall",
 	"pools" : [
 		 ],
-	"super" : "SqueakTutorialLesson",
+	"super" : "SqueakTutorialVisibleObject",
 	"type" : "normal" }
