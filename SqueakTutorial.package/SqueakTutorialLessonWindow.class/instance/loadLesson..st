@@ -21,3 +21,5 @@ loadLesson: aSqueakTutorialLesson
 	"(self grid cellAt: 1@1) addMorph: aSqueakTutorialLesson mouse."
 	
 	"(self listClasses isNil) ifFalse: [self listClasses updateList]"
+	
+	(self currentLesson inspectWindow) ifTrue: [self initializeInspectWindow].

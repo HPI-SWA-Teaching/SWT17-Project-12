@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakTutorial",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"listObjects",
+		"listAttributes" ],
+	"name" : "SqueakTutorialInspectWindow",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
