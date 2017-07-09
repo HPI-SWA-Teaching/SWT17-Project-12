@@ -16,6 +16,13 @@ initializeInspectWindow
 	listAttributes vScrollBarPolicy: #always.
 	listAttributes := (ToolBuilder default buildPluggableList: listAttributes).
 	
+	listObjects 	on: self
+					list: #listInspectWindowObjects
+					selected: #listInspectWindowStartIndex
+					changeSelected: #listInspectWindowIndexSelected:
+					menu: #empty
+					keystroke: #empty.
+	
 	inspectWindow addMorph: listObjects
 		fullFrame: (LayoutFrame
 			fractions: (0@0 corner: 1@1)

@@ -1,4 +1,4 @@
 as yet unclassified
 inspectWindow
 
-	^ false.
+	^ true.
