@@ -2,12 +2,12 @@
 	"class" : {
 		"lessonName:lessonDescription:" : "FM 5/14/2017 16:26" },
 	"instance" : {
-		"addAttributeToInspect:withValue:" : "FM 7/16/2017 14:00",
 		"addMessageToClass:withName:withInfo:" : "FM 6/26/2017 14:58",
+		"addObjectToInspect:withAttributeName:withValue:" : "FM 7/16/2017 16:27",
 		"classInfos" : "FM 5/20/2017 16:54",
 		"classInfos:" : "FM 5/20/2017 16:49",
 		"execute:" : "FM 5/31/2017 15:38",
-		"initialize" : "FM 7/16/2017 14:31",
+		"initialize" : "FM 7/16/2017 16:32",
 		"initializeLessonDisplay:" : "FM 5/31/2017 13:24",
 		"inspectAttributes" : "FM 7/16/2017 14:01",
 		"inspectAttributes:" : "FM 7/16/2017 14:01",
