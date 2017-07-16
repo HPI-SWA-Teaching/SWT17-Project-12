@@ -9,6 +9,7 @@
 		"lessonName",
 		"lessonDescription",
 		"classInfos",
+		"inspectAttributes",
 		"squeakTutorial",
 		"lessonWindow" ],
 	"name" : "SqueakTutorialLesson",

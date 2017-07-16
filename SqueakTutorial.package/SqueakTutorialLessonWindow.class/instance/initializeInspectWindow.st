@@ -1,9 +1,9 @@
 initialization
 initializeInspectWindow
 
-	| inspectWindow listObjects listAttributes |
+	| inspectWindow buttonInspect |
 	
-	inspectWindow := PluggablePanelSpec new.
+	"inspectWindow := PluggablePanelSpec new.
 	inspectWindow := (ToolBuilder default build: inspectWindow).
 					
 	listObjects := PluggableListSpec new.
@@ -31,9 +31,23 @@ initializeInspectWindow
 	inspectWindow addMorph: listAttributes
 		fullFrame: (LayoutFrame
 			fractions: (0.5@0 corner: 1@1)
+			offsets: (0@0 corner: 0@0))."
+			
+	inspectWindow := PluggablePanelSpec new.
+	inspectWindow := (ToolBuilder default build: inspectWindow).
+	
+	buttonInspect := SimpleButtonMorph new.
+	buttonInspect label: 'INSPECT'.
+	buttonInspect target: self.
+	buttonInspect actionSelector: #openInspectWindow.
+	"LATER -> buttonInspect arguments: "
+	
+	inspectWindow addMorph: buttonInspect
+		fullFrame: (LayoutFrame
+			fractions: (0@0 corner: 1@1)
 			offsets: (0@0 corner: 0@0)).
 			
 	self addMorph: inspectWindow
 		fullFrame: (LayoutFrame
 			fractions: (0@1 corner: 0.5@1)
-			offsets: (0@200 negated corner: 0@0)).
+			offsets: (0@100 negated corner: 0@0)).

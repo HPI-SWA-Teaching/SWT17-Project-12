@@ -24,7 +24,7 @@
 		"initialize" : "UA 7/9/2017 15:25",
 		"initializeButtons" : "FM 6/25/2017 22:57",
 		"initializeEditGUI" : "UA 6/17/2017 23:14",
-		"initializeInspectWindow" : "FM 7/9/2017 22:51",
+		"initializeInspectWindow" : "FM 7/16/2017 13:18",
 		"initializeLessonGUI" : "UA 6/17/2017 23:15",
 		"lessonDescription" : "FM 5/14/2017 15:42",
 		"lessonDescription:" : "FM 5/14/2017 15:42",
@@ -37,5 +37,6 @@
 		"messageDescription" : "FM 6/16/2017 16:19",
 		"messageDescription:" : "FM 6/16/2017 16:19",
 		"openInfoWindow" : "FM 6/16/2017 15:48",
+		"openInspectWindow" : "FM 7/16/2017 14:26",
 		"resetLesson" : "J.W. 6/26/2017 13:07",
 		"runCodeFromInputField" : "FM 7/3/2017 15:00" } }

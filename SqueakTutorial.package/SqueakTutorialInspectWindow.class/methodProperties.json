@@ -1,8 +1,16 @@
 {
 	"class" : {
-		 },
+		"open:withAttributes:fromLesson:" : "FM 7/16/2017 14:36" },
 	"instance" : {
+		"attributesDict" : "FM 7/16/2017 14:22",
+		"attributesDict:" : "FM 7/16/2017 14:22",
+		"codeInputField" : "FM 7/16/2017 13:28",
+		"codeInputField:" : "FM 7/16/2017 13:28",
+		"empty" : "FM 7/16/2017 13:51",
 		"listAttributes" : "UA 7/9/2017 15:13",
 		"listAttributes:" : "UA 7/9/2017 15:13",
-		"listObjects" : "UA 7/9/2017 15:13",
-		"listObjects:" : "UA 7/9/2017 15:13" } }
+		"listAttributesContent" : "FM 7/16/2017 14:24",
+		"listAttributesIndexSelected:" : "FM 7/16/2017 14:35",
+		"listAttributesStartIndex" : "FM 7/16/2017 13:50",
+		"outputField" : "FM 7/16/2017 13:28",
+		"outputField:" : "FM 7/16/2017 13:28" } }
