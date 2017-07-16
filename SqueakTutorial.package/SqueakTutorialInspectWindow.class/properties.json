@@ -9,7 +9,8 @@
 		"listAttributes",
 		"outputField",
 		"codeInputField",
-		"attributesDict" ],
+		"attributesDict",
+		"lesson" ],
 	"name" : "SqueakTutorialInspectWindow",
 	"pools" : [
 		 ],

@@ -5,6 +5,7 @@ open: anObject withAttributes: anAttributesDictionary fromLesson: aLesson
 	
 	inspectWindow := self new.
 	inspectWindow attributesDict: anAttributesDictionary.
+	inspectWindow lesson: aLesson.
 	
 	windowSpec := PluggableWindowSpec new.
 	windowSpec extent: 400@400.
