@@ -7,4 +7,5 @@ lessons
 	lessonArray add: SqueakTutorialLesson02 new.
 	lessonArray add: SqueakTutorialLessonParameters new.
 	lessonArray add: SqueakTutorialLesson03 new.
+	lessonArray add: SqueakTutorialLesson_Lists new.
 	^ lessonArray
