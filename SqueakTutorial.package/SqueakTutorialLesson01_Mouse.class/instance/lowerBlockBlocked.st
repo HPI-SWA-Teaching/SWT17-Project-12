@@ -1,5 +1,5 @@
 as yet unclassified
-downsideBlocked
+lowerBlockBlocked
 
 	| x y |
 	

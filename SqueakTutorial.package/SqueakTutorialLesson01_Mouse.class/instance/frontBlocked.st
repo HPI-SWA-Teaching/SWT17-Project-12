@@ -2,16 +2,16 @@ as yet unclassified
 frontBlocked
 
 	(self direction = #up) ifTrue: [
-		^(self upsideBlocked).
+		^(self upperBlockBlocked).
 	] ifFalse: [
 		(self direction = #down) ifTrue: [
-			^(self downsideBlocked).
+			^(self lowerBlockBlocked).
 		] ifFalse: [
 			(self direction = #left) ifTrue: [
-				^(self leftsideBlocked).
+				^(self leftBlockBlocked).
 			] ifFalse: [
 				(self direction = #right) ifTrue: [
-					^(self rightsideBlocked).
+					^(self rightBlockBlocked).
 				]
 			] 
 		]

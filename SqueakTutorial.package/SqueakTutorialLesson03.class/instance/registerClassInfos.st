@@ -18,20 +18,20 @@ registerClassInfos
 		withInfo: ('"moveUp"' , Character cr , Character cr , '"Moves the mouse one cell to top."').
 		
 	self addMessageToClass: 'mouse'
-		withName: 'upsideBlocked'
-		withInfo: ('"upsideBlocked"' , Character cr , Character cr , '"Answers, if the upside of the mouse is blocked (as Boolean)."').
+		withName: 'upperBlockFree'
+		withInfo: ('"upperBlockFree"' , Character cr , Character cr , '"Answers, if the upper block of the mouse is free (as Boolean)."').
 		
 	self addMessageToClass: 'mouse'
-		withName: 'downsideBlocked'
-		withInfo: ('"downsideBlocked"' , Character cr , Character cr , '"Answers, if the downsideBlocked of the mouse is blocked (as Boolean)."').
+		withName: 'lowerBlockFree'
+		withInfo: ('"lowerBlockFree"' , Character cr , Character cr , '"Answers, if the lower block of the mouse is blocked (as Boolean)."').
 		
 	self addMessageToClass: 'mouse'
-		withName: 'leftsideBlocked'
-		withInfo: ('"leftsideBlocked"' , Character cr , Character cr , '"Answers, if the left side of the mouse is blocked (as Boolean)."').
+		withName: 'leftBlockFree'
+		withInfo: ('"leftBlockFree"' , Character cr , Character cr , '"Answers, if the left block of the mouse is blocked (as Boolean)."').
 		
 	self addMessageToClass: 'mouse'
-		withName: 'rightsideBlocked'
-		withInfo: ('"rightsideBlocked"' , Character cr , Character cr , '"Answers, if the right side of the mouse is blocked (as Boolean)."').
+		withName: 'rightBlockFree'
+		withInfo: ('"rightBlockFree"' , Character cr , Character cr , '"Answers, if the right block of the mouse is blocked (as Boolean)."').
 		
 	self addMessageToClass: 'Boolean'
 		withName: 'whileTrue (Loop)'
