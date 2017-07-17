@@ -18,9 +18,21 @@ registerClassInfos
 		withInfo: ('"moveUp"' , Character cr , Character cr , '"Moves the mouse one cell to top."').
 		
 	self addMessageToClass: 'mouse'
-		withName: 'frontBlocked'
-		withInfo: ('"frontBlocked"' , Character cr , Character cr , '"Answers, if the front of the mouse is blocked (as Boolean)."').
+		withName: 'upsideBlocked'
+		withInfo: ('"upsideBlocked"' , Character cr , Character cr , '"Answers, if the upside of the mouse is blocked (as Boolean)."').
+		
+	self addMessageToClass: 'mouse'
+		withName: 'downsideBlocked'
+		withInfo: ('"downsideBlocked"' , Character cr , Character cr , '"Answers, if the downsideBlocked of the mouse is blocked (as Boolean)."').
+		
+	self addMessageToClass: 'mouse'
+		withName: 'leftsideBlocked'
+		withInfo: ('"leftsideBlocked"' , Character cr , Character cr , '"Answers, if the left side of the mouse is blocked (as Boolean)."').
+		
+	self addMessageToClass: 'mouse'
+		withName: 'rightsideBlocked'
+		withInfo: ('"rightsideBlocked"' , Character cr , Character cr , '"Answers, if the right side of the mouse is blocked (as Boolean)."').
 		
 	self addMessageToClass: 'Boolean'
 		withName: 'whileTrue (Loop)'
-		withInfo: ('" (Boolean) whileTrue: [ ***Instruction to repeat*** ]"' , Character cr , Character cr , '"Repeats the given instruction continously as long as the Boolean is True."').
+		withInfo: ('" [aBoolean] whileTrue: [ ***Instruction to repeat*** ]"' , Character cr , Character cr , '"Repeats the given instruction continously as long as the Boolean is True."').
