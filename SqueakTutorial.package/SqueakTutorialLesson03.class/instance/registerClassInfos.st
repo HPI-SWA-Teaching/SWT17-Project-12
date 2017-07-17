@@ -17,6 +17,10 @@ registerClassInfos
 		withName: 'moveUp'
 		withInfo: ('"moveUp"' , Character cr , Character cr , '"Moves the mouse one cell to top."').
 		
-	self addMessageToClass: 'Integer'
-		withName: 'timesRepeat (Loop)'
-		withInfo: ('" ***x*** timesRepeat: [ ***Instruction to repeat*** ]"' , Character cr , Character cr , '"Repeats the Instruction given x times."').
+	self addMessageToClass: 'mouse'
+		withName: 'frontBlocked'
+		withInfo: ('"frontBlocked"' , Character cr , Character cr , '"Answers, if the front of the mouse is blocked (as Boolean)."').
+		
+	self addMessageToClass: 'Boolean'
+		withName: 'whileTrue (Loop)'
+		withInfo: ('" (Boolean) whileTrue: [ ***Instruction to repeat*** ]"' , Character cr , Character cr , '"Repeats the given instruction continously as long as the Boolean is True."').

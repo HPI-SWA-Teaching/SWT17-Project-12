@@ -7,7 +7,10 @@
 		"color:" : "J.W. 6/25/2017 21:09",
 		"direction" : "j.w. 6/12/2017 11:40",
 		"direction:" : "j.w. 6/12/2017 11:41",
+		"downsideBlocked" : "j.w. 7/17/2017 12:41",
 		"eatCheese" : "j.w. 6/28/2017 13:42",
+		"frontBlocked" : "j.w. 7/17/2017 12:43",
+		"leftsideBlocked" : "j.w. 7/17/2017 12:39",
 		"lesson" : "FM 6/17/2017 15:56",
 		"lesson:" : "FM 6/17/2017 15:56",
 		"mouseMorph" : "FM 6/3/2017 15:22",
@@ -22,4 +25,6 @@
 		"moveToGoal" : "j.w. 6/28/2017 13:47",
 		"moveUp" : "J.W. 7/7/2017 16:34",
 		"moveUpByAmount:" : "j.w. 6/28/2017 13:54",
-		"rotate:" : "J.W. 6/26/2017 11:30" } }
+		"rightsideBlocked" : "j.w. 7/17/2017 12:50",
+		"rotate:" : "J.W. 6/26/2017 11:30",
+		"upsideBlocked" : "j.w. 7/17/2017 12:39" } }

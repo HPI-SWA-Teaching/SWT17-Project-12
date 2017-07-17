@@ -9,10 +9,8 @@ createObstaclePositionsFromPattern: aPattern
 	i := 1.
 	[i <= 100.] whileTrue: [
 		(((aPattern at: i) asCharacter) == ('#' asCharacter)) ifTrue: [
-			Transcript show: (aPattern at: i).
 			x := (i - 1) \\ 10.
 			y := (i - 1) // 10.
-			Transcript show: x.
 			position := OrderedCollection new.
 			position add: x.
 			position add: y.
