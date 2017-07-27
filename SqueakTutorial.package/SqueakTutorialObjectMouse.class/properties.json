@@ -10,8 +10,8 @@
 		"mouseMorph",
 		"direction",
 		"color" ],
-	"name" : "SqueakTutorialLessonObjectMouse",
+	"name" : "SqueakTutorialObjectMouse",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SqueakTutorialObject",
 	"type" : "normal" }

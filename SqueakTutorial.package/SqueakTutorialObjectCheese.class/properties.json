@@ -1,14 +1,16 @@
 {
 	"category" : "SqueakTutorial",
 	"classinstvars" : [
-		"lastLessonIndex" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "SqueakTutorialLessonManager",
+		"cheeseMorph",
+		"gridX",
+		"gridY" ],
+	"name" : "SqueakTutorialObjectCheese",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SqueakTutorialObject",
 	"type" : "normal" }

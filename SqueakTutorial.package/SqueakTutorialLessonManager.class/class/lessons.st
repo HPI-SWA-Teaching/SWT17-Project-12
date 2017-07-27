@@ -3,9 +3,9 @@ lessons
 
 	| lessonArray |
 	lessonArray := OrderedCollection new.
-	lessonArray add: SqueakTutorialLesson01_MouseMove new.
-	lessonArray add: SqueakTutorialLesson02 new.
+	lessonArray add: SqueakTutorialLessonMouseMove new.
+	lessonArray add: SqueakTutorialLessonLoops new.
 	lessonArray add: SqueakTutorialLessonParameters new.
-	lessonArray add: SqueakTutorialLesson03 new.
-	lessonArray add: SqueakTutorialLesson_Lists new.
+	lessonArray add: SqueakTutorialLessonMoreLoops new.
+	lessonArray add: SqueakTutorialLessonLists new.
 	^ lessonArray

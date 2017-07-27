@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 	
-	self mouse: SqueakTutorialLessonObjectMouse new.
+	self mouse: SqueakTutorialObjectMouse new.
 	self mouse lesson: self.
 	self goal: SqueakTutorialGoal new.
 	
