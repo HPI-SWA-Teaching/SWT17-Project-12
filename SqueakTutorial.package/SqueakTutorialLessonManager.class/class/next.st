@@ -1,4 +1,6 @@
 as yet unclassified
 next
 	
-	^ self lessons at: 2.
+	self lastLessonIndex: self lastLessonIndex + 1.
+	
+	^ self lessons at: lastLessonIndex.
