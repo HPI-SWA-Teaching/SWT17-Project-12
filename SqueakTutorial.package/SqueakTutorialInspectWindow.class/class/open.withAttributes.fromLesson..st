@@ -1,7 +1,7 @@
 as yet unclassified
 open: anObject withAttributes: anAttributesDictionary fromLesson: aLesson
 
-	| windowSpec inspectWindow |
+	| windowSpec inspectWindow testModel |
 	
 	inspectWindow := self new.
 	inspectWindow attributesDict: anAttributesDictionary.
@@ -42,8 +42,12 @@ open: anObject withAttributes: anAttributesDictionary fromLesson: aLesson
 			fractions: (0.5@0 corner: 1@1)
 			offsets: (0@0 corner: 0@100 negated)).
 
+	testModel := SqueakTutorialInspectWindowCodeModel new.
+	testModel doItReceiver: anObject.
+	
+
 	inspectWindow codeInputField: PluggableCodePaneSpec new.
-	inspectWindow codeInputField model: Model new;
+	inspectWindow codeInputField model: testModel;
 									setText: ''.
 	inspectWindow codeInputField: (ToolBuilder default buildPluggableCodePane: inspectWindow codeInputField).
 	

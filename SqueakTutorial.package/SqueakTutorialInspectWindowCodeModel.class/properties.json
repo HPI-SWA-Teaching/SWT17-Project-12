@@ -1,0 +1,15 @@
+{
+	"category" : "SqueakTutorial",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"doItReceiver",
+		"doItContext" ],
+	"name" : "SqueakTutorialInspectWindowCodeModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
