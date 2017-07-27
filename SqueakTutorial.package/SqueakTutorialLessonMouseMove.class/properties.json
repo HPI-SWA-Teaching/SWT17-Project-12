@@ -11,7 +11,7 @@
 		"grid",
 		"gridX",
 		"gridY" ],
-	"name" : "SqueakTutorialLesson01_MouseMove",
+	"name" : "SqueakTutorialLessonMouseMove",
 	"pools" : [
 		 ],
 	"super" : "SqueakTutorialLesson",

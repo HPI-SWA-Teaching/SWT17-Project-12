@@ -11,7 +11,7 @@
 		"gridX",
 		"gridY",
 		"goal" ],
-	"name" : "SqueakTutorialLesson02",
+	"name" : "SqueakTutorialLessonLoops",
 	"pools" : [
 		 ],
 	"super" : "SqueakTutorialLesson",

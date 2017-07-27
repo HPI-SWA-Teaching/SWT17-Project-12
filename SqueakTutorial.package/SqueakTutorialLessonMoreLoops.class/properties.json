@@ -6,11 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"mouse",
 		"grid",
 		"gridX",
 		"gridY",
-		"stoneList" ],
-	"name" : "SqueakTutorialLesson_Lists",
+		"goal",
+		"obstaclePositions" ],
+	"name" : "SqueakTutorialLessonMoreLoops",
 	"pools" : [
 		 ],
 	"super" : "SqueakTutorialLesson",

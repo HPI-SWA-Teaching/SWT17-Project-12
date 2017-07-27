@@ -6,10 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cheeseMorph",
-		"gridX",
-		"gridY" ],
-	"name" : "SqueakTutorialLesson01_Cheese",
+		"lesson",
+		"mouseMorph",
+		"direction",
+		"color" ],
+	"name" : "SqueakTutorialLessonObjectMouse",
 	"pools" : [
 		 ],
 	"super" : "Object",

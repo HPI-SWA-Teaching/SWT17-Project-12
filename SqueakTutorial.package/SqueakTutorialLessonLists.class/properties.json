@@ -6,12 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"lesson",
-		"mouseMorph",
-		"direction",
-		"color" ],
-	"name" : "SqueakTutorialLesson01_Mouse",
+		"grid",
+		"gridX",
+		"gridY",
+		"stoneList" ],
+	"name" : "SqueakTutorialLessonLists",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SqueakTutorialLesson",
 	"type" : "normal" }

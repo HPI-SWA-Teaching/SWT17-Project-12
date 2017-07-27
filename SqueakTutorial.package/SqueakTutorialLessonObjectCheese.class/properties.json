@@ -6,14 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"mouse",
-		"grid",
+		"cheeseMorph",
 		"gridX",
-		"gridY",
-		"goal",
-		"obstaclePositions" ],
-	"name" : "SqueakTutorialLesson03",
+		"gridY" ],
+	"name" : "SqueakTutorialLessonObjectCheese",
 	"pools" : [
 		 ],
-	"super" : "SqueakTutorialLesson",
+	"super" : "Object",
 	"type" : "normal" }
