@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"lessonName",
-		"lessonDescription",
-		"classInfos",
-		"inspectAttributes",
-		"squeakTutorial",
-		"lessonWindow" ],
-	"name" : "SqueakTutorialLesson",
+		"doItReceiver",
+		"doItContext" ],
+	"name" : "SqueakTutorialInspectWindowCodeModel",
 	"pools" : [
 		 ],
 	"super" : "Object",

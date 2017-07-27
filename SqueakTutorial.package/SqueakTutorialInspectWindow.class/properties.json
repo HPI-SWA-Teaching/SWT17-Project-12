@@ -6,8 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"listObjects",
-		"listAttributes" ],
+		"listAttributes",
+		"outputField",
+		"codeInputField",
+		"attributesDict",
+		"lesson" ],
 	"name" : "SqueakTutorialInspectWindow",
 	"pools" : [
 		 ],

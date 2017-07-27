@@ -51,6 +51,7 @@ open: aClassInfoDictionary
 	infoWindow messageDescription setText: ''.
 	
 	infoWindow messageDescription: (ToolBuilder default buildPluggableCodePane: infoWindow messageDescription).
+	infoWindow messageDescription classNamesContainingIt.
 	
 	windowSpec
 		addMorph: infoWindow messageDescription
