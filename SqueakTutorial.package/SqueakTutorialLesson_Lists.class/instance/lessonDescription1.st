@@ -1,0 +1,3 @@
+accessing
+lessonDescription1
+	^ lessonDescription
