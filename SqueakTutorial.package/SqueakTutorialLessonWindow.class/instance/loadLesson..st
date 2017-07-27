@@ -22,4 +22,4 @@ loadLesson: aSqueakTutorialLesson
 	
 	"(self listClasses isNil) ifFalse: [self listClasses updateList]"
 	
-	(self currentLesson inspectWindow) ifTrue: [self initializeInspectWindow].
+	(self currentLesson enableInspectWindow) ifTrue: [self initializeInspectWindow].

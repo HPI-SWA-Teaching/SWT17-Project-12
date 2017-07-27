@@ -4,6 +4,7 @@
 	"instance" : {
 		"classInfos1" : "UA 7/17/2017 01:47",
 		"classInfos1:" : "UA 7/17/2017 01:47",
+		"enableInspectWindow" : "FM 7/27/2017 23:46",
 		"grid" : "UA 7/17/2017 01:47",
 		"grid:" : "UA 7/17/2017 01:47",
 		"gridX" : "UA 7/17/2017 01:47",
@@ -12,7 +13,6 @@
 		"gridY:" : "UA 7/17/2017 01:47",
 		"initialize" : "UA 7/17/2017 02:05",
 		"initializeLessonDisplay:" : "UA 7/17/2017 02:07",
-		"inspectWindow" : "UA 7/17/2017 01:47",
 		"isFinished" : "UA 7/17/2017 02:01",
 		"lessonDescription1" : "UA 7/17/2017 01:47",
 		"lessonDescription1:" : "UA 7/17/2017 01:47",
