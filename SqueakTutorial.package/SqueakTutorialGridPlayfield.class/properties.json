@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"mouse",
-		"grid",
-		"goal",
-		"obstaclePositions" ],
-	"name" : "SqueakTutorialLessonMoreLoops",
+		"grid" ],
+	"name" : "SqueakTutorialGridPlayfield",
 	"pools" : [
 		 ],
-	"super" : "SqueakTutorialLesson",
+	"super" : "Object",
 	"type" : "normal" }

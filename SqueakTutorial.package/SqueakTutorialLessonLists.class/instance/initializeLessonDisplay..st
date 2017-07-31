@@ -13,4 +13,4 @@ initializeLessonDisplay: aSqueakTutorial
 	
 	self stoneList at: 1 put: stone.
 	
-	(self grid cellAt: (self gridX)@(self gridY)) addMorph: stone.
+	"(self grid cellAt: (self gridX)@(self gridY)) addMorph: stone."

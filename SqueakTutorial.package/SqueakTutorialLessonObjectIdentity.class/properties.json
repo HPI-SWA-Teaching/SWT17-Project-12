@@ -7,8 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"grid",
-		"gridX",
-		"gridY",
 		"goal",
 		"platform",
 		"mouse",

@@ -1,4 +1,4 @@
 as yet unclassified
 isFinished
 
-	^((self gridX = self goal gridX) and: (self gridY = self goal gridY))
+	^((self mouse gridX = self goal gridX) and: (self mouse gridY = self goal gridY))

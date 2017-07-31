@@ -9,8 +9,7 @@
 		"mouse",
 		"goal",
 		"grid",
-		"gridX",
-		"gridY" ],
+		"playfield" ],
 	"name" : "SqueakTutorialLessonMouseMove",
 	"pools" : [
 		 ],

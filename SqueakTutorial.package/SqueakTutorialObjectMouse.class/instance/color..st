@@ -5,7 +5,7 @@ color: anColor
 	| cellExtents |
 	
 	((anColor = 'white') |  (anColor = 'grey')  | (anColor = 'black') ) ifTrue: [
-		cellExtents := (self lesson grid extent x) / (self lesson grid cellAmount).
+		cellExtents := (self playfield grid extent x) / (self playfield grid cellAmount).
 		color := anColor.
 		self mouseMorph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse_', self direction, '_', anColor,'.png') fullName) scaledToSize: cellExtents@cellExtents).
 	].

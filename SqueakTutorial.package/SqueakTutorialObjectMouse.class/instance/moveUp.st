@@ -3,11 +3,11 @@ moveUp
 	
 	self rotate: #up.
 	
-	(((self lesson grid cellAt: ((self lesson gridX)@(self lesson gridY - 1))) isBlockedCell: self color)) ifFalse: [
-		(self lesson grid cellAt: ((self lesson gridX)@(self lesson gridY))) removeAllMorphs.
-		self lesson gridY: self lesson gridY - 1.
+	(((self playfield grid cellAt: ((self gridX)@(self gridY - 1))) isBlockedCell: self color)) ifFalse: [
+		(self playfield grid cellAt: ((self gridX)@(self gridY))) removeAllMorphs.
+		self gridY: self gridY - 1.
 		self checkBounds.
-		(self lesson grid cellAt: ((self lesson gridX)@(self lesson gridY))) addMorph: self mouseMorph.
+		(self playfield grid cellAt: ((self gridX)@(self gridY))) addMorph: self mouseMorph.
 	].
 	
 	(Delay forMilliseconds: 500) wait.
