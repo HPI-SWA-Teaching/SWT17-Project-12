@@ -22,4 +22,5 @@ initializeLessonDisplay: aSqueakTutorial
 	self goal gridY: goalY.
 	
 	self createObstacles.
+	self createGates.
 	self registerInspectWindowObjects.

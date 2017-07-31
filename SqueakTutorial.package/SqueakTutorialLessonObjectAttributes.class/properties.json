@@ -11,7 +11,8 @@
 		"gridX",
 		"gridY",
 		"goal",
-		"obstaclePositions" ],
+		"obstaclePositions",
+		"gatePositions" ],
 	"name" : "SqueakTutorialLessonObjectAttributes",
 	"pools" : [
 		 ],
