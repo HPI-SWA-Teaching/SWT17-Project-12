@@ -2,6 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "j.w. 6/28/2017 14:49",
-		"isBlocked" : "J.W. 7/7/2017 14:09",
-		"isBlocked:" : "J.W. 7/7/2017 14:09" } }
+		"gateColor" : "FM 7/31/2017 16:00",
+		"gateColor:" : "FM 7/31/2017 16:00",
+		"initialize" : "FM 7/31/2017 16:04",
+		"isBlocked" : "FM 7/31/2017 16:02",
+		"isBlocked:" : "FM 7/31/2017 16:22",
+		"isBlockedCell:" : "FM 7/31/2017 16:24",
+		"isGate" : "FM 7/31/2017 16:00",
+		"isGate:" : "FM 7/31/2017 16:00" } }
