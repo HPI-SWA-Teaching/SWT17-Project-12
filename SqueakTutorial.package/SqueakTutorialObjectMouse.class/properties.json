@@ -6,10 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"lesson",
 		"mouseMorph",
 		"direction",
-		"color" ],
+		"color",
+		"gridX",
+		"gridY",
+		"playfield" ],
 	"name" : "SqueakTutorialObjectMouse",
 	"pools" : [
 		 ],

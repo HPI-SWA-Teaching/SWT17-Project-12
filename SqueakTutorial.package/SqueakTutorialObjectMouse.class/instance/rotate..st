@@ -6,7 +6,7 @@ rotate: newDirection
 	currentDirection := self direction.
 	
 	(newDirection = self direction) ifFalse: [
-		cellExtents := (self lesson grid extent x) / (self lesson grid cellAmount).
+		cellExtents := (self playfield grid extent x) / (self playfield grid cellAmount).
 		(newDirection = #up) ifTrue: [
 			self mouseMorph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse_up_', self color ,'.png') fullName) scaledToSize: cellExtents@cellExtents).
 		].

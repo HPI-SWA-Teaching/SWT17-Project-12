@@ -12,7 +12,7 @@ initializeLessonDisplay: aSqueakTutorial
 	"self mouse mouseMorph extent: 5@5. -> scheint keinen Effekt zu haben..."
 	self mouse direction: #down.
 	self mouse color: 'grey'.
-	(self grid cellAt: (self gridX)@(self gridY)) addMorph: self mouse mouseMorph.
+	(self grid cellAt: (self mouse gridX)@(self mouse gridY)) addMorph: self mouse mouseMorph.
 	
 	self platform morph: ImageMorph new.
 	self platform morph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'platform.jpg') fullName) scaledToSize: cellExtents@cellExtents).
