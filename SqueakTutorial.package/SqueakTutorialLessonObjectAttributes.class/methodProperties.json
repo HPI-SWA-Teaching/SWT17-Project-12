@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createGateAt:" : "FM 7/31/2017 16:30",
+		"createGateAt:" : "FM 7/31/2017 21:31",
 		"createGates" : "FM 7/31/2017 15:55",
-		"createObstacleAt:" : "FM 7/31/2017 16:38",
+		"createObstacleAt:" : "FM 7/31/2017 21:30",
 		"createObstaclePositionsFromPattern:" : "FM 7/31/2017 15:54",
 		"createObstacles" : "FM 7/31/2017 15:23",
 		"enableInspectWindow" : "FM 7/31/2017 15:24",
@@ -14,8 +14,8 @@
 		"goal:" : "FM 7/31/2017 15:24",
 		"grid" : "FM 7/31/2017 15:24",
 		"grid:" : "FM 7/31/2017 15:24",
-		"initialize" : "FM 7/31/2017 16:40",
-		"initializeLessonDisplay:" : "FM 7/31/2017 15:55",
+		"initialize" : "FM 7/31/2017 21:27",
+		"initializeLessonDisplay:" : "FM 7/31/2017 21:28",
 		"isFinished" : "FM 7/31/2017 17:50",
 		"mouse" : "FM 7/31/2017 15:24",
 		"mouse:" : "FM 7/31/2017 15:24",
