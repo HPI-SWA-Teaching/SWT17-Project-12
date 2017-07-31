@@ -1,4 +1,10 @@
 as yet unclassified
 rightCodeUsed: theCode
 
-	^ true
+	| clone bool1 |
+	
+	clone := 'cloneMouse'.
+	
+	bool1 := (theCode occurrencesOfRegex: clone) > 0.
+	
+	^ bool1
