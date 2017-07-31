@@ -1,9 +1,19 @@
 initialization
 initializeLessonDisplay: aSqueakTutorial
 
-	| cellExtents goalX goalY |
+	| goalX goalY |
 
-	self grid: (SqueakTutorialGrid size: 10 onMorph: aSqueakTutorial).
+	self playfield: (SqueakTutorialGridPlayfield buildWithSize: 10 onMorph: aSqueakTutorial).
+	
+	self mouse: (self playfield addObjectOfType: #Mouse toPosition: 1@1).
+	goalX := (self playfield grid cellAmount - 5) atRandom + 4.
+	goalY := (self playfield grid cellAmount - 5) atRandom + 4.
+	self goal: (self playfield addObjectOfType: #Goal toPosition: goalX@goalY).
+	
+	
+	
+
+	"self grid: (SqueakTutorialGrid size: 10 onMorph: aSqueakTutorial).
 	aSqueakTutorial lessonDisplay addMorph: self grid.
 
 	cellExtents := (self grid extent x) / (self grid cellAmount).
@@ -19,4 +29,4 @@ initializeLessonDisplay: aSqueakTutorial
 	goalY := (self grid cellAmount - 5) atRandom + 4.
 	(self grid cellAt: goalX@goalY) addMorph: self goal morph.
 	self goal gridX: goalX.
-	self goal gridY: goalY.
+	self goal gridY: goalY."
