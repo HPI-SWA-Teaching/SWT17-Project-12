@@ -7,7 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"mouse",
-		"grid",
 		"goal",
 		"obstaclePositions" ],
 	"name" : "SqueakTutorialLessonMoreLoops",

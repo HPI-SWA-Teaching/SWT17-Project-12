@@ -7,8 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"mouse",
-		"goal",
-		"grid" ],
+		"goal" ],
 	"name" : "SqueakTutorialLessonMouseMove",
 	"pools" : [
 		 ],

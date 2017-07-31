@@ -12,10 +12,8 @@
 		"gatePositions:" : "FM 7/31/2017 15:54",
 		"goal" : "FM 7/31/2017 15:24",
 		"goal:" : "FM 7/31/2017 15:24",
-		"grid" : "FM 7/31/2017 15:24",
-		"grid:" : "FM 7/31/2017 15:24",
 		"initialize" : "FM 7/31/2017 21:27",
-		"initializeLessonDisplay:" : "FM 7/31/2017 21:28",
+		"initializeLessonDisplay:" : "UA 7/31/2017 23:06",
 		"isFinished" : "FM 7/31/2017 17:50",
 		"mouse" : "FM 7/31/2017 15:24",
 		"mouse:" : "FM 7/31/2017 15:24",
@@ -23,5 +21,5 @@
 		"obstaclePositions:" : "FM 7/31/2017 15:24",
 		"registerClassInfos" : "FM 7/31/2017 15:24",
 		"registerInspectWindowObjects" : "FM 7/31/2017 15:23",
-		"resetLessonDisplay" : "FM 7/31/2017 17:51",
+		"resetLessonDisplay" : "UA 7/31/2017 23:00",
 		"rightCodeUsed:" : "FM 7/31/2017 16:46" } }

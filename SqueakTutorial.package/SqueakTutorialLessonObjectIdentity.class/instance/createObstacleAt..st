@@ -3,10 +3,10 @@ createObstacleAt: aPosition
 	
 	| morph cellExtents |
 	
-	cellExtents := (self grid extent x) / (self grid cellAmount).
+	cellExtents := (self playfield grid extent x) / (self playfield grid cellAmount).
 	
-	(self grid cellAt: aPosition) isBlocked: True.
+	(self playfield grid cellAt: aPosition) isBlocked: True.
 	
 	morph:= ImageMorph new.
 	morph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'wall.png') fullName) scaledToSize: cellExtents@cellExtents).
-	(self grid cellAt: aPosition) addMorph: morph.
+	(self playfield grid cellAt: aPosition) addMorph: morph.
