@@ -1,0 +1,21 @@
+{
+	"category" : "SqueakTutorial",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"grid",
+		"gridX",
+		"gridY",
+		"goal",
+		"platform",
+		"mouse",
+		"mouse2",
+		"obstaclePositions" ],
+	"name" : "SqueakTutorialLessonObjectIdentity",
+	"pools" : [
+		 ],
+	"super" : "SqueakTutorialLesson",
+	"type" : "normal" }
