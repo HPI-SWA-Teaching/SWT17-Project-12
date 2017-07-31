@@ -1,8 +1,6 @@
 as yet unclassified
 addWallToPosition: aPosition
 
-	"NOT TESTED YET"
-
 	| cellExtent wall |
 	
 	cellExtent := (self grid extent x) / (self grid cellAmount).

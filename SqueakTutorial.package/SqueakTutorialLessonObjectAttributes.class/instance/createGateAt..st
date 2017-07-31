@@ -1,7 +1,9 @@
 as yet unclassified
 createGateAt: aPosition
 	
-	| morph gateColors gateColor cellExtents |
+	self playfield addObjectOfType: #Gate toPosition: aPosition.
+	
+	"| morph gateColors gateColor cellExtents |
 	
 	cellExtents := (self grid extent x) / (self grid cellAmount).
 	
@@ -15,4 +17,4 @@ createGateAt: aPosition
 	
 	morph := ImageMorph new.
 	morph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'gate_',gateColor,'.png') fullName) scaledToSize: cellExtents@cellExtents).
-	(self grid cellAt: aPosition) addMorph: morph.
+	(self grid cellAt: aPosition) addMorph: morph."

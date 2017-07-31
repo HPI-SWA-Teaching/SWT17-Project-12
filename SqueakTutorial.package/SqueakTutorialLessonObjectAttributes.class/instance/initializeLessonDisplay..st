@@ -1,9 +1,17 @@
 as yet unclassified
 initializeLessonDisplay: aSqueakTutorial
 
-	| cellExtents goalX goalY |
+	self playfield: (SqueakTutorialGridPlayfield buildWithSize: 10 onMorph: aSqueakTutorial).
+	
+	self mouse: (self playfield addObjectOfType: #Mouse toPosition: 1@1).
+	self goal: (self playfield addObjectOfType: #Goal toPosition: 7@7).
+	
+	self createObstacles.
+	self createGates.
+	"self registerInspectWindowObjects."
+	
 
-	self grid: (SqueakTutorialGrid size: 10 onMorph: aSqueakTutorial).
+	"self grid: (SqueakTutorialGrid size: 10 onMorph: aSqueakTutorial).
 	aSqueakTutorial lessonDisplay addMorph: self grid.
 
 	cellExtents := (self grid extent x) / (self grid cellAmount).
@@ -23,4 +31,4 @@ initializeLessonDisplay: aSqueakTutorial
 	
 	self createObstacles.
 	self createGates.
-	self registerInspectWindowObjects.
+	self registerInspectWindowObjects."
