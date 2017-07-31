@@ -8,8 +8,7 @@
 	"instvars" : [
 		"mouse",
 		"goal",
-		"grid",
-		"playfield" ],
+		"grid" ],
 	"name" : "SqueakTutorialLessonMouseMove",
 	"pools" : [
 		 ],

@@ -11,7 +11,8 @@
 		"classInfos",
 		"inspectAttributes",
 		"squeakTutorial",
-		"lessonWindow" ],
+		"lessonWindow",
+		"playfield" ],
 	"name" : "SqueakTutorialLesson",
 	"pools" : [
 		 ],

@@ -2,8 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"classInfos1" : "j.w. 6/28/2017 13:32",
-		"classInfos1:" : "j.w. 6/28/2017 13:32",
 		"enableInspectWindow" : "FM 7/27/2017 23:46",
 		"goal" : "j.w. 6/28/2017 13:32",
 		"goal:" : "j.w. 6/28/2017 13:32",
@@ -12,17 +10,9 @@
 		"initialize" : "FM 7/28/2017 00:30",
 		"initializeLessonDisplay:" : "J.W. 7/3/2017 11:34",
 		"isFinished" : "FM 7/31/2017 17:47",
-		"lessonDescription1" : "j.w. 6/28/2017 13:32",
-		"lessonDescription1:" : "j.w. 6/28/2017 13:32",
-		"lessonName1" : "j.w. 6/28/2017 13:32",
-		"lessonName1:" : "j.w. 6/28/2017 13:32",
-		"lessonWindow1" : "j.w. 6/28/2017 13:32",
-		"lessonWindow1:" : "j.w. 6/28/2017 13:32",
 		"mouse" : "FM 6/27/2017 21:59",
 		"mouse:" : "FM 6/27/2017 21:59",
 		"registerClassInfos" : "j.w. 7/17/2017 11:08",
 		"registerInspectWindowObjects" : "FM 7/16/2017 14:32",
 		"resetLessonDisplay" : "FM 7/31/2017 17:51",
-		"rightCodeUsed:" : "FM 7/3/2017 14:59",
-		"squeakTutorial1" : "j.w. 6/28/2017 13:32",
-		"squeakTutorial1:" : "j.w. 6/28/2017 13:32" } }
+		"rightCodeUsed:" : "FM 7/3/2017 14:59" } }
