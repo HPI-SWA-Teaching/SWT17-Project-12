@@ -9,8 +9,8 @@ initialize
 	
 	self createObstaclePositionsFromPattern: '###-------#-#-------#-#####---#--G--#---#####-#-------#G#-------#-###-----#---#-----#####-----------'.
 	
-	self gridX: 0.
-	self gridY: 0.
+	self gridX: 1.
+	self gridY: 1.
 	
 	self lessonName: 'Lesson 0? - Object Attributes'.
 	self lessonDescription: 'DESCRIPTION'.

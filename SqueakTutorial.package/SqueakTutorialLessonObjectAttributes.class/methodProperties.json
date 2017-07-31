@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createGateAt:" : "FM 7/31/2017 15:49",
+		"createGateAt:" : "FM 7/31/2017 16:30",
 		"createGates" : "FM 7/31/2017 15:55",
-		"createObstacleAt:" : "FM 7/31/2017 15:23",
+		"createObstacleAt:" : "FM 7/31/2017 16:38",
 		"createObstaclePositionsFromPattern:" : "FM 7/31/2017 15:54",
 		"createObstacles" : "FM 7/31/2017 15:23",
 		"enableInspectWindow" : "FM 7/31/2017 15:24",
@@ -18,13 +18,14 @@
 		"gridX:" : "FM 7/31/2017 15:24",
 		"gridY" : "FM 7/31/2017 15:24",
 		"gridY:" : "FM 7/31/2017 15:24",
-		"initialize" : "FM 7/31/2017 15:53",
+		"initialize" : "FM 7/31/2017 16:40",
 		"initializeLessonDisplay:" : "FM 7/31/2017 15:55",
-		"isFinished" : "FM 7/31/2017 15:23",
+		"isFinished" : "FM 7/31/2017 16:47",
 		"mouse" : "FM 7/31/2017 15:24",
 		"mouse:" : "FM 7/31/2017 15:24",
 		"obstaclePositions" : "FM 7/31/2017 15:24",
 		"obstaclePositions:" : "FM 7/31/2017 15:24",
 		"registerClassInfos" : "FM 7/31/2017 15:24",
 		"registerInspectWindowObjects" : "FM 7/31/2017 15:23",
-		"rightCodeUsed:" : "FM 7/31/2017 15:25" } }
+		"resetLessonDisplay" : "FM 7/31/2017 16:34",
+		"rightCodeUsed:" : "FM 7/31/2017 16:46" } }
