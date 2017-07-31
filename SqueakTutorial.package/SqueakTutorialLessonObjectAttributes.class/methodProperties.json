@@ -1,0 +1,26 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createObstacleAt:" : "FM 7/31/2017 15:23",
+		"createObstaclePositionsFromPattern:" : "FM 7/31/2017 15:24",
+		"createObstacles" : "FM 7/31/2017 15:23",
+		"enableInspectWindow" : "FM 7/31/2017 15:24",
+		"goal" : "FM 7/31/2017 15:24",
+		"goal:" : "FM 7/31/2017 15:24",
+		"grid" : "FM 7/31/2017 15:24",
+		"grid:" : "FM 7/31/2017 15:24",
+		"gridX" : "FM 7/31/2017 15:24",
+		"gridX:" : "FM 7/31/2017 15:24",
+		"gridY" : "FM 7/31/2017 15:24",
+		"gridY:" : "FM 7/31/2017 15:24",
+		"initialize" : "FM 7/31/2017 15:39",
+		"initializeLessonDisplay:" : "FM 7/31/2017 15:22",
+		"isFinished" : "FM 7/31/2017 15:23",
+		"mouse" : "FM 7/31/2017 15:24",
+		"mouse:" : "FM 7/31/2017 15:24",
+		"obstaclePositions" : "FM 7/31/2017 15:24",
+		"obstaclePositions:" : "FM 7/31/2017 15:24",
+		"registerClassInfos" : "FM 7/31/2017 15:24",
+		"registerInspectWindowObjects" : "FM 7/31/2017 15:23",
+		"rightCodeUsed:" : "FM 7/31/2017 15:25" } }
