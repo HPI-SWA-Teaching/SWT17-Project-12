@@ -1,0 +1,20 @@
+{
+	"category" : "SqueakTutorial",
+	"classinstvars" : [
+		"imageWall",
+		"imageMouse",
+		"imageGateWhite",
+		"imageGateBlack",
+		"imageGateGrey",
+		"imagePlatform",
+		"imageGoal" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SqueakTutorialImageCache",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

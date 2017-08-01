@@ -8,7 +8,8 @@ addPlatformToPosition: aPosition
 	platform := SqueakTutorialPlatform new.
 	
 	platform morph: ImageMorph new.
-	platform morph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'platform.png') fullName) scaledToSize: cellExtent@cellExtent).
+	"platform morph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'platform.png') fullName) scaledToSize: cellExtent@cellExtent)."
+	platform morph image: (SqueakTutorialImageCache imagePlatform scaledToSize: cellExtent@cellExtent).
 	platform gridX: aPosition x.
 	platform gridY: aPosition y.
 	

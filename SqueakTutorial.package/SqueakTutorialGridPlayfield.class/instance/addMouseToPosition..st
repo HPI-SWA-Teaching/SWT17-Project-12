@@ -9,7 +9,8 @@ addMouseToPosition: aPosition
 	mouse playfield: self.
 	
 	mouse mouseMorph: ImageMorph new.
-	mouse mouseMorph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse_down_grey.png') fullName) scaledToSize: cellExtent@cellExtent).
+	"mouse mouseMorph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse_down_grey.png') fullName) scaledToSize: cellExtent@cellExtent)."
+	mouse mouseMorph image: (SqueakTutorialImageCache imageMouse scaledToSize: cellExtent@cellExtent).
 	mouse direction: #down.
 	mouse gridX: aPosition x.
 	mouse gridY: aPosition y.

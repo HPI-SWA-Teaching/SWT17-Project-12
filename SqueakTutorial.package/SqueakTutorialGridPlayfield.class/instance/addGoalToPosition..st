@@ -8,7 +8,8 @@ addGoalToPosition: aPosition
 	goal := SqueakTutorialGoal new.
 	
 	goal morph: ImageMorph new.
-	goal morph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'goal.png') fullName) scaledToSize: cellExtent@cellExtent).
+	"goal morph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'goal.png') fullName) scaledToSize: cellExtent@cellExtent)."
+	goal morph image: (SqueakTutorialImageCache imageGoal scaledToSize: cellExtent@cellExtent).
 	goal gridX: aPosition x.
 	goal gridY: aPosition y.
 	
