@@ -3,5 +3,5 @@ stopCodeExecution
 	
 	self currentCodeRunProcess ifNotNil: [
 		self currentCodeRunProcess terminate.
-		self buttonRun color: (Color r: 0.4 g: 0.8 b: 0.6).
+		(self buttonRun submorphs at: 1) image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'run.png') fullName) scaledToSize: 50@50).
 		self buttonRun actionSelector: #runCodeFromInputField]
