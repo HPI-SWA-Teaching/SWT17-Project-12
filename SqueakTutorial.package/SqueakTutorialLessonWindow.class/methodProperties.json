@@ -14,6 +14,8 @@
 		"buttonRun:" : "FM 5/31/2017 12:48",
 		"codeInputField" : "FM 6/16/2017 16:22",
 		"codeInputField:" : "FM 6/16/2017 16:22",
+		"currentCodeRunProcess" : "FM 8/1/2017 03:59",
+		"currentCodeRunProcess:" : "FM 8/1/2017 03:59",
 		"currentLesson" : "FM 5/31/2017 12:47",
 		"currentLesson:" : "FM 5/31/2017 12:47",
 		"disableFinishButton" : "J.W. 6/26/2017 13:12",
@@ -39,4 +41,5 @@
 		"openInfoWindow" : "FM 6/16/2017 15:48",
 		"openInspectWindow" : "FM 7/16/2017 16:29",
 		"resetLesson" : "J.W. 6/26/2017 13:07",
-		"runCodeFromInputField" : "FM 7/16/2017 15:38" } }
+		"runCodeFromInputField" : "FM 8/1/2017 04:01",
+		"stopCodeExecution" : "FM 8/1/2017 04:00" } }

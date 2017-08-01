@@ -15,7 +15,8 @@
 		"buttonHelp",
 		"buttonBack",
 		"currentLesson",
-		"lessonDisplay" ],
+		"lessonDisplay",
+		"currentCodeRunProcess" ],
 	"name" : "SqueakTutorialLessonWindow",
 	"pools" : [
 		 ],
