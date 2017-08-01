@@ -11,5 +11,6 @@ addWallToPosition: aPosition
 	wall morph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'wall.png') fullName) scaledToSize: cellExtent@cellExtent).
 	
 	(self grid cellAt: aPosition) addMorph: wall morph.
+	wall morph setProperty: #Wall toValue: 1.
 	
 	^ wall

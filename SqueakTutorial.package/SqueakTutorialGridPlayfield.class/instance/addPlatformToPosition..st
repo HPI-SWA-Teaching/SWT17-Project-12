@@ -13,5 +13,6 @@ addPlatformToPosition: aPosition
 	platform gridY: aPosition y.
 	
 	(self grid cellAt: aPosition) addMorph: platform morph.
+	platform morph setProperty: #Platform toValue: 1.
 	
 	^ platform

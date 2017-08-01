@@ -13,5 +13,6 @@ addGoalToPosition: aPosition
 	goal gridY: aPosition y.
 	
 	(self grid cellAt: aPosition) addMorph: goal morph.
+	goal morph setProperty: #Goal toValue: 1.
 	
 	^ goal

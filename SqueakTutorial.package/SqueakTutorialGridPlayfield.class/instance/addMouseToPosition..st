@@ -16,5 +16,6 @@ addMouseToPosition: aPosition
 	mouse color: 'grey'.
 	
 	(self grid cellAt: aPosition) addMorph: mouse mouseMorph.
+	mouse mouseMorph setProperty: #Mouse toValue: 1.
 	
 	^ mouse

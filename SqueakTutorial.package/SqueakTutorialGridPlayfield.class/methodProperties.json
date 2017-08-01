@@ -2,11 +2,12 @@
 	"class" : {
 		"buildWithSize:onMorph:" : "FM 7/31/2017 18:08" },
 	"instance" : {
-		"addGateToPosition:" : "FM 7/31/2017 21:36",
-		"addGoalToPosition:" : "FM 7/31/2017 18:04",
-		"addMouseToPosition:" : "FM 7/31/2017 18:15",
+		"addGateToPosition:" : "FM 8/1/2017 02:10",
+		"addGoalToPosition:" : "FM 8/1/2017 02:10",
+		"addMouseToPosition:" : "FM 8/1/2017 02:14",
 		"addObjectOfType:toPosition:" : "FM 7/31/2017 21:41",
-		"addPlatformToPosition:" : "UA 8/1/2017 01:25",
-		"addWallToPosition:" : "FM 7/31/2017 20:25",
+		"addPlatformToPosition:" : "FM 8/1/2017 02:11",
+		"addWallToPosition:" : "FM 8/1/2017 02:11",
 		"grid" : "FM 7/31/2017 17:20",
-		"grid:" : "FM 7/31/2017 17:20" } }
+		"grid:" : "FM 7/31/2017 17:20",
+		"removeObjectsOfType:fromPosition:" : "FM 8/1/2017 02:09" } }
