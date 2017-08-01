@@ -16,10 +16,8 @@ loadLesson: aSqueakTutorialLesson
 	self currentLesson squeakTutorial: self.
 	self currentLesson lessonWindow: self.
 	aSqueakTutorialLesson initializeLessonDisplay: self.
+	"aSqueakTutorialLesson initializeLessonDisplay: self lessonDisplay."
 	
 	self label: self currentLesson lessonName.
-	"(self grid cellAt: 1@1) addMorph: aSqueakTutorialLesson mouse."
-	
-	"(self listClasses isNil) ifFalse: [self listClasses updateList]"
 	
 	(self currentLesson enableInspectWindow) ifTrue: [self initializeInspectWindow].

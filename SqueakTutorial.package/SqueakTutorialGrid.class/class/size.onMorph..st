@@ -5,7 +5,9 @@ size: anInt onMorph: aMorph
 	model := self new.
 	model cellAmount: anInt.
 	
-	model extent: ((aMorph extent x / 2) truncated min: (aMorph extent y - 136)) @ ((aMorph extent x / 2) truncated min: (aMorph extent y - 136)).
+	"model extent: ((aMorph extent x / 2) truncated min: (aMorph extent y - 136)) @ ((aMorph extent x / 2) truncated min: (aMorph extent y - 136))."
+	self halt.
+	model extent: ((aMorph extent x / 2) truncated min: (aMorph extent y)) @ ((aMorph extent x / 2) truncated min: (aMorph extent y)).
 	model initializeCells.
 	
 	"set position to middle x axis"
