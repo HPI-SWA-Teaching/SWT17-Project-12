@@ -4,7 +4,8 @@ moveLeft
 	self rotate: #left.
 	
 	(((self playfield grid cellAt: ((self gridX - 1)@(self gridY))) isBlockedCell: self color)) ifFalse: [
-		(self playfield grid cellAt: ((self gridX)@(self gridY))) removeAllMorphs.
+		self playfield removeObjectsOfType: #Mouse fromPosition: (self gridX)@(self gridY).
+		"(self playfield grid cellAt: ((self gridX)@(self gridY))) removeAllMorphs."
 		self gridX: self gridX - 1.
 		self checkBounds.
 		(self playfield grid cellAt: ((self gridX)@(self gridY))) addMorph: self mouseMorph.

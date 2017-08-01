@@ -18,5 +18,6 @@ addGateToPosition: aPosition
 	gate morph: ImageMorph new.
 	gate morph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'gate_',gateColor,'.png') fullName) scaledToSize: cellExtent@cellExtent).
 	(self grid cellAt: aPosition) addMorph: gate morph.
+	gate morph setProperty: #Gate toValue: 1.
 	
 	^ gate
