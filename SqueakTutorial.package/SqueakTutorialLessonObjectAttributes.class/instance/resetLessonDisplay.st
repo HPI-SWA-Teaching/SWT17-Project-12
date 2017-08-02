@@ -4,7 +4,8 @@ resetLessonDisplay
 	
 	cellExtents := (self playfield grid extent x) / (self playfield grid cellAmount).
 	
-	(self playfield grid cellAt: ((self mouse gridX)@(self mouse gridY))) removeAllMorphs.
+	"(self playfield grid cellAt: ((self mouse gridX)@(self mouse gridY))) removeAllMorphs."
+	(self playfield removeObjectsOfType: #Mouse fromPosition: (self mouse gridX)@(self mouse gridY)).
 	self mouse gridX: 1.
 	self mouse gridY: 1.
 	(self playfield grid cellAt: (self mouse gridX)@(self mouse gridY)) addMorph: self mouse mouseMorph.
