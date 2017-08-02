@@ -17,6 +17,7 @@ showUnitButtons
 
 	(SqueakTutorialLessonManager lessons at: (SqueakTutorialLessonManager units at: self currentUnitID)) do: [:lesson |
 		lessonButton := SimpleButtonMorph new.
+		lessonButton recolor: (Color fromString: '#3366cc').
 		lessonButton label: lesson lessonName.
 		lessonButton extent: buttonWidth@buttonHeight.
 		lessonButton position: (buttonWidth * column)@(buttonHeight * row).

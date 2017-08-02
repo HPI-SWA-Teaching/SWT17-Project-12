@@ -4,7 +4,7 @@ updateButtonBack
 	(self currentUnitID > 1)
 		ifTrue: [
 			"enable button"
-			self buttonBack color: self buttonBack defaultColor.
+			self buttonBack color: (Color fromString: '00af89').
 			self buttonBack target: self]
 		ifFalse: [
 			"disable button"
