@@ -2,6 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "FM 7/28/2017 00:45",
-		"startTutorial:" : "FM 7/28/2017 00:36",
+		"currentLessonTab" : "FM 8/2/2017 16:40",
+		"currentLessonTab:" : "FM 8/2/2017 16:40",
+		"initialize" : "FM 8/2/2017 16:41",
+		"initializeOld" : "FM 8/2/2017 15:19",
+		"lessonScreen" : "FM 8/2/2017 16:03",
+		"lessonScreen:" : "FM 8/2/2017 16:03",
+		"showUnitButtons" : "FM 8/2/2017 16:43",
+		"showUnitButtons:" : "FM 8/2/2017 16:27",
 		"startTutorial:withID:" : "FM 7/28/2017 00:40" } }

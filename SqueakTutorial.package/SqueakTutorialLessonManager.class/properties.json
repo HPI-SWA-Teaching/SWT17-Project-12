@@ -1,7 +1,10 @@
 {
 	"category" : "SqueakTutorial",
 	"classinstvars" : [
-		"lastLessonIndex" ],
+		"lessons",
+		"units",
+		"lastLessonIndex",
+		"currentUnit" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

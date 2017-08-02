@@ -1,8 +1,17 @@
 {
 	"class" : {
+		"addLesson:toUnit:" : "FM 8/2/2017 16:35",
+		"currentUnit" : "FM 8/2/2017 16:39",
+		"currentUnit:" : "FM 8/2/2017 16:39",
+		"initializeLessons" : "FM 8/2/2017 16:46",
+		"initializeUnits" : "FM 8/2/2017 16:45",
 		"lastLessonIndex" : "FM 7/28/2017 00:35",
 		"lastLessonIndex:" : "FM 7/28/2017 00:32",
-		"lessons" : "UA 7/31/2017 22:57",
-		"next" : "FM 7/28/2017 00:42" },
+		"lessons" : "FM 8/2/2017 16:33",
+		"lessons:" : "FM 8/2/2017 16:32",
+		"lessonsOld" : "FM 8/2/2017 16:32",
+		"next" : "FM 8/2/2017 16:40",
+		"units" : "FM 8/2/2017 16:38",
+		"units:" : "FM 8/2/2017 16:38" },
 	"instance" : {
 		 } }

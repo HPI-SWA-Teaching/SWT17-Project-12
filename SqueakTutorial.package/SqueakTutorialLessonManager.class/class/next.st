@@ -3,4 +3,4 @@ next
 	
 	self lastLessonIndex: self lastLessonIndex + 1.
 	
-	^ self lessons at: lastLessonIndex.
+	^ (self lessons at: self currentUnit) at: lastLessonIndex.

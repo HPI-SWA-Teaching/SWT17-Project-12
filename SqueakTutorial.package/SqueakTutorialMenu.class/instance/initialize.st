@@ -1,45 +1,42 @@
 initialization
 initialize
 
-	| button buttonCount startScreen lessonIndex |
+	| buttonBack buttonForward |
 	
 	super initialize.
 	
-	buttonCount := 0.
-	startScreen := TransformMorph new.
-	startScreen color: Color white.
+	self paneColor: Color white.
+	self lessonScreen: TransformMorph new.
+	self lessonScreen color: Color white.
 	
-	self addMorph: startScreen
+	buttonBack := SimpleButtonMorph new.
+	buttonForward := SimpleButtonMorph new.
+	
+	buttonBack label: '<'.
+	buttonForward label: '>'.
+	
+	self addMorph: buttonBack
 		fullFrame: (LayoutFrame
-			fractions: (0@0 corner: 1@1)
+			fractions: (0@0.05 corner: 0.08@0.95)
+			offsets: (0@0 corner: 0@0)).
+	self addMorph: buttonForward
+		fullFrame: (LayoutFrame
+			fractions: (0.92@0.05 corner: 1@0.95)
+			offsets: (0@0 corner: 0@0)).
+	self addMorph: self lessonScreen
+		fullFrame: (LayoutFrame
+			fractions: (0.18@0.05 corner: 0.82@0.95)
 			offsets: (0@0 corner: 0@0)).
 	
-	lessonIndex := 1.
-	SqueakTutorialLessonManager lessons do: [ :lesson |
-		button := SimpleButtonMorph new.
-		button target: self.
-		button actionSelector: #startTutorial:withID:.
-		button arguments: (Array with: lesson with: lessonIndex).
-		lessonIndex := lessonIndex + 1.
-		button label: lesson lessonName.
-		button extent: 300@50.
-		button position: 100@(100 + (buttonCount * 75)).
-		buttonCount := buttonCount + 1.
-		startScreen addMorph: button].
-			
+	self currentLessonTab: (SqueakTutorialLessonManager units at: 1).
 	
-
-	"startButton := SimpleButtonMorph new.
-	startButton label: 'Start Tutorial';
-				target: self;
-				actionSelector: #startTutorial.
+	"TODO unitText := TextMorph new.
+	unitText contents: 'UNIT 1'.
+	unitText fontName: 'Times New Roman' size: 50.
 	
-	self addMorph: startScreen
+	lessonScreen addMorph: unitText
 		fullFrame: (LayoutFrame
-			fractions: (0@0 corner: 1@1)
-			offsets: (0@0 corner: 0@0)).
+			fractions: (0@0 corner: 0@0)
+			offsets: (0@0 corner: 0@0))."
 	
-	self addMorph: startButton
-		fullFrame: (LayoutFrame
-			fractions: (0.5@0.5 corner: 0.5@0.5)
-			offsets: (-125@(-80) corner: 125@40))."
+	
