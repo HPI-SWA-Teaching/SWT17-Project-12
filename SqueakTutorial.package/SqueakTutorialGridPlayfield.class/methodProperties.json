@@ -5,6 +5,7 @@
 		"addGateToPosition:" : "FM 8/1/2017 14:10",
 		"addGoalToPosition:" : "FM 8/1/2017 14:07",
 		"addMouseToPosition:" : "FM 8/1/2017 14:07",
+		"addObject:toPosition:" : "FM 8/2/2017 14:52",
 		"addObjectOfType:toPosition:" : "FM 7/31/2017 21:41",
 		"addObjectOfType:toPositions:" : "FM 8/1/2017 02:31",
 		"addPlatformToPosition:" : "FM 8/1/2017 14:06",
@@ -12,5 +13,5 @@
 		"containsObjectOfType:atPosition:" : "FM 8/1/2017 02:36",
 		"grid" : "FM 7/31/2017 17:20",
 		"grid:" : "FM 7/31/2017 17:20",
-		"removeObject:fromPosition:" : "FM 8/1/2017 02:41",
+		"removeObject:fromPosition:" : "FM 8/2/2017 15:13",
 		"removeObjectsOfType:fromPosition:" : "FM 8/1/2017 02:09" } }
