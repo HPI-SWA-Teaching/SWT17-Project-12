@@ -9,6 +9,12 @@ initializeButtons
 	self buttonHelp: SimpleButtonMorph new.
 	self buttonBack: SimpleButtonMorph new.
 	
+	self buttonReset recolor: (Color fromString: '#dd3333').
+	self buttonRun recolor: (Color fromString: '#3366cc').
+	self buttonFinish recolor: (Color fromString: 'gray').
+	self buttonHelp recolor: (Color fromString: '#ffcc33').
+	self buttonBack recolor: (Color fromString: '#ffcc33').
+	
 	resetIcon := ImageMorph new.
 	resetIcon image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'reset.png') fullName) scaledToSize: 50@50).
 	resetIcon position: (self buttonReset extent x + (resetIcon extent x / 2))@(self buttonReset extent y).
