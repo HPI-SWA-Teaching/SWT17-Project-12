@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"lessonScreen",
-		"currentLessonTab" ],
+		"currentUnitID",
+		"buttonBack",
+		"buttonForward" ],
 	"name" : "SqueakTutorialMenu",
 	"pools" : [
 		 ],

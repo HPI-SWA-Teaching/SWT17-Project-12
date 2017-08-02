@@ -3,9 +3,11 @@ showUnitButtons
 
 	| lessonButton lessonNumber maxButtonsX buttonWidth buttonHeight row column maxButtonsY |
 
+	self lessonScreen removeAllMorphs.
+
 	lessonNumber := 1.
 	maxButtonsX := 3.
-	maxButtonsY := (((SqueakTutorialLessonManager lessons at: self currentLessonTab) size / maxButtonsX) ceiling).
+	maxButtonsY := (((SqueakTutorialLessonManager lessons at: (SqueakTutorialLessonManager units at: self currentUnitID)) size / maxButtonsX) ceiling).
 	
 	row := 0.
 	column := 0.
@@ -13,7 +15,7 @@ showUnitButtons
 	buttonWidth := (((self extent x * 0.82) - (self extent x * 0.18))) / maxButtonsX.
 	buttonHeight := (((self extent y * 0.95) - (self extent y * 0.05))) / maxButtonsY.
 
-	(SqueakTutorialLessonManager lessons at: self currentLessonTab) do: [:lesson |
+	(SqueakTutorialLessonManager lessons at: (SqueakTutorialLessonManager units at: self currentUnitID)) do: [:lesson |
 		lessonButton := SimpleButtonMorph new.
 		lessonButton label: lesson lessonName.
 		lessonButton extent: buttonWidth@buttonHeight.

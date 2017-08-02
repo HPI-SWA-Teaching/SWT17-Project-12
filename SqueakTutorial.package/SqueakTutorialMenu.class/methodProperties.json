@@ -2,12 +2,20 @@
 	"class" : {
 		 },
 	"instance" : {
-		"currentLessonTab" : "FM 8/2/2017 16:40",
-		"currentLessonTab:" : "FM 8/2/2017 16:40",
-		"initialize" : "FM 8/2/2017 16:41",
+		"buttonBack" : "FM 8/2/2017 17:08",
+		"buttonBack:" : "FM 8/2/2017 17:08",
+		"buttonBackClicked:" : "FM 8/2/2017 17:07",
+		"buttonForward" : "FM 8/2/2017 17:08",
+		"buttonForward:" : "FM 8/2/2017 17:08",
+		"buttonForwardClicked:" : "FM 8/2/2017 17:08",
+		"currentUnitID" : "FM 8/2/2017 17:02",
+		"currentUnitID:" : "FM 8/2/2017 17:02",
+		"initialize" : "FM 8/2/2017 17:10",
 		"initializeOld" : "FM 8/2/2017 15:19",
 		"lessonScreen" : "FM 8/2/2017 16:03",
 		"lessonScreen:" : "FM 8/2/2017 16:03",
-		"showUnitButtons" : "FM 8/2/2017 16:43",
-		"showUnitButtons:" : "FM 8/2/2017 16:27",
-		"startTutorial:withID:" : "FM 7/28/2017 00:40" } }
+		"showUnitButtons" : "FM 8/2/2017 17:05",
+		"startTutorial:withID:" : "FM 7/28/2017 00:40",
+		"updateButtonBack" : "FM 8/2/2017 17:09",
+		"updateButtonForward" : "FM 8/2/2017 17:10",
+		"updateButtonForward:" : "FM 8/2/2017 17:03" } }

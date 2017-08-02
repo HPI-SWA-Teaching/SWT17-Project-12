@@ -1,7 +1,5 @@
 initialization
 initialize
-
-	| buttonBack buttonForward |
 	
 	super initialize.
 	
@@ -9,17 +7,27 @@ initialize
 	self lessonScreen: TransformMorph new.
 	self lessonScreen color: Color white.
 	
-	buttonBack := SimpleButtonMorph new.
-	buttonForward := SimpleButtonMorph new.
+	self currentUnitID: 1.
 	
-	buttonBack label: '<'.
-	buttonForward label: '>'.
+	self buttonBack: SimpleButtonMorph new.
+	self buttonForward: SimpleButtonMorph new.
 	
-	self addMorph: buttonBack
+	self buttonBack label: '<'.
+	self buttonForward label: '>'.
+	
+	self buttonBack actionSelector: #buttonBackClicked:.
+	self buttonBack arguments: (Array with: self buttonBack).
+	self buttonForward actionSelector: #buttonForwardClicked:.
+	self buttonForward arguments: (Array with: self buttonForward).
+	
+	self updateButtonBack.
+	self updateButtonForward.
+	
+	self addMorph: self buttonBack
 		fullFrame: (LayoutFrame
 			fractions: (0@0.05 corner: 0.08@0.95)
 			offsets: (0@0 corner: 0@0)).
-	self addMorph: buttonForward
+	self addMorph: self buttonForward
 		fullFrame: (LayoutFrame
 			fractions: (0.92@0.05 corner: 1@0.95)
 			offsets: (0@0 corner: 0@0)).
@@ -27,8 +35,6 @@ initialize
 		fullFrame: (LayoutFrame
 			fractions: (0.18@0.05 corner: 0.82@0.95)
 			offsets: (0@0 corner: 0@0)).
-	
-	self currentLessonTab: (SqueakTutorialLessonManager units at: 1).
 	
 	"TODO unitText := TextMorph new.
 	unitText contents: 'UNIT 1'.
