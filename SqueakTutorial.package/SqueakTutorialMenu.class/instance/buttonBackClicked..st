@@ -5,5 +5,7 @@ buttonBackClicked: aButton
 	
 	self showUnitButtons.
 	
+	self updateUnitTitleField.
+	
 	self updateButtonBack.
 	self updateButtonForward.

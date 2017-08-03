@@ -13,7 +13,7 @@ showUnitButtons
 	column := 0.
 	
 	buttonWidth := (((self extent x * 0.82) - (self extent x * 0.18))) / maxButtonsX.
-	buttonHeight := (((self extent y * 0.85) - (self extent y * 0.05))) / maxButtonsY.
+	buttonHeight := (((self extent y * 0.75) - (self extent y * 0.05))) / maxButtonsY.
 
 	(SqueakTutorialLessonManager lessons at: (SqueakTutorialLessonManager units at: self currentUnitID)) do: [:lesson |
 		lessonButton := SimpleButtonMorph new.

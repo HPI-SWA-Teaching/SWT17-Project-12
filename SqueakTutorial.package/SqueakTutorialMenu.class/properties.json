@@ -10,6 +10,7 @@
 		"currentUnitID",
 		"buttonBack",
 		"buttonForward",
+		"unitTitleField",
 		"titleField" ],
 	"name" : "SqueakTutorialMenu",
 	"pools" : [

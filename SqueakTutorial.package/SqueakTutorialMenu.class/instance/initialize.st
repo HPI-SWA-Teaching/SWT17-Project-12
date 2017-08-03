@@ -12,32 +12,34 @@ initialize
 	self initializeNavigationButtonWithDirection: 'left'.
 	self initializeNavigationButtonWithDirection: 'right'.
 	
-	"self buttonBack actionSelector: #buttonBackClicked:.
-	self buttonBack arguments: (Array with: self buttonBack).
-	self buttonForward actionSelector: #buttonForwardClicked:.
-	self buttonForward arguments: (Array with: self buttonForward)."
-	
 	self updateButtonBack.
 	self updateButtonForward.
 	
 	self createTitleField.
 	
+	self createUnitTitleOfUnit: self currentUnitID.
+	
 	self addMorph: self titleField
 		fullFrame: (LayoutFrame
 			fractions: (0.18@0.05 corner: 0.82@0.15)
+			offsets: (0@0 corner: 0@0)).
+	
+	self addMorph: self unitTitleField
+		fullFrame: (LayoutFrame
+			fractions: (0.18@0.15 corner: 0.82@0.25)
 			offsets: (0@0 corner: 0@0)). 
 	
 	self addMorph: self buttonBack
 		fullFrame: (LayoutFrame
-			fractions: (0@0.05 corner: 0.08@0.95)
+			fractions: (0@0.15 corner: 0.08@0.95)
 			offsets: (0@0 corner: 0@0)).
 	self addMorph: self buttonForward
 		fullFrame: (LayoutFrame
-			fractions: (0.92@0.05 corner: 1@0.95)
+			fractions: (0.92@0.15 corner: 1@0.95)
 			offsets: (0@0 corner: 0@0)).
 	self addMorph: self lessonScreen
 		fullFrame: (LayoutFrame
-			fractions: (0.18@0.15 corner: 0.82@0.95)
+			fractions: (0.18@0.25 corner: 0.82@0.95)
 			offsets: (0@0 corner: 0@0)).
 	
 	"TODO unitText := TextMorph new.
