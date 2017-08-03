@@ -15,6 +15,11 @@ initialize
 	self buttonBack label: '<'.
 	self buttonForward label: '>'.
 	
+	self buttonBack submorphsDo: [:m| m color: (Color white)].
+	self buttonForward submorphsDo: [:m| m color: (Color white)].
+	self buttonBack submorphsDo: [:m| m font: (StrikeFont familyName: #BitstreamVeraSans pointSize: 120)].
+	self buttonForward submorphsDo: [:m| m font: (StrikeFont familyName: #BitstreamVeraSans pointSize: 120)].
+	
 	self buttonBack actionSelector: #buttonBackClicked:.
 	self buttonBack arguments: (Array with: self buttonBack).
 	self buttonForward actionSelector: #buttonForwardClicked:.
@@ -22,6 +27,13 @@ initialize
 	
 	self updateButtonBack.
 	self updateButtonForward.
+	
+	self createTitleField.
+	
+	self addMorph: self titleField
+		fullFrame: (LayoutFrame
+			fractions: (0.18@0.05 corner: 0.82@0.15)
+			offsets: (0@0 corner: 0@0)). 
 	
 	self addMorph: self buttonBack
 		fullFrame: (LayoutFrame
@@ -33,7 +45,7 @@ initialize
 			offsets: (0@0 corner: 0@0)).
 	self addMorph: self lessonScreen
 		fullFrame: (LayoutFrame
-			fractions: (0.18@0.05 corner: 0.82@0.95)
+			fractions: (0.18@0.15 corner: 0.82@0.95)
 			offsets: (0@0 corner: 0@0)).
 	
 	"TODO unitText := TextMorph new.

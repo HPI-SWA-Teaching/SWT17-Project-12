@@ -9,7 +9,8 @@
 		"lessonScreen",
 		"currentUnitID",
 		"buttonBack",
-		"buttonForward" ],
+		"buttonForward",
+		"titleField" ],
 	"name" : "SqueakTutorialMenu",
 	"pools" : [
 		 ],
