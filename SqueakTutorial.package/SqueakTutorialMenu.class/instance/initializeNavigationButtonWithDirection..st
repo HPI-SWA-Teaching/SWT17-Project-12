@@ -1,13 +1,15 @@
 initialization
 initializeNavigationButtonWithDirection: aDirection
 
-	| symbol button |
+	| symbol button actionSel |
 	
 	(aDirection = 'left') ifTrue: [
-		symbol := '<'
+		symbol := '<'.
+		actionSel := #buttonBackClicked:.
 	] ifFalse: [
 		(aDirection = 'right') ifTrue: [
-			symbol := '>'
+			symbol := '>'.
+		actionSel := #buttonForwardClicked:.
 		] ifFalse: [
 			^false.
 		]
@@ -17,6 +19,8 @@ initializeNavigationButtonWithDirection: aDirection
 	button label: symbol.
 	button submorphsDo: [:m| m color: (Color white)].
 	button submorphsDo: [:m| m font: (StrikeFont familyName: #BitstreamVeraSans pointSize: 120)].
+	button actionSelector: actionSel.
+	button arguments: (Array with: button).
 	
 	(aDirection = 'left') ifTrue: [
 		self buttonBack: button.

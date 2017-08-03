@@ -12,10 +12,10 @@ initialize
 	self initializeNavigationButtonWithDirection: 'left'.
 	self initializeNavigationButtonWithDirection: 'right'.
 	
-	self buttonBack actionSelector: #buttonBackClicked:.
+	"self buttonBack actionSelector: #buttonBackClicked:.
 	self buttonBack arguments: (Array with: self buttonBack).
 	self buttonForward actionSelector: #buttonForwardClicked:.
-	self buttonForward arguments: (Array with: self buttonForward).
+	self buttonForward arguments: (Array with: self buttonForward)."
 	
 	self updateButtonBack.
 	self updateButtonForward.
