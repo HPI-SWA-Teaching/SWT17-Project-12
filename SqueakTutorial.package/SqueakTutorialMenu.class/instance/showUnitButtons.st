@@ -18,10 +18,13 @@ showUnitButtons
 	(SqueakTutorialLessonManager lessons at: (SqueakTutorialLessonManager units at: self currentUnitID)) do: [:lesson |
 		lessonButton := SimpleButtonMorph new.
 		lessonButton recolor: (Color fromString: '#3366cc').
+		
 		firstPart := (lesson lessonName copyFrom: 1 to: (lesson lessonName indexOf: $- ifAbsent: [0]) - 2).
 		secondPart := (lesson lessonName copyFrom: (lesson lessonName indexOf: $- ifAbsent: [0]) + 2 to: lesson lessonName size).
 		buttonLabel := firstPart , Character cr asString , '-' , Character cr asString , secondPart.
+		
 		lessonButton label: buttonLabel.
+		
 		lessonButton submorphsDo: [:m| m color: (Color white)].
 		lessonButton submorphsDo: [:m| m font: (StrikeFont familyName: #BitstreamVeraSans pointSize: 20)].
 		lessonButton extent: buttonWidth@buttonHeight.
