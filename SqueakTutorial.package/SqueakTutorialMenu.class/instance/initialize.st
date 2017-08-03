@@ -9,16 +9,8 @@ initialize
 	
 	self currentUnitID: 1.
 	
-	self buttonBack: SimpleButtonMorph new.
-	self buttonForward: SimpleButtonMorph new.
-	
-	self buttonBack label: '<'.
-	self buttonForward label: '>'.
-	
-	self buttonBack submorphsDo: [:m| m color: (Color white)].
-	self buttonForward submorphsDo: [:m| m color: (Color white)].
-	self buttonBack submorphsDo: [:m| m font: (StrikeFont familyName: #BitstreamVeraSans pointSize: 120)].
-	self buttonForward submorphsDo: [:m| m font: (StrikeFont familyName: #BitstreamVeraSans pointSize: 120)].
+	self initializeNavigationButtonWithDirection: 'left'.
+	self initializeNavigationButtonWithDirection: 'right'.
 	
 	self buttonBack actionSelector: #buttonBackClicked:.
 	self buttonBack arguments: (Array with: self buttonBack).
