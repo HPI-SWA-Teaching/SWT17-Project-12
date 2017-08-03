@@ -42,13 +42,4 @@ initialize
 			fractions: (0.18@0.25 corner: 0.82@0.95)
 			offsets: (0@0 corner: 0@0)).
 	
-	"TODO unitText := TextMorph new.
-	unitText contents: 'UNIT 1'.
-	unitText fontName: 'Times New Roman' size: 50.
-	
-	lessonScreen addMorph: unitText
-		fullFrame: (LayoutFrame
-			fractions: (0@0 corner: 0@0)
-			offsets: (0@0 corner: 0@0))."
-	
 	
