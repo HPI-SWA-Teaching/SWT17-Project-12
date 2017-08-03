@@ -8,16 +8,16 @@ rotate: newDirection
 	(newDirection = self direction) ifFalse: [
 		cellExtents := (self playfield grid extent x) / (self playfield grid cellAmount).
 		(newDirection = #up) ifTrue: [
-			self mouseMorph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse_up_', self color ,'.png') fullName) scaledToSize: cellExtents@cellExtents).
+			self morph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse_up_', self color ,'.png') fullName) scaledToSize: cellExtents@cellExtents).
 		].
 		(newDirection = #down) ifTrue: [
-			self mouseMorph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse_down_', self color ,'.png') fullName) scaledToSize: cellExtents@cellExtents).
+			self morph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse_down_', self color ,'.png') fullName) scaledToSize: cellExtents@cellExtents).
 		].
 		(newDirection = #left) ifTrue: [
-			self mouseMorph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse_left_', self color ,'.png') fullName) scaledToSize: cellExtents@cellExtents).
+			self morph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse_left_', self color ,'.png') fullName) scaledToSize: cellExtents@cellExtents).
 		].
 		(newDirection = #right) ifTrue: [
-			self mouseMorph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse_right_', self color ,'.png') fullName) scaledToSize: cellExtents@cellExtents).
+			self morph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse_right_', self color ,'.png') fullName) scaledToSize: cellExtents@cellExtents).
 		].
 	
 		self direction: newDirection.

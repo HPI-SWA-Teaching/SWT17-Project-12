@@ -8,7 +8,7 @@ moveRight
 		"(self playfield grid cellAt: ((self gridX)@(self gridY))) removeAllMorphs."
 		self gridX: self gridX + 1.
 		self checkBounds.
-		(self playfield grid cellAt: ((self gridX)@(self gridY))) addMorph: self mouseMorph.
+		(self playfield grid cellAt: ((self gridX)@(self gridY))) addMorph: self morph.
 	].
 	
 	(Delay forMilliseconds: 500) wait.

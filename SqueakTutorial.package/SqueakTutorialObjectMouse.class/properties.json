@@ -6,14 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"mouseMorph",
 		"direction",
 		"color",
-		"gridX",
-		"gridY",
 		"playfield" ],
 	"name" : "SqueakTutorialObjectMouse",
 	"pools" : [
 		 ],
-	"super" : "SqueakTutorialObject",
+	"super" : "SqueakTutorialVisibleObject",
 	"type" : "normal" }
