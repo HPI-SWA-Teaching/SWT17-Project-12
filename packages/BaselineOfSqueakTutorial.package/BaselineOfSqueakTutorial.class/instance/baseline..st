@@ -7,9 +7,10 @@ baseline: spec
 			spec
 				package: 'SqueakTutorial-Core';
 				package: 'SqueakTutorial-Lessons';
-				package: 'SqueakTutorial-Tests' with: [spec requires: #('default')];
+				package: 'SqueakTutorial-Tests';
+				"package: 'SystemsThinkingWorkbench-Test' with: [spec requires: #('default')];"
 				yourself.
 			spec
-				group: 'default' with: #('SqueakTutorial-Core' 'SqueakTutorial-Lessons')];
-				group: 'tests' with: #('SqueakTutorial-Test')];
+				group: 'default' with: #('SqueakTutorial-Core' 'SqueakTutorial-Lessons' 'SqueakTutorial-Tests')];
+				"group: 'tests' with: #('SystemsThinkingWorkbench-Test')];"
 				yourself
