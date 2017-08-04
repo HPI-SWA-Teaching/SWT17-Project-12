@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"enableInspectWindow" : "FM 7/27/2017 23:46",
+		"goal" : "j.w. 6/28/2017 13:32",
+		"goal:" : "j.w. 6/28/2017 13:32",
+		"initialize" : "UA 7/31/2017 23:03",
+		"initializeLessonDisplay:" : "UA 7/31/2017 23:03",
+		"isFinished" : "FM 7/31/2017 17:47",
+		"mouse" : "FM 6/27/2017 21:59",
+		"mouse:" : "FM 6/27/2017 21:59",
+		"registerClassInfos" : "j.w. 7/17/2017 11:08",
+		"registerInspectWindowObjects" : "FM 7/16/2017 14:32",
+		"resetLessonDisplay" : "UA 7/31/2017 23:03",
+		"rightCodeUsed:" : "FM 7/3/2017 14:59" } }

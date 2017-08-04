@@ -1,0 +1,4 @@
+accessing
+currentSelectedMessage
+	
+	^ currentSelectedMessage
