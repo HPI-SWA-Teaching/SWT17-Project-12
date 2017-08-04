@@ -1,4 +1,5 @@
 accessing
 lastLessonIndex: anObject
+	"Answers the lesson index of the current lesson"
 	
-	lastLessonIndex := anObject.
+	lastLessonIndex := anObject

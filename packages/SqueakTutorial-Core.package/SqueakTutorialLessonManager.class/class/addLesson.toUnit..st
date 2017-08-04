@@ -1,5 +1,6 @@
-as yet unclassified
+lesson / unit
 addLesson: aLesson toUnit: aUnitString
+	"Add a lesson to a specific unit name"
 
 	| tempList |
 
@@ -9,4 +10,4 @@ addLesson: aLesson toUnit: aUnitString
 		ifFalse: [
 			tempList := OrderedCollection new.
 			tempList add: aLesson.
-			self lessons at: aUnitString put: tempList].
+			self lessons at: aUnitString put: tempList]
