@@ -1,5 +1,6 @@
 as yet unclassified
 rightCodeUsed: theCode
+	"Check if user used the right methods for this lesson"
 	
 	| loop right down bool1 bool2 bool3 |
 	
