@@ -1,8 +1,5 @@
 accessing
-isBlockedCell: mouseColor
+isBlockedCell: aMouse
 	
-	(self isGate) ifTrue: [
-		"mouse color equals gate color?"
-		^ ((mouseColor = self gateColor) not)].
-
-	^ isBlocked
+	self visibleObject ifNil: [^ true].
+	^ self visibleObject isBlocked: aMouse.

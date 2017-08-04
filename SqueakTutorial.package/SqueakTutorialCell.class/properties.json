@@ -6,9 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"isBlocked",
-		"isGate",
-		"gateColor" ],
+		"visibleObject" ],
 	"name" : "SqueakTutorialCell",
 	"pools" : [
 		 ],

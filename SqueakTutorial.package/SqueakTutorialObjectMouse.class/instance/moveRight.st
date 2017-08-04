@@ -3,7 +3,7 @@ moveRight
 	
 	self rotate: #right.
 	
-	(((self playfield grid cellAt: ((self gridX + 1)@(self gridY))) isBlockedCell: self color)) ifFalse: [
+	(((self playfield grid cellAt: ((self gridX + 1)@(self gridY))) isBlockedCell: self)) ifFalse: [
 		self playfield removeObjectsOfType: #Mouse fromPosition: (self gridX)@(self gridY).
 		"(self playfield grid cellAt: ((self gridX)@(self gridY))) removeAllMorphs."
 		self gridX: self gridX + 1.

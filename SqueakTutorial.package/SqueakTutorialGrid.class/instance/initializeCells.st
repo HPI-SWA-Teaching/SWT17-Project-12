@@ -13,8 +13,6 @@ initializeCells
 			cell := SqueakTutorialCell new.
 			cell extent: cellSize@cellSize.
 			cell position: (cellSize * x)@(cellSize * y).
-			cell isBlocked: false.
-			cell isGate: false.
 			self addMorph: cell.
 			
 			self cells at: pt put: cell]].

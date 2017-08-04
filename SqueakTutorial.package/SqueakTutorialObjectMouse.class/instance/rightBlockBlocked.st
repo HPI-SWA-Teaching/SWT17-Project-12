@@ -6,7 +6,7 @@ rightBlockBlocked
 	(self gridX < (self playfield grid cellAmount - 1)) ifTrue: [
 			x := self gridX + 1.
 			y := self gridY.
-			^ (((self playfield grid) cellAt: (x@y)) isBlocked).
+			^ (((self playfield grid) cellAt: (x@y)) isBlockedCell: self).
 		] ifFalse: [
 			^True.
 		].
