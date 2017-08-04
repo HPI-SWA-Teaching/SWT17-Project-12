@@ -1,5 +1,6 @@
-as yet unclassified
+bounds
 checkBounds
+	"Check if the mouse is inside of the grid"
 
 	(self gridX < 0) ifTrue: [self lesson gridX: 0].
 	(self gridY < 0) ifTrue: [self lesson gridY: 0].

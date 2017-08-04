@@ -1,4 +1,4 @@
-as yet unclassified
+bounds
 upperBlockFree
 
-	^(self upperBlockBlocked).
+	^ self upperBlockBlocked not

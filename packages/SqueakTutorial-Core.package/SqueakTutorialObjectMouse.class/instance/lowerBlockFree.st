@@ -1,4 +1,5 @@
-as yet unclassified
+bounds
 lowerBlockFree
+	"Answers whether the left cell next to the mouse is not blocked"
 
-	^self lowerBlockBlocked == False.
+	^ self lowerBlockBlocked not

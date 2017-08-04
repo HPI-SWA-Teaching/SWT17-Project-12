@@ -1,14 +1,14 @@
 mouse controlling
 moveRight
+	"Move the mouse one cell right"
 	
 	self rotate: #right.
 	
-	(((self playfield grid cellAt: ((self gridX + 1)@(self gridY))) isBlockedCell: self)) ifFalse: [
-		self playfield removeObjectsOfType: #Mouse fromPosition: (self gridX)@(self gridY).
-		"(self playfield grid cellAt: ((self gridX)@(self gridY))) removeAllMorphs."
-		self gridX: self gridX + 1.
-		self checkBounds.
-		(self playfield grid cellAt: ((self gridX)@(self gridY))) addMorph: self morph.
-	].
+	((self gridX + 1) < self playfield grid cellAmount) ifTrue: [
+		self rightBlockFree ifTrue: [
+			self playfield removeObject: self fromPosition: (self gridX)@(self gridY).
+			self gridX: self gridX + 1.
+			self playfield addObject: self morph toPosition: (self gridX)@(self gridY)]
+		].
 	
 	(Delay forMilliseconds: 500) wait.

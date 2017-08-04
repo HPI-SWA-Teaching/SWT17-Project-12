@@ -1,6 +1,6 @@
 accessing
 color: anColor
-	"Color has to be one of 'grey', 'black' or 'white'"
+	"Set the color of the mouse. Color has to be one of 'grey', 'black' or 'white'"
 	
 	| cellExtents |
 	
