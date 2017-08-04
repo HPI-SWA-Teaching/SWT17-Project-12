@@ -5,7 +5,9 @@ baseline: spec
 		for: #'common'
 		do: [
 			spec
-				package: 'SqueakTutorial';
+				package: 'SqueakTutorial-Core';
+				package: 'SqueakTutorial-Lessons';
+				package: 'SqueakTutorial-Tests';
 				"package: 'SystemsThinkingWorkbench-Test' with: [spec requires: #('default')];"
 				yourself.
 			spec
