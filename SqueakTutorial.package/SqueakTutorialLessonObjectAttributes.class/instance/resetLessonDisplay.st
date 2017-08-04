@@ -8,8 +8,8 @@ resetLessonDisplay
 	(self playfield removeObjectsOfType: #Mouse fromPosition: (self mouse gridX)@(self mouse gridY)).
 	self mouse gridX: 1.
 	self mouse gridY: 1.
-	(self playfield grid cellAt: (self mouse gridX)@(self mouse gridY)) addMorph: self mouse mouseMorph.
-	self mouse mouseMorph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse_down_grey.png') fullName) scaledToSize: cellExtents@cellExtents).
+	(self playfield grid cellAt: (self mouse gridX)@(self mouse gridY)) addMorph: self mouse morph.
+	self mouse morph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse_down_grey.png') fullName) scaledToSize: cellExtents@cellExtents).
 	
 	self mouse direction: #down.
 	
