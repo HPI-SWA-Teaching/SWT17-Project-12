@@ -1,5 +1,5 @@
 lessons
 goBackToMenu
 
-	SqueakTutorialMenu start.
+	SqueakTutorialMenu show.
 	self delete.

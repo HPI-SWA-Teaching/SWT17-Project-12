@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 addButtonForLesson: aLesson withLessonNumber: aNumber withExtent: anExtent atPosition: aPosition
 	"Adds a button for a given lesson with a given position and extent to the lessonScreen"
 	

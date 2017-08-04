@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"start" : "j.w. 8/4/2017 19:50" },
+		"show" : "FM 8/4/2017 20:55",
+		"start" : "FM 8/4/2017 20:55" },
 	"instance" : {
 		"addAllUIElements" : "j.w. 8/4/2017 19:39",
 		"addButtonForLesson:withLessonNumber:withExtent:atPosition:" : "j.w. 8/4/2017 19:44",

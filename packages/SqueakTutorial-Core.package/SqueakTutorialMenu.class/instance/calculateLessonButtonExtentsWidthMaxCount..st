@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 calculateLessonButtonExtentsWidthMaxCount: anInt
 	"Calculates and answers the extents for a lesson button from a unit with given lesson count"
 
