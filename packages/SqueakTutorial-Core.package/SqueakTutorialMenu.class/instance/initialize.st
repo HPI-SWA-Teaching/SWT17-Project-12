@@ -1,5 +1,6 @@
 initialization
 initialize
+	"Initializes the menu"
 	
 	super initialize.
 	self currentUnitID: 1.
