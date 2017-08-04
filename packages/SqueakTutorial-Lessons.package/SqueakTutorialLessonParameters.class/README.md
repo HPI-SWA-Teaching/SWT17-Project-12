@@ -1,4 +1,4 @@
-A SqueakTutorialLessonParameters is xxxxxxxxx.
+A SqueakTutorialLessonParameters is a lesson which teaches about the usage of parameters.
 
 Instance Variables
 	goal:		a SqueakTutorialGoal
