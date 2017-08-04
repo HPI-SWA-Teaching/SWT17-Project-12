@@ -1,13 +1,14 @@
-as yet unclassified
+add / remove
 addObjectOfType: aType toPosition: aPosition
+	"Adds an object of a specific type to be displayed at a position in the grid on the playfield"
 
-	| switch |
+	| selector |
 
-	switch := IdentityDictionary newFrom: {
+	selector := IdentityDictionary newFrom: {
 		#Mouse -> [self addMouseToPosition: aPosition].
 		#Wall -> [self addWallToPosition: aPosition].
 		#Goal -> [self addGoalToPosition: aPosition].
 		#Gate -> [self addGateToPosition: aPosition].
 		#Platform -> [self addPlatformToPosition: aPosition]}.
 		
-	^ (switch at: aType ifAbsent: []) value
+	^ (selector at: aType ifAbsent: []) value

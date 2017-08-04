@@ -1,5 +1,6 @@
-as yet unclassified
+creation
 buildWithSize: aSize onMorph: aMorph
+	"create a playfield with a specific size which resizes on a given morph"
 
 	| gridPlayfield |
 	

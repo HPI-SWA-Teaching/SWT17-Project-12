@@ -1,17 +1,17 @@
 {
 	"class" : {
-		"buildWithSize:onMorph:" : "FM 7/31/2017 18:08" },
+		"buildWithSize:onMorph:" : "FM 8/4/2017 15:14" },
 	"instance" : {
-		"addGateToPosition:" : "FM 8/4/2017 12:13",
-		"addGoalToPosition:" : "FM 8/1/2017 14:07",
-		"addMouseToPosition:" : "FM 8/3/2017 22:09",
-		"addObject:toPosition:" : "FM 8/2/2017 14:52",
-		"addObjectOfType:toPosition:" : "FM 7/31/2017 21:41",
-		"addObjectOfType:toPositions:" : "FM 8/1/2017 02:31",
-		"addPlatformToPosition:" : "FM 8/1/2017 14:06",
-		"addWallToPosition:" : "FM 8/4/2017 12:13",
-		"containsObjectOfType:atPosition:" : "FM 8/1/2017 02:36",
-		"grid" : "FM 7/31/2017 17:20",
-		"grid:" : "FM 7/31/2017 17:20",
-		"removeObject:fromPosition:" : "FM 8/2/2017 15:13",
-		"removeObjectsOfType:fromPosition:" : "FM 8/1/2017 02:09" } }
+		"addGateToPosition:" : "FM 8/4/2017 15:21",
+		"addGoalToPosition:" : "FM 8/4/2017 15:26",
+		"addMouseToPosition:" : "FM 8/4/2017 15:25",
+		"addObject:toPosition:" : "FM 8/4/2017 15:21",
+		"addObjectOfType:toPosition:" : "FM 8/4/2017 15:22",
+		"addObjectOfType:toPositions:" : "FM 8/4/2017 15:23",
+		"addPlatformToPosition:" : "FM 8/4/2017 15:26",
+		"addWallToPosition:" : "FM 8/4/2017 15:26",
+		"containsObjectOfType:atPosition:" : "FM 8/4/2017 15:27",
+		"grid" : "FM 8/4/2017 15:27",
+		"grid:" : "FM 8/4/2017 15:28",
+		"removeObject:fromPosition:" : "FM 8/4/2017 15:28",
+		"removeObjectsOfType:fromPosition:" : "FM 8/4/2017 15:28" } }

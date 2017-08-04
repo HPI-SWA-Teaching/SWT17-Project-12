@@ -1,5 +1,6 @@
-as yet unclassified
+add / remove
 addPlatformToPosition: aPosition
+	"Adds a platform object to be displayed at a specific position in the grid on the playfield"
 
 	| cellExtent platform |
 	
@@ -7,13 +8,13 @@ addPlatformToPosition: aPosition
 	
 	platform := SqueakTutorialPlatform new.
 	
-	platform morph: ImageMorph new.
-	"platform morph image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'platform.png') fullName) scaledToSize: cellExtent@cellExtent)."
-	platform morph image: (SqueakTutorialImageCache imagePlatform scaledToSize: cellExtent@cellExtent).
-	platform gridX: aPosition x.
-	platform gridY: aPosition y.
+	platform morph: ImageMorph new;
+			gridX: aPosition x;
+			gridY: aPosition y.
+	platform morph image: (SqueakTutorialImageCache imagePlatform scaledToSize: cellExtent@cellExtent);
+					setProperty: #Plaform toValue: 1.
 	
-	(self grid cellAt: aPosition) addMorph: platform morph.
-	platform morph setProperty: #Platform toValue: 1.
+	(self grid cellAt: aPosition) addMorph: platform morph;
+							visibleObject: platform.
 	
 	^ platform
