@@ -1,0 +1,16 @@
+{
+	"category" : "SqueakTutorial-Lessons",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mouse",
+		"goal",
+		"obstaclePositions" ],
+	"name" : "SqueakTutorialLessonMoreLoops",
+	"pools" : [
+		 ],
+	"super" : "SqueakTutorialLesson",
+	"type" : "normal" }

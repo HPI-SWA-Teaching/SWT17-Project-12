@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakTutorial-Lessons",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stoneList" ],
+	"name" : "SqueakTutorialLessonLists",
+	"pools" : [
+		 ],
+	"super" : "SqueakTutorialLesson",
+	"type" : "normal" }

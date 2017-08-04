@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakTutorial-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SqueakTutorialPlatform",
+	"pools" : [
+		 ],
+	"super" : "SqueakTutorialVisibleObject",
+	"type" : "normal" }

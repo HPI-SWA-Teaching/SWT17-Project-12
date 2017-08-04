@@ -1,0 +1,18 @@
+{
+	"category" : "SqueakTutorial-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"listAttributes",
+		"outputField",
+		"codeInputField",
+		"attributesDict",
+		"lesson" ],
+	"name" : "SqueakTutorialInspectWindow",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
