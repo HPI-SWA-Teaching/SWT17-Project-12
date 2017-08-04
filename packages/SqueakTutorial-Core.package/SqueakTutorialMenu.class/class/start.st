@@ -8,7 +8,7 @@ start
 	SqueakTutorialLessonManager initializeUnits.
 	SqueakTutorialLessonManager initializeLessons.
 	
-	startScreen := SqueakTutorialMenu new.
+	startScreen := self new.
 	startScreen openInWorld.
 	startScreen fullScreen.
 	startScreen showUnitButtons.
