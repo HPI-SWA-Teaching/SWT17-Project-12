@@ -15,7 +15,11 @@ testLessonLoopsFinish
 	
 	codeString := '1 to: ', stepsRight, ' do: [:a | self mouse moveRight].' , Character cr asString , '1 to: ', stepsDown, ' do: [:a | self mouse moveDown].'.
 	lessonWindow codeInputField setText: codeString.
-	lessonWindow runCodeFromInputField.
+	
+	"lessonWindow runCodeFromInputField."
+	
+	1 to: stepsRight do: [:a | self lessonWindow currentLesson mouse moveRight].
+	1 to: stepsDown do: [:a | self lessonWindow currentLesson mouse moveDown].
 	
 	self assert: ((lesson isFinished) and: (lesson rightCodeUsed: lessonWindow codeInputField text)).
 	

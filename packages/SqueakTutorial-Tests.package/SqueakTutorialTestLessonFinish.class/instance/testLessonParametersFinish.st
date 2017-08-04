@@ -12,6 +12,9 @@ testLessonParametersFinish
 	
 	lessonWindow codeInputField setText: 'self mouse moveRightByAmount: 6.' , Character cr asString , 'self mouse moveDownByAmount: 6.' .
 	
-	lessonWindow runCodeFromInputField.
+	"lessonWindow runCodeFromInputField."
+	
+	lessonWindow currentLesson mouse moveRightByAmount: 6.
+	lessonWindow currentLesson mouse moveDownByAmount: 6.
 	
 	self assert: ((lesson isFinished) and: (lesson rightCodeUsed: lessonWindow codeInputField text)).
