@@ -1,4 +1,4 @@
-as yet unclassified
+creation
 size: anInt onMorph: aMorph
 	"Creates a new instance of the grid"
 
