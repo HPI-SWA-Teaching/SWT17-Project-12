@@ -1,5 +1,6 @@
 initialization
 initializeLessonGUI
+	"Initializes the lesson-description and the graphical part"
 
 	| lessonDescriptionBackground |
 
@@ -20,9 +21,10 @@ initializeLessonGUI
 	lessonDescriptionBackground addMorph: self lessonDescription.
 	
 	self lessonDisplay: TransformMorph new.
-	self lessonDisplay borderColor: Color black;
-					borderWidth: 1;
-					color: Color white.
+	self lessonDisplay
+		borderColor: Color black;
+		borderWidth: 1;
+		color: Color white.
 	
 	
 			

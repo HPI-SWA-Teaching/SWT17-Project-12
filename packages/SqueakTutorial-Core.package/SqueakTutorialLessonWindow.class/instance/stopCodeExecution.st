@@ -1,5 +1,6 @@
 code running
 stopCodeExecution
+	"Stops the current execution of code"
 	
 	self currentCodeRunProcess ifNotNil: [
 		self currentCodeRunProcess terminate.

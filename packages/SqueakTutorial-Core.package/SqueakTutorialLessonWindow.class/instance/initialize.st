@@ -1,13 +1,15 @@
 initialization
 initialize
+	"Initializes the lesson window"
 
 	super initialize.
 	
 	self paneColor: Color white.
 	
-	self initializeLessonGUI.
-	self initializeEditGUI.
-	self initializeButtons.
+	self
+		initializeLessonGUI;
+		initializeCodeInputField;
+		initializeButtons.
 	
 	self addMorph: self lessonDescription
 		fullFrame: (LayoutFrame

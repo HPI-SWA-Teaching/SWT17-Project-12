@@ -1,5 +1,6 @@
 initialization
 initializeInspectWindow
+	"Initializes the inspect-window"
 
 	| inspectWindow buttonInspect |
 			
@@ -7,7 +8,8 @@ initializeInspectWindow
 	inspectWindow := (ToolBuilder default build: inspectWindow).
 	
 	buttonInspect := SimpleButtonMorph new.
-	buttonInspect label: 'INSPECT';
+	buttonInspect
+		label: 'INSPECT';
 		target: self;
 		actionSelector: #openInspectWindow.
 	

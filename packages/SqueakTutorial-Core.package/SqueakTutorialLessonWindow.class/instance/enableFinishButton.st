@@ -1,4 +1,4 @@
-as yet unclassified
+handle buttons
 enableFinishButton
 	"Enables the finish button and sets its color to green"
 

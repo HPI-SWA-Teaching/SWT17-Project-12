@@ -1,4 +1,4 @@
-as yet unclassified
+handle buttons
 disableFinishButton
 	"Disables the finish button (for reset etc.)"
 
