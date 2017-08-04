@@ -12,3 +12,5 @@ start
 	startScreen openInWorld.
 	startScreen fullScreen.
 	startScreen showUnitButtons.
+	
+	^ startScreen
