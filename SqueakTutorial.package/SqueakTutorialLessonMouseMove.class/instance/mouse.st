@@ -1,4 +1,0 @@
-user commands
-mouse
-	
-	^ mouse

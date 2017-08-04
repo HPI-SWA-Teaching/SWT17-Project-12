@@ -1,4 +1,0 @@
-initialization
-listInspectWindowStartIndex
-
-	^0

@@ -1,4 +1,0 @@
-accessing
-classInfos
-	
-	^ classInfos

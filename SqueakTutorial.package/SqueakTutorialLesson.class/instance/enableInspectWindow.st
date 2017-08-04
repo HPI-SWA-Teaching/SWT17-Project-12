@@ -1,4 +1,0 @@
-initialization
-enableInspectWindow
-
-	^ self subclassResponsibility
