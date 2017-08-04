@@ -1,16 +1,16 @@
 as yet unclassified
-testLessonParametersFinish
+testLessonMoreLoopsFinish
 
 	| lessonWindow lesson |
 	
-	lesson := SqueakTutorialLessonParameters new.
+	lesson := SqueakTutorialLessonMoreLoops new.
 	
 	lessonWindow := SqueakTutorialLessonWindow new.
 	lessonWindow openInWorld.
 	lessonWindow fullScreen.
 	lessonWindow loadLesson: lesson.
 	
-	lessonWindow codeInputField text: 'self mouse moveRightByAmount: 6.' , Character cr asString , 'self mouse moveDownByAmount: 6.' .
+	lessonWindow codeInputField text: '[self mouse lowerBlockFree] whileTrue: [self mouse moveDown].' , Character cr asString , '[self mouse rightBlockFree] whileTrue: [self mouse moveRight].' .
 	
 	lessonWindow runCodeFromInputField.
 	
