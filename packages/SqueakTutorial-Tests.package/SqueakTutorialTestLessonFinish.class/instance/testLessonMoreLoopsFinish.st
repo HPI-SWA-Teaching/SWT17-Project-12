@@ -10,8 +10,8 @@ testLessonMoreLoopsFinish
 	lessonWindow fullScreen.
 	lessonWindow loadLesson: lesson.
 	
-	lessonWindow codeInputField text: '[self mouse lowerBlockFree] whileTrue: [self mouse moveDown].' , Character cr asString , '[self mouse rightBlockFree] whileTrue: [self mouse moveRight].' .
+	lessonWindow codeInputField setText: '[self mouse lowerBlockFree] whileTrue: [self mouse moveDown].' , Character cr asString , '[self mouse rightBlockFree] whileTrue: [self mouse moveRight].'.
 	
 	lessonWindow runCodeFromInputField.
 	
-	self assert: ((self currentLesson isFinished) and: (self currentLesson rightCodeUsed: lessonWindow codeInputField text)).
+	self assert: ((lesson isFinished) and: (lesson rightCodeUsed: lessonWindow codeInputField text)).
