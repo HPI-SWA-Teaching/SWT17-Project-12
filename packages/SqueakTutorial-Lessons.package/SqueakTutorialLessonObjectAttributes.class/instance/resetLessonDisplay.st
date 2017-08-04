@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 resetLessonDisplay
 	"Reset the graphical representation of the lesson"
 

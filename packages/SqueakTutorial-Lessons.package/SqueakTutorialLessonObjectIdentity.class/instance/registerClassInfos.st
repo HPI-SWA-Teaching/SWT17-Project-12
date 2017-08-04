@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 registerClassInfos
 	"Add classes, messages and the description of them to the class infos object which can be look up at the info window"
 

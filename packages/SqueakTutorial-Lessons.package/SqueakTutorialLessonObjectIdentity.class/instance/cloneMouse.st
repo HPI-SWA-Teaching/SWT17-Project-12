@@ -1,4 +1,4 @@
-as yet unclassified
+cloning
 cloneMouse
 	"Clone the mouse and save it as 'mouse2'"
 

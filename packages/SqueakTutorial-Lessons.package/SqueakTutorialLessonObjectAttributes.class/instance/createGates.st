@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createGates
 	"Create gate objects on playfield grid"
 

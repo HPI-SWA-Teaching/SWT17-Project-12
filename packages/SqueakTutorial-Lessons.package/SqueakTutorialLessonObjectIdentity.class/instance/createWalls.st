@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createWalls
 	"Create wall objects on playfield grid"
 	

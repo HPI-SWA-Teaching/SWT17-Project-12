@@ -6,7 +6,7 @@ moveUp
 	
 	((self gridY - 1) >= 0) ifTrue: [
 		self upperBlockFree ifTrue: [
-			self playfield removeObject: self fromPosition: (self gridX)@(self gridY).
+			self playfield removeObject: self morph fromPosition: (self gridX)@(self gridY).
 			self gridY: self gridY - 1.
 			self playfield addObject: self morph toPosition: (self gridX)@(self gridY)]
 		].
