@@ -1,5 +1,5 @@
 as yet unclassified
-initialize
+initializeComponents
 
 	self listClasses: PluggableListSpec new.
 	self listClasses hScrollBarPolicy: #never.
@@ -9,8 +9,8 @@ initialize
 					list: #listClassesContents
 					selected: #listClassesStartIndex
 					changeSelected: #listClassesIndexSelected:
-					menu: #empty
-					keystroke: #empty.
+					menu: nil
+					keystroke: nil.
 	
 	self listMessages: PluggableListSpec new.
 	self listMessages hScrollBarPolicy: #never.
@@ -20,8 +20,8 @@ initialize
 					list: #listMessagesContents
 					selected: #listMessagesStartIndex
 					changeSelected: #listMessagesIndexSelected:
-					menu: #empty
-					keystroke: #empty.
+					menu: nil
+					keystroke: nil.
 	
 	self messageDescription: PluggableCodePaneSpec new.
 	self messageDescription readOnly: true.
