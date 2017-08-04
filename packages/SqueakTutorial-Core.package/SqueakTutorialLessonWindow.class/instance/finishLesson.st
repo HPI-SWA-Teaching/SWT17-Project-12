@@ -1,7 +1,7 @@
 lessons
 finishLesson
 
-	(SqueakTutorialLessonManager lastLessonIndex = SqueakTutorialLessonManager lessons size) ifTrue: [^ self goBackToMenu].
+	(SqueakTutorialLessonManager lastLessonIndex = (SqueakTutorialLessonManager lessons at: (SqueakTutorialLessonManager currentUnit)) size) ifTrue: [^ self goBackToMenu].
 	self loadLesson: SqueakTutorialLessonManager next.
 	
 

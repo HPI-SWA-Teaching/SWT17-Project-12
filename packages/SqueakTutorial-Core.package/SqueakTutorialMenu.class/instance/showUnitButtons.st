@@ -16,6 +16,7 @@ showUnitButtons
 		position := (extents x * column)@(extents y * row).
 		self addButtonForLesson: lesson withLessonNumber: lessonNumber withExtent: extents atPosition: position.
 		column := column + 1.
+		lessonNumber := lessonNumber + 1.
 		(column >= maxButtons) ifTrue: [
 			column := 0.
 			row := row + 1
