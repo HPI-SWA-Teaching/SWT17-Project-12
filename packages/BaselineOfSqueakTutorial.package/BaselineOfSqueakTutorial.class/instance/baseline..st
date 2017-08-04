@@ -11,6 +11,6 @@ baseline: spec
 				"package: 'SystemsThinkingWorkbench-Test' with: [spec requires: #('default')];"
 				yourself.
 			spec
-				group: 'default' with: #('SqueakTutorial')];
+				group: 'default' with: #('SqueakTutorial-Core' 'SqueakTutorial-Lessons' 'SqueakTutorial-Tests')];
 				"group: 'tests' with: #('SystemsThinkingWorkbench-Test')];"
 				yourself
