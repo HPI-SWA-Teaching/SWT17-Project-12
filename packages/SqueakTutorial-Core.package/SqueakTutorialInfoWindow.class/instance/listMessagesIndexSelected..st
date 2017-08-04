@@ -1,5 +1,6 @@
 listMessages
 listMessagesIndexSelected: anInt
+	"When a method is clicked it shows its description"
 
 	| selectedMessage |
 	selectedMessage := (self listMessages getList at: anInt).

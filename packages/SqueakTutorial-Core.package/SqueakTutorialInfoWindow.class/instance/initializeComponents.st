@@ -1,5 +1,6 @@
 as yet unclassified
 initializeComponents
+	"creates scrollable lists for classes, methods and their descriptions"
 
 	self listClasses: PluggableListSpec new.
 	self listClasses hScrollBarPolicy: #never.

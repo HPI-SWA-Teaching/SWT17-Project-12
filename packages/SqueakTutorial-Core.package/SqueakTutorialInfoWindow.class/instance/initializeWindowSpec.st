@@ -1,5 +1,6 @@
 as yet unclassified
 initializeWindowSpec
+	"Creates the dialog window which is used as the wrapper"
 
 	| windowSpec testButton |
 
