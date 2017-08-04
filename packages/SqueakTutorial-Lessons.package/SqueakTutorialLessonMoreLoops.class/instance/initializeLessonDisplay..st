@@ -7,4 +7,4 @@ initializeLessonDisplay: aSqueakTutorial
 	self goal: (self playfield addObjectOfType: #Goal toPosition: 7@7).
 	
 	self createObstacles.
-	"self initializeInspectWindowObjects."
+	self registerInspectWindowObjects
