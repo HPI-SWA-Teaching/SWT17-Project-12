@@ -6,11 +6,11 @@ open: aClassInfoDictionary
 	infoWindow := self new.
 	infoWindow classInfos: aClassInfoDictionary.
 	
-	windowSpec := PluggableDialogSpec new.
-	windowSpec model: self.
-	windowSpec title: 'Info Window'.
-	windowSpec extent: 400@400.
-	windowSpec autoCancel: true.
+	windowSpec := PluggableDialogSpec new;
+		model: self;
+		title: 'Info Window';
+		extent: 400@400;
+		autoCancel: true.
 	windowSpec children: OrderedCollection new.
 	windowSpec buttons: OrderedCollection new.
 	

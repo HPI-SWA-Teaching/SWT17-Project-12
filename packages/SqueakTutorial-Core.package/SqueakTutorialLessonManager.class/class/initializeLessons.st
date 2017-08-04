@@ -8,4 +8,3 @@ initializeLessons
 	self addLesson: SqueakTutorialLessonMoreLoops new toUnit: 'Squeak Introduction (2 / 2)'.
 	self addLesson: SqueakTutorialLessonObjectAttributes new toUnit: 'Squeak Introduction (2 / 2)'.
 	self addLesson: SqueakTutorialLessonObjectIdentity new toUnit: 'Squeak Introduction (2 / 2)'.
-	self addLesson: SqueakTutorialLessonLists new toUnit: 'Unit 3'.
