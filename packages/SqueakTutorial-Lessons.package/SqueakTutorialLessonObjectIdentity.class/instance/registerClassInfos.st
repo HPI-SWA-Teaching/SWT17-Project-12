@@ -18,6 +18,6 @@ registerClassInfos
 		withName: 'moveUp'
 		withInfo: ('"moveUp"' , Character cr , Character cr , '"Moves the mouse one cell to top."').
 		
-	self addMessageToClass: 'default'
+	self addMessageToClass: 'self'
 		withName: 'cloneMouse'
-		withInfo: ('"cloneMouse"' , Character cr , Character cr , '"Clone the mouse and save it as mouse2."').
+		withInfo: ('"cloneMouse"' , Character cr , Character cr , '"Clone the mouse and save it as mouse2."')

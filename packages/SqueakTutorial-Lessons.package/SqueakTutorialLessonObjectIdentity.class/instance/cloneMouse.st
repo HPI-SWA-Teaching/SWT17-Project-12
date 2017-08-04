@@ -1,5 +1,6 @@
 as yet unclassified
 cloneMouse
+	"Clone the mouse and save it as 'mouse2'"
 
 	self mouse2 ifNotNil: [
 		(self playfield removeObject: self mouse2 mouseMorph fromPosition: (self mouse2 gridX)@(self mouse2 gridY)).

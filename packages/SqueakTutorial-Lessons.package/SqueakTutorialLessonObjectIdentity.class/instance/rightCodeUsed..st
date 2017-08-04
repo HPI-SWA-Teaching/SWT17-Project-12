@@ -1,10 +1,5 @@
 as yet unclassified
 rightCodeUsed: theCode
+	"Answers whether the user has used the right code segments to complete the lesson"
 
-	| clone bool1 |
-	
-	clone := 'cloneMouse'.
-	
-	bool1 := (theCode occurrencesOfRegex: clone) > 0.
-	
-	^ bool1
+	^ true

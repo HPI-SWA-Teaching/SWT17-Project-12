@@ -9,8 +9,7 @@
 		"goal",
 		"platform",
 		"mouse",
-		"mouse2",
-		"obstaclePositions" ],
+		"mouse2" ],
 	"name" : "SqueakTutorialLessonObjectIdentity",
 	"pools" : [
 		 ],
