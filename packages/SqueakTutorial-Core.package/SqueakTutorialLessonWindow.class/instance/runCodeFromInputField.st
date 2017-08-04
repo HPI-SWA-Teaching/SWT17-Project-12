@@ -1,5 +1,6 @@
 code running
 runCodeFromInputField
+	"Sends the user input through the compiler and displays another icon instead of the run button while the code is being processed"
 	
 	| codeString |
 	
@@ -7,7 +8,6 @@ runCodeFromInputField
 	self currentLesson resetLessonDisplay.
 	
 	self currentCodeRunProcess: [
-		"disable run button -> show stop button"
 		self buttonRun actionSelector: #stopCodeExecution.
 		(self buttonRun submorphs at: 1) image: ((ImageReadWriter formFromFileNamed: (FileDirectory uri: 'stop.png') fullName) scaledToSize: 50@50).
 		
