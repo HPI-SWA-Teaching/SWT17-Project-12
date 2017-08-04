@@ -1,15 +1,13 @@
 {
-	"category" : "SqueakTutorial-Core",
+	"category" : "SqueakTutorial-Lessons",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"mouse",
-		"goal",
-		"obstaclePositions" ],
-	"name" : "SqueakTutorialLessonMoreLoops",
+		"stoneList" ],
+	"name" : "SqueakTutorialLessonLists",
 	"pools" : [
 		 ],
 	"super" : "SqueakTutorialLesson",
