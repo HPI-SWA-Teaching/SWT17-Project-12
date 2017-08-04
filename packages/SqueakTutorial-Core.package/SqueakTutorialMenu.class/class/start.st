@@ -11,6 +11,6 @@ start
 	startScreen := self new.
 	startScreen openInWorld.
 	startScreen fullScreen.
-	startScreen showUnitButtons.
+	startScreen addUnitButtons.
 	
 	^ startScreen

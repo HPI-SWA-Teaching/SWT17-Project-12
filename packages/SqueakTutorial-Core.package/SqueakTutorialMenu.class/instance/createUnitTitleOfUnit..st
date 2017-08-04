@@ -1,5 +1,6 @@
 initialization
 createUnitTitleOfUnit: anInt
+	"Creates the unit title field for a given unit"
 	
 	self unitTitleField: (StringMorph contents: 'Unit ', anInt).
 	self unitTitleField

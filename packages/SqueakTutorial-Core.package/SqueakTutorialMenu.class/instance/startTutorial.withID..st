@@ -1,5 +1,6 @@
 initialization
 startTutorial: aLesson withID: anInt
+	"Starts a given lesson with a given ID"
 
 	| tutorial |
 	

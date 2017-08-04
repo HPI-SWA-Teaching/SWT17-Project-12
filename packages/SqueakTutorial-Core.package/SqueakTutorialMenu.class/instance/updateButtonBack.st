@@ -1,5 +1,6 @@
 initialization
 updateButtonBack
+	"Updates the Back button (enables or disables it)."
 	
 	(self currentUnitID > 1)
 		ifTrue: [

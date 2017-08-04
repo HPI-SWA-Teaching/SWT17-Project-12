@@ -1,5 +1,6 @@
 as yet unclassified
-calculateUnitButtonExtentsWidthMaxCount: anInt
+calculateLessonButtonExtentsWidthMaxCount: anInt
+	"Calculates and answers the extents for a lesson button from a unit with given lesson count"
 
 	| buttonWidth buttonHeight |
 	

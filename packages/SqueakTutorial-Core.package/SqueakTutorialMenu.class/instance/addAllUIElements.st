@@ -1,5 +1,6 @@
 initialization
 addAllUIElements
+	"Shows all the UI Elements on right positions (adds them as submorphs)"
 	
 	self addMorph: self titleField
 		fullFrame: (LayoutFrame

@@ -1,5 +1,6 @@
 initialization
-showUnitButtons
+addUnitButtons
+	"Adds the buttons for all lessons of a unit to the lessonScreen"
 
 	| lessonNumber maxButtons row column extents position |
 
@@ -8,7 +9,7 @@ showUnitButtons
 	maxButtons := 3.
 	lessonNumber := 1.
 	
-	extents := self calculateUnitButtonExtentsWidthMaxCount: maxButtons.
+	extents := self calculateLessonButtonExtentsWidthMaxCount: maxButtons.
 	row := 0.
 	column := 0.
 	

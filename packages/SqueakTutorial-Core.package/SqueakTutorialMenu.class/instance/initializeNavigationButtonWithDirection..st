@@ -1,5 +1,7 @@
 initialization
 initializeNavigationButtonWithDirection: aDirection
+	"Initializes a navigation button with the given direction (either 'left' or 'right') and returns true.
+	Returns false, if the given string doesnt match a direction."
 
 	| symbol button actionSel |
 	

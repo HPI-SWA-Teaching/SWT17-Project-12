@@ -1,5 +1,6 @@
 initialization
 updateButtonForward
+	"Updates the Back button (enables or disables it)."
 	
 	(self currentUnitID < SqueakTutorialLessonManager units size)
 		ifTrue: [
