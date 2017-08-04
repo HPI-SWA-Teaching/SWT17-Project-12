@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 registerClassInfos
 	"Add classes, messages and the description of them to the class infos object which can be look up at the info window"
 
@@ -32,8 +32,4 @@ registerClassInfos
 		
 	self addMessageToClass: 'mouse'
 		withName: 'rightBlockFree'
-		withInfo: ('rightBlockFree' , Character cr , Character cr , '"Answers, if the right block of the mouse is blocked (as Boolean)."').
-		
-	self addMessageToClass: 'Boolean'
-		withName: 'whileTrue (Loop)'
-		withInfo: ('" [aBoolean] whileTrue: [ ***Instruction to repeat*** ]"' , Character cr , Character cr , '"Repeats the given instruction continously as long as the Boolean is True."').
+		withInfo: ('rightBlockFree' , Character cr , Character cr , '"Answers, if the right block of the mouse is blocked (as Boolean)."')

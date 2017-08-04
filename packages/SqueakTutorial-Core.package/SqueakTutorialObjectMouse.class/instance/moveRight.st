@@ -6,7 +6,7 @@ moveRight
 	
 	((self gridX + 1) < self playfield grid cellAmount) ifTrue: [
 		self rightBlockFree ifTrue: [
-			self playfield removeObject: self fromPosition: (self gridX)@(self gridY).
+			self playfield removeObject: self morph fromPosition: (self gridX)@(self gridY).
 			self gridX: self gridX + 1.
 			self playfield addObject: self morph toPosition: (self gridX)@(self gridY)]
 		].
