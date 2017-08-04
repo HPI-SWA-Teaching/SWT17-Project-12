@@ -1,7 +1,7 @@
 initialization
 showUnitButtons
 
-	| lessonButton lessonNumber maxButtonsX buttonWidth buttonHeight row column maxButtonsY firstPart secondPart buttonLabel |
+	| lessonButton lessonNumber maxButtonsX buttonWidth buttonHeight row column maxButtonsY |
 
 	self lessonScreen removeAllMorphs.
 
@@ -19,17 +19,12 @@ showUnitButtons
 		lessonButton := SimpleButtonMorph new.
 		lessonButton recolor: (Color fromString: '#3366cc').
 		
-		firstPart := (lesson lessonName copyFrom: 1 to: (lesson lessonName indexOf: $- ifAbsent: [0]) - 2).
-		secondPart := (lesson lessonName copyFrom: (lesson lessonName indexOf: $- ifAbsent: [0]) + 2 to: lesson lessonName size).
-		buttonLabel := firstPart , Character cr asString , '-' , Character cr asString , secondPart.
-		
-		lessonButton label: buttonLabel.
+		lessonButton label: lesson lessonName.
 		
 		lessonButton submorphsDo: [:m| m color: (Color white)].
 		lessonButton submorphsDo: [:m| m font: (StrikeFont familyName: #BitstreamVeraSans pointSize: 20)].
 		lessonButton extent: buttonWidth@buttonHeight.
 		lessonButton position: (buttonWidth * column)@(buttonHeight * row).
-		"lessonButton position: ((((self extent x * 0.82) - (self extent x * 0.18)) * 0.1) + (buttonWidth * column))@((((self extent y * 0.95) - (self extent y * 0.05)) * 0.1) + (buttonHeight * row))."
 		lessonButton target: self.
 		lessonButton actionSelector: #startTutorial:withID:.
 		lessonButton arguments: (Array with: lesson with: lessonNumber).

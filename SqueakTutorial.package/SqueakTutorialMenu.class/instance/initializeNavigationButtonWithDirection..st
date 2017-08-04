@@ -8,11 +8,8 @@ initializeNavigationButtonWithDirection: aDirection
 		actionSel := #buttonBackClicked:.
 	] ifFalse: [
 		(aDirection = 'right') ifTrue: [
-			symbol := '>'.
-		actionSel := #buttonForwardClicked:.
-		] ifFalse: [
-			^false.
-		]
+			symbol := '>'. actionSel := #buttonForwardClicked:
+		] ifFalse: [^false]
 	].
 	
 	button := SimpleButtonMorph new.
@@ -22,10 +19,7 @@ initializeNavigationButtonWithDirection: aDirection
 	button actionSelector: actionSel.
 	button arguments: (Array with: button).
 	
-	(aDirection = 'left') ifTrue: [
-		self buttonBack: button.
-		^true.
-	].
+	(aDirection = 'left') ifTrue: [ self buttonBack: button. ^true. ].
 	
 	self buttonForward: button.
 	^true.
