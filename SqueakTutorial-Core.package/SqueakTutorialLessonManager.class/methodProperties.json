@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"addLesson:toUnit:" : "FM 8/2/2017 16:35",
+		"currentUnit" : "FM 8/2/2017 16:39",
+		"currentUnit:" : "FM 8/2/2017 16:39",
+		"initializeLessons" : "FM 8/3/2017 22:15",
+		"initializeUnits" : "FM 8/3/2017 22:15",
+		"lastLessonIndex" : "FM 7/28/2017 00:35",
+		"lastLessonIndex:" : "FM 7/28/2017 00:32",
+		"lessons" : "FM 8/2/2017 16:33",
+		"lessons:" : "FM 8/2/2017 16:32",
+		"lessonsOld" : "FM 8/2/2017 16:32",
+		"next" : "FM 8/2/2017 16:40",
+		"units" : "FM 8/2/2017 16:38",
+		"units:" : "FM 8/2/2017 16:38" },
+	"instance" : {
+		 } }

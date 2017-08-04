@@ -1,0 +1,4 @@
+blocking
+isBlocked: aMouse
+
+	^ false

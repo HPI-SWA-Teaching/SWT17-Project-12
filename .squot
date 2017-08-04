@@ -1,4 +1,6 @@
 OrderedDictionary {
 	'BaselineOfSqueakTutorial.package' : #SquotCypressCodeSerializer,
+	'SqueakTutorial-Core.package' : #SquotCypressCodeSerializer,
+	'SqueakTutorial-Lessons.package' : #SquotCypressCodeSerializer,
 	'SqueakTutorial.package' : #SquotCypressCodeSerializer
 }

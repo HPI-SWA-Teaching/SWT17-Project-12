@@ -1,0 +1,3 @@
+accessing
+mouse
+	^ mouse

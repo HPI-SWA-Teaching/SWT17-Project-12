@@ -1,0 +1,4 @@
+initialization
+registerInspectWindowObjects
+
+	^ self subclassResponsibility
