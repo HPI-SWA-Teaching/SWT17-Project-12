@@ -1,5 +1,6 @@
 accessing
 initializeCache
+	"Loads all images when starting the Tutorial"
 
 	self imageMouse: (ImageReadWriter formFromFileNamed: (FileDirectory uri: 'mouse_down_grey.png') fullName).
 	self imageWall: (ImageReadWriter formFromFileNamed: (FileDirectory uri: 'wall.png') fullName).
