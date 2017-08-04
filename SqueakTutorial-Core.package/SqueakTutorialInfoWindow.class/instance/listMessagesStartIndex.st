@@ -1,4 +1,0 @@
-listMessages
-listMessagesStartIndex
-
-	^ 0

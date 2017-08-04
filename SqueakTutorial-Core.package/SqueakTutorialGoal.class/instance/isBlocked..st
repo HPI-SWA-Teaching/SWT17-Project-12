@@ -1,4 +1,0 @@
-blocking
-isBlocked: aMouse
-
-	^ false

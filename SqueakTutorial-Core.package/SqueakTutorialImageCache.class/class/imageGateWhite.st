@@ -1,4 +1,0 @@
-accessing
-imageGateWhite
-	
-	^ imageGateWhite

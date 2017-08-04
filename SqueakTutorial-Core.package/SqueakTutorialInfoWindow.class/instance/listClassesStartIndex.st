@@ -1,4 +1,0 @@
-listClasses
-listClassesStartIndex
-
-	^ 0
