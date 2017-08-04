@@ -13,11 +13,11 @@ initializeNavigationButtonWithDirection: aDirection
 	].
 	
 	button := SimpleButtonMorph new.
-	button label: symbol.
-	button submorphsDo: [:m| m color: (Color white)].
-	button submorphsDo: [:m| m font: (StrikeFont familyName: #BitstreamVeraSans pointSize: 120)].
-	button actionSelector: actionSel.
-	button arguments: (Array with: button).
+	button label: symbol;
+		submorphsDo: [:m| m color: (Color white)];
+		submorphsDo: [:m| m font: (StrikeFont familyName: #BitstreamVeraSans pointSize: 120)];
+		actionSelector: actionSel;
+		arguments: (Array with: button).
 	
 	(aDirection = 'left') ifTrue: [ self buttonBack: button. ^true. ].
 	

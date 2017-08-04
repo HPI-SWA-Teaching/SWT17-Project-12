@@ -4,9 +4,12 @@ updateButtonForward
 	(self currentUnitID < SqueakTutorialLessonManager units size)
 		ifTrue: [
 			"enable button"
-			self buttonForward color: (Color fromString: '00af89').
-			self buttonForward target: self]
-		ifFalse: [
+			self buttonForward
+				color: (Color fromString: '00af89');
+				target: self
+		] ifFalse: [
 			"disable button"
-			self buttonForward color: Color gray.
-			self buttonForward target: nil].
+			self buttonForward
+				color: Color gray;
+				target: nil
+		].

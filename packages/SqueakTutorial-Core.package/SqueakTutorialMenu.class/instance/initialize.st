@@ -4,15 +4,18 @@ initialize
 	super initialize.
 	self currentUnitID: 1.
 	
-	self paneColor: Color white.
-	self createLessonScreen.
+	self
+		paneColor: Color white;
+		createLessonScreen.
 	
-	self initializeNavigationButtonWithDirection: 'left'.
-	self initializeNavigationButtonWithDirection: 'right'.
-	self updateButtonBack.
-	self updateButtonForward.
+	self
+		initializeNavigationButtonWithDirection: 'left';
+		initializeNavigationButtonWithDirection: 'right';
+		updateButtonBack;
+		updateButtonForward.
 	
-	self createTitleField.
-	self createUnitTitleOfUnit: self currentUnitID.
+	self
+		createTitleField;
+		createUnitTitleOfUnit: self currentUnitID.
 	
 	self addAllUIElements.
