@@ -10,7 +10,8 @@ testLessonMoveMouseFinish
 	lessonWindow fullScreen.
 	lessonWindow loadLesson: lesson.
 	
-	lessonWindow codeInputField text: 'self mouse moveDown.'.
+	lessonWindow codeInputField text: 'self mouse moveDownByAmount: ' , (lessonWindow currentLesson goal gridY - lessonWindow currentLesson mouse gridY) , '. self mouse moveDownByAmount: ' , (lessonWindow currentLesson goal gridX - lessonWindow currentLesson mouse gridX).
 	
-	"TODO"
+	lessonWindow runCodeFromInputField.
 	
+	self assert: ((self currentLesson isFinished) and: (self currentLesson rightCodeUsed: lessonWindow codeInputField text)).
