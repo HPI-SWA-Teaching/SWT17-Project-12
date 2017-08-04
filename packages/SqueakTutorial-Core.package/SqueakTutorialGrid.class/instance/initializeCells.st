@@ -1,5 +1,6 @@
 accessing
 initializeCells
+	"Loops through all cells and creates an object for each cell"
 
 	| cellSize |
 	

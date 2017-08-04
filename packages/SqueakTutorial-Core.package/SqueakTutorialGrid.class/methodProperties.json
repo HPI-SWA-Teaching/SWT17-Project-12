@@ -1,11 +1,10 @@
 {
 	"class" : {
-		"size:onMorph:" : "J.W. 8/1/2017 23:25" },
+		"size:onMorph:" : "UA 8/4/2017 15:10" },
 	"instance" : {
-		"cellAmount" : "FM 6/16/2017 16:12",
+		"cellAmount" : "UA 8/4/2017 15:01",
 		"cellAmount:" : "FM 6/16/2017 16:12",
-		"cellAt:" : "FM 6/8/2017 14:09",
-		"cells" : "UA 6/4/2017 18:55",
-		"cells:" : "UA 6/4/2017 18:55",
-		"initializeCells" : "FM 8/4/2017 12:11",
-		"resize:" : "J.W. 8/1/2017 23:09" } }
+		"cellAt:" : "UA 8/4/2017 15:01",
+		"cells" : "UA 8/4/2017 15:01",
+		"cells:" : "UA 8/4/2017 15:01",
+		"initializeCells" : "UA 8/4/2017 15:02" } }
