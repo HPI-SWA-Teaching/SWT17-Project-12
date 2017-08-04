@@ -13,10 +13,9 @@ loadLesson: aSqueakTutorialLesson
 	self lessonDescription readOnly: true.
 	
 	self currentLesson: aSqueakTutorialLesson.
-	self currentLesson squeakTutorial: self.
 	self currentLesson lessonWindow: self.
 	aSqueakTutorialLesson initializeLessonDisplay: self.
-	"aSqueakTutorialLesson initializeLessonDisplay: self lessonDisplay."
+	aSqueakTutorialLesson enableInspectWindow ifTrue: [aSqueakTutorialLesson registerInspectWindowObjects].
 	
 	self label: self currentLesson lessonName.
 	

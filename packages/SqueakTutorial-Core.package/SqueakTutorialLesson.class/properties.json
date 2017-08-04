@@ -10,7 +10,6 @@
 		"lessonDescription",
 		"classInfos",
 		"inspectAttributes",
-		"squeakTutorial",
 		"lessonWindow",
 		"playfield" ],
 	"name" : "SqueakTutorialLesson",

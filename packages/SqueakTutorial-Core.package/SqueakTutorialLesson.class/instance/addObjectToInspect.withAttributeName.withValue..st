@@ -1,5 +1,6 @@
 initialization
 addObjectToInspect: anObject withAttributeName: anAttributeName withValue: aValue
+	"Add an Object with some attributes to a class to be inspected in the inspect window"
 
 	| tempDictionary |
 
