@@ -4,12 +4,12 @@
 	"instance" : {
 		"enableInspectWindow" : "FM 8/4/2017 17:12",
 		"goal" : "FM 8/4/2017 17:12",
-		"goal:" : "FM 8/4/2017 17:13",
-		"initialize" : "FM 8/4/2017 17:13",
+		"goal:" : "FM 8/4/2017 17:23",
+		"initialize" : "FM 8/4/2017 17:23",
 		"initializeLessonDisplay:" : "FM 8/4/2017 17:13",
-		"isFinished" : "FM 8/4/2017 17:15",
+		"isFinished" : "FM 8/4/2017 17:23",
 		"mouse" : "FM 8/4/2017 17:15",
-		"mouse:" : "FM 8/4/2017 17:15",
-		"registerClassInfos" : "FM 8/4/2017 17:16",
-		"resetLessonDisplay" : "FM 8/4/2017 17:19",
+		"mouse:" : "FM 8/4/2017 17:23",
+		"registerClassInfos" : "FM 8/4/2017 17:23",
+		"resetLessonDisplay" : "FM 8/4/2017 17:22",
 		"rightCodeUsed:" : "FM 8/4/2017 17:16" } }

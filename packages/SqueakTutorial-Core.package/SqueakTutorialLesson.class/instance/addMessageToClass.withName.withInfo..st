@@ -2,8 +2,6 @@ initialization
 addMessageToClass: aClassString withName: aMessageName withInfo: aMessageInfo
 	"Add a message with a name and description to a class to be displayed in the info window of this lesson"
 
-	"TODO -> IFABSENT!!!"
-
 	| tempDictionary |
 
 	(self classInfos includesKey: aClassString)

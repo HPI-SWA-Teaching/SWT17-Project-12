@@ -16,4 +16,4 @@ registerClassInfos
 		
 	self addMessageToClass: 'mouse'
 		withName: 'moveUpByAmount'
-		withInfo: ('"moveUpByAmount: x"' , Character cr , Character cr , '"Moves the mouse x cells to top."').
+		withInfo: ('"moveUpByAmount: x"' , Character cr , Character cr , '"Moves the mouse x cells to top."')

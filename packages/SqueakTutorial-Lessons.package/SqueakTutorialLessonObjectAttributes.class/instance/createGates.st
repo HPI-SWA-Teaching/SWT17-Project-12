@@ -1,4 +1,10 @@
 as yet unclassified
 createGates
+	"Create gate objects on playfield grid"
+
+	| gatePositions |
 	
-	self gatePositions do: [ :position | self createGateAt: ((position at: 1)@(position at: 2))].
+	gatePositions :=
+		{3@3 . 5@5}.
+	
+	self playfield addObjectOfType: #Gate toPositions: gatePositions.
