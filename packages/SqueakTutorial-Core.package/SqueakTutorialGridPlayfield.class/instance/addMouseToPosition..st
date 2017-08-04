@@ -13,7 +13,7 @@ addMouseToPosition: aPosition
 		gridX: aPosition x;
 		gridY: aPosition y;
 		color: 'grey'.
-	mouse morph image: (SqueakTutorialImageCache imageMouse scaledToSize: cellExtent@cellExtent);
+	mouse morph image: ((SqueakTutorialImageCache getMouseImageWithColor: 'grey' withDirection: #down) scaledToSize: cellExtent@cellExtent);
 				setProperty: #Mouse toValue: 1.
 	
 	(self grid cellAt: aPosition) addMorph: mouse morph;

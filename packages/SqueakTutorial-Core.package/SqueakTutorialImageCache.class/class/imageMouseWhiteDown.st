@@ -1,4 +1,0 @@
-accessing
-imageMouseWhiteDown
-	
-	^ imageMouseWhiteDown

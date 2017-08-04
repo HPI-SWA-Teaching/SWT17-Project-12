@@ -1,4 +1,0 @@
-accessing
-imageMouseGreyUp
-	
-	^ imageMouseGreyUp
